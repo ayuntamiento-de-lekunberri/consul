@@ -57,11 +57,11 @@ class CensusApi
   private
 
     def get_response_body(document_type, document_number)
-     # if end_point_available?
-      #  client.call(:get_habita_datos, message: request(document_type, document_number)).body
-      #else
+      if end_point_available?
+        client.call(:get_habita_datos, message: request(document_type, document_number)).body
+      else
         stubbed_response(document_type, document_number)
-      #end
+      end
     end
 
     def client
