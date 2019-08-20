@@ -10,31 +10,31 @@ eu:
       organization_name_label: Erakundeko izena
       organization_responsible_name_placeholder: Elkartea / ordezkari kolektiboa
       personal: Datu pertsonalak
-      phone_number_label: Teléfono
-      public_activity_label: Mostrar públicamente mi lista de actividades
-      public_interests_label: Mostrar públicamente las etiquetas de los elementos que sigo
-      public_interests_my_title_list: Etiquetas de los elementos que sigues
-      public_interests_user_title_list: Etiquetas de los elementos que sigue este usuario
-      save_changes_submit: Guardar cambios
-      subscription_to_website_newsletter_label: Recibir emails con información interesante sobre la web
-      email_on_direct_message_label: Recibir emails con mensajes privados
-      email_digest_label: Recibir resumen de notificaciones sobre propuestas
-      official_position_badge_label: Mostrar etiqueta de tipo de usuario
-      recommendations: Recomendaciones
-      show_debates_recommendations: Mostrar recomendaciones en el listado de debates
-      show_proposals_recommendations: Mostrar recomendaciones en el listado de propuestas
-      title: Mi cuenta
-      user_permission_debates: Participar en debates
-      user_permission_info: Con tu cuenta ya puedes...
-      user_permission_proposal: Crear nuevas propuestas
-      user_permission_support_proposal: Apoyar propuestas*
-      user_permission_title: Participación
-      user_permission_verify: Para poder realizar todas las acciones, verifica tu cuenta.
-      user_permission_verify_info: "* Sólo usuarios empadronados."
-      user_permission_votes: Participar en las votaciones finales*
-      username_label: Nombre de usuario
-      verified_account: Cuenta verificada
-      verify_my_account: Verificar mi cuenta
+      phone_number_label: Telefono zenbakia
+      public_activity_label: Nire jardueren zerrenda jendaurrean erakutsi
+      public_interests_label: Jarraitzen ditudan elementuen etiketa publikoki erakutsi
+      public_interests_my_title_list: Jarraitzen dituzun elementuen etiketak
+      public_interests_user_title_list: Erabiltzaile honek jarraitzen dituen elementuen etiketak
+      save_changes_submit: Gorde aldaketak
+      subscription_to_website_newsletter_label: Jaso mezu elektronikoak sareko informazio interesgarriarekin
+      email_on_direct_message_label: Jaso mezu elektronikoak mezu elektronikoak jasotzeko
+      email_digest_label: Jaso proposamenen inguruko jakinarazpenen laburpena
+      official_position_badge_label: Erakutsi erabiltzaile motaren etiketa
+      recommendations: Gomendioak
+      show_debates_recommendations: Erakutsi gomendioak eztabaida-zerrendan
+      show_proposals_recommendations: Erakutsi gomendioak proposamenen zerrendan
+      title: Nire kontua
+      user_permission_debates: Parte hartu eztabaidetan
+      user_permission_info: Kontuarekin dagoeneko ...
+      user_permission_proposal: Proposamen berriak sortu
+      user_permission_support_proposal: Laguntza proposamenak *
+      user_permission_title: Parte-hartze
+      user_permission_verify: Ekintza guztiak egiteko, egiaztatu zure kontua.
+      user_permission_verify_info: "* Erregistratutako erabiltzaileak bakarrik."
+      user_permission_votes: Parte hartu azken bozketan*
+      username_label: Erabiltzaile-izena
+      verified_account: Egiaztatu kontua
+      verify_my_account: Egiaztatu nire kontua
   comments_helper:
     comment_link: Iruzkin
   form:
