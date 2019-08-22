@@ -15,9 +15,9 @@ class CensusCaller
 	tipo = ''
 	if document_type == "1"
 		tipo = 'DNI'
-		log.debug("ES 1")
+		#log.debug("ES 1")
 	end
-	log.debug(tipo)
+	#log.debug(tipo)
     response = LocalCensus.new.call(tipo, document_number) #unless response.valid?
 
     response
