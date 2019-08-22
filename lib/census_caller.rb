@@ -6,7 +6,19 @@ class CensusCaller
     #else
     #  response = CensusApi.new.call(document_type, document_number)
     # end
-    response = LocalCensus.new.call(document_type, document_number) #unless response.valid?
+
+	#require 'logger'
+	#log = Logger.new('log.txt', 'daily')
+	#log.debug("MOSTRANDO DATOS")
+	#log.debug(document_number)
+	#log.debug(document_type)
+	tipo = ''
+	if document_type == "1"
+		tipo = 'DNI'
+		log.debug("ES 1")
+	end
+	log.debug(tipo)
+    response = LocalCensus.new.call(tipo, document_number) #unless response.valid?
 
     response
   end
