@@ -1342,6 +1342,9 @@ es:
       user_search:
         button: Buscar
         placeholder: Buscar usuario por nombre o email
+      debate_search:
+        button: Buscar
+        placeholder: Buscar debates por título o descripción
       search_results: "Resultados de la búsqueda"
       no_search_results: "No se han encontrado resultados."
       actions: Acciones
