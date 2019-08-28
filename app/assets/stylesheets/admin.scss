@@ -428,7 +428,7 @@ code {
 
 .admin-sidebar {
   background: $sidebar;
-  background: linear-gradient(to bottom, #245b80 0%, #488fb5 100%);
+ // background: linear-gradient(to bottom, #245b80 0%, #488fb5 100%);
   border-right: 1px solid $border;
 
   @include breakpoint(medium) {
