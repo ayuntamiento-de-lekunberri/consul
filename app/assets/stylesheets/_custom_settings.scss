@@ -4,4 +4,11 @@
 // * Spanish: https://github.com/consul/consul/blob/master/CUSTOMIZE_ES.md#css
 //
 $brand: #6CAB4D;
+$dark: darken($brand, 10%);
+
+$link: $brand;
+
+$admin-color: $dark
+$sidebar: $dark
+$sidebar-hover: $brand
 
