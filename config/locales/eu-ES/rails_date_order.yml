@@ -1,6 +1,6 @@
-es:
+eu:
   date:
     order:
-      - :day
-      - :month
       - :year
+      - :month
+      - :day
