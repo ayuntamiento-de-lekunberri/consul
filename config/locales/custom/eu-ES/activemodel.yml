@@ -1,22 +1,34 @@
-eu:
+es:
   activemodel:
     models:
       verification:
-        residence: "Bizilekua"
+        residence: "Residencia"
         sms: "SMS"
+      local_census_records/import:
+        one: Importación de registros del censo local
+        other: Importaciones de registros del censo local
     attributes:
       verification:
         residence:
-          document_type: "Agiri mota"
-          document_number: "Dokumentu zenbakia (letrak barne)"
-          date_of_birth: "Jaiotze data"
-          postal_code: "Posta-kodea"
+          document_type: "Tipo de documento"
+          document_number: "Número de documento (incluida letra)"
+          date_of_birth: "Fecha de nacimiento"
+          postal_code: "Código postal"
         sms:
-          phone: "Telefonoa"
-          confirmation_code: "Konfirmazio kodea"
+          phone: "Teléfono"
+          confirmation_code: "Código de confirmación"
         email:
-          recipient: "E-mail"
+          recipient: "Email"
       officing/residence:
-        document_type: "Agiri mota"
-        document_number: "Dokumentu zenbakia (letrak barne)"
-        year_of_birth: "Jaiotako urtea"
+        document_type: "Tipo de documento"
+        document_number: "Número de documento (incluida letra)"
+        year_of_birth: "Año de nacimiento"
+      local_census_records/import:
+        file: Archivo
+    errors:
+      models:
+        local_census_records/import:
+          attributes:
+            file:
+              extension: "El formato del fichero es incorrecto. El formato de archivo permitido es: %{valid_extensions}."
+              headers: "Las cabeceras del fichero son incorrectas. Las cabeceras del fichero deben tener los nombres siguientes: %{required_headers}."
