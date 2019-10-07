@@ -34,6 +34,7 @@ es:
       user_permission_votes: Participar en las votaciones finales*
       username_label: Nombre de usuario
       verified_account: Cuenta verificada
+      verify_my_account: Verificar mi cuenta
   application:
     close: Cerrar
     menu: Menú
@@ -234,6 +235,7 @@ es:
       participation_text: Decide cómo debe ser Lekunberri.
       participation_title: Participación
       privacy: Política de privacidad
+      faq: Preguntas frecuentes
     header:
       administration_menu: Menú
       administration: Administración
