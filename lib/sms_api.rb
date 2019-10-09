@@ -24,9 +24,12 @@ class SMSApi
 
   def request(phone, code)
     { autorizacion:  authorization,
-      destinatarios: { destinatario: phone },
-      texto_mensaje: "Clave para verificarte: #{code}. Gobierno Abierto",
-      solicita_notificacion: "All" }
+      #destinatarios: { destinatario: phone },
+      #texto_mensaje: "Clave para verificarte: #{code}. Gobierno Abierto",
+      #solicita_notificacion: "All" 
+	dst: phone,
+	msg: "Clave para verificarte: #{code}. Lekunberri ON!",
+}
   end
 
   def success?(response)
