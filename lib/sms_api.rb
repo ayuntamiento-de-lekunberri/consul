@@ -21,7 +21,7 @@ class SMSApi
     response = client.call(:send_sms, message: request(phone, code))
 	log = Logger.new('logsms.txt')
 	log.debug "response:"
-	log.debug response
+#	log.debug response
     success?(response)
   end
 
