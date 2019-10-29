@@ -18,8 +18,9 @@ class SMSApi
   def sms_deliver(phone, code)
     return stubbed_response unless end_point_available?
 	require 'logger'
-    response = client.call(:send_sms, message: request(phone, code))
 	log = Logger.new('logsms.txt')
+	log.debug('Antes')
+    response = client.call(:send_sms, message: request(phone, code))
 	log.debug "telefono:"
 	log.debug(phone)
 	log.debug "response:"
