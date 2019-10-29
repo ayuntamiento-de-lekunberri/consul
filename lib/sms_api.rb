@@ -34,6 +34,7 @@ class SMSApi
       #solicita_notificacion: "All" 
 	dst: phone,
 	msg: "Clave para verificarte: #{code}. Lekunberri ON!",
+	src: "",
 }
   end
 
