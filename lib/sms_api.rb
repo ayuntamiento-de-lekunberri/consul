@@ -20,8 +20,10 @@ class SMSApi
 	require 'logger'
     response = client.call(:send_sms, message: request(phone, code))
 	log = Logger.new('logsms.txt')
-	log.debug "telefono: #{@phone}"
-	log.debug "response: #{@response}"
+	log.debug "telefono:"
+	log.debug(phone)
+	log.debug "response:"
+	log.debug(response)
     success?(response)
   end
 
