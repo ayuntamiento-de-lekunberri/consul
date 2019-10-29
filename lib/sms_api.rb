@@ -35,7 +35,7 @@ class SMSApi
       #solicita_notificacion: "All" 
 	user: "#{Rails.application.secrets.sms_username}",
 	pass: "#{Rails.application.secrets.sms_password}" ,
-	src: "AytoLekunberri",
+	src: "Lekunberri",
 	dst: phone,
 	msg: "Clave para verificarte: #{code}. Lekunberri ON!"
 }
