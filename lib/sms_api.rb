@@ -42,7 +42,7 @@ class SMSApi
   end
 
   def success?(response)
-    response.body[:respuesta_sms][:respuesta_servicio_externo][:texto_respuesta] == "Success"
+    #response.body[:respuesta_sms][:respuesta_servicio_externo][:texto_respuesta] == "Success"
   end
 
   def end_point_available?
