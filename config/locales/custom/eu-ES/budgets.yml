@@ -6,12 +6,14 @@
         amount_spent: Kostua guztira
         remaining: "<span>%{amount}</span> geratzen zaizkizu invertitzeko"
         no_balloted_group_yet: "Oraindik ez duzu talde honen proiekturik bozkatu, eman botoa!"
-        remove: Botoa kendu        voted_html:
+        remove: Botoa kendu        
+        voted_html:
           one: "<span>un</span> proiektu bozkatu duzu."
           other: "<span>%{count}</span> proiektu bozkatu dituzu."
         voted_info_html: "Zure botoak baieztatuta daude!"
         voted_info_2: "Baina edozein unetan alda ditzakezu fase hau itxi arte."
-        zero: Oraindik ez duzu gastu proiekturik bozkatu.      reasons_for_not_balloting:
+        zero: Oraindik ez duzu gastu proiekturik bozkatu.      
+        reasons_for_not_balloting:
         not_logged_in: Jarraitzeko %{signin} edo %{signup} behar duzu.
         not_verified: Egiaztatutako erabiltzaileek bakarrik sostengatu ditzakete gastu-proiektuak, %{verify_account}.
         organization: Erakundeek ezin dute bozkatu.
