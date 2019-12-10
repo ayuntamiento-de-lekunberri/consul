@@ -72,7 +72,8 @@
         one: "Herritarren proposamena"
         other: "Herritarren proposamenak"
       site_customization/page:
-        one: Orrialdea        other: Orrialdeak
+        one: Orrialdea        
+        other: Orrialdeak
       site_customization/image:
         one: Irudia
         other: Irudiak
@@ -80,7 +81,8 @@
         one: Blokea
         other: Blokeak
       document:
-        one: Dokumentua        other: Dokumentuak
+        one: Dokumentua        
+        other: Dokumentuak
       legislation/process:
         one: "Prozesua"
         other: "Prozesuak
@@ -115,7 +117,8 @@
         one: "Proposamenaren jakinarazpena"
         other: "Proposamenen jakinarazpenak"
       dashboard/action:
-        one: Proposamenak kontrolatzeko panelaren ekintza        other: Proposamenak kontrolatzeko panelaren ekintzak
+        one: Proposamenak kontrolatzeko panelaren ekintza        
+        other: Proposamenak kontrolatzeko panelaren ekintzak
       dashboard/administrator_task:
         one: Zeregina
         other: Zereginak
@@ -124,7 +127,8 @@
         other: Estekak
       local_census_record:
         one: Tokiko erroldaren erregistroa
-        other: Tokiko erroldaren erregistroak    attributes:
+        other: Tokiko erroldaren erregistroak    
+    attributes:
       administrator:
         description: Deskribapena
       budget:
@@ -235,22 +239,27 @@
       poll/ballot_sheet:
         data: CSV datuak
         poll_id: Bozketa
-        officer_assignment_id: Txanda      signature_sheet:
+        officer_assignment_id: Txanda      
+    signature_sheet:
         signable_type: "Sinadura-orri mota"
         signable_id: "Id Herritarren proposamena/Gastu-proiektua"
         document_numbers: "Dokumentuen zenbakiak"
       site_customization/page:
         content: Edukia
         created_at: Sortua
-        subtitle: Azpititulua        slug: Slug
+        subtitle: Azpititulua        
+        slug: Slug
         status: Egoera
         title: Izenburua
         updated_at: Azken eguneratzea
         more_info_flag: Erakutsi laguntza-orrian
         print_content_flag: Edukia inprimatzeko botoia
-        locale: Hizkuntza      site_customization/page/translation:
-        title: Izenburua        subtitle: Azpititulua
-        content: Edukia      site_customization/image:
+        locale: Hizkuntza      
+        site_customization/page/translation:
+        title: Izenburua        
+        subtitle: Azpititulua
+        content: Edukia      
+        site_customization/image:
         name: Izena
         image: Irudia
       site_customization/content_block:
@@ -265,31 +274,40 @@
         summary: Laburpena
         description: Zertan datza
         additional_info: Informazio gehigarria
-        start_date: Hasiera        end_date: Amaiera
+        start_date: Hasiera        
+        end_date: Amaiera
         debate_start_date: Hasiera
         debate_end_date: Amaiera
         draft_start_date: Hasiera
-        draft_end_date: Amaiera        draft_publication_date: Zirriborroaren argitaratze eguna        allegations_start_date: Hasiera
+        draft_end_date: Amaiera        
+        draft_publication_date: Zirriborroaren argitaratze eguna        
+        allegations_start_date: Hasiera
         allegations_end_date: Amaiera
         proposals_phase_start_date: Hasiera
         proposals_phase_end_date: Amaiera
-        result_publication_date: Azken emaitzaren argitaratze eguna        background_color: Hondoaren kolorea
+        result_publication_date: Azken emaitzaren argitaratze eguna        
+        background_color: Hondoaren kolorea
         font_color: Testuaren kolorea
       legislation/process/translation:
         title: Prozesuaren izenburua
-        summary: Laburpena        description: Zertan datza
-        additional_info: Informazio gehigarria        milestones_summary: Prozesuaren jarraipena
+        summary: Laburpena        
+        description: Zertan datza
+        additional_info: Informazio gehigarria        
+        milestones_summary: Prozesuaren jarraipena
       legislation/draft_version:
         title: Bertsioaren izenburua
-        body: Testoua        changelog: Aldaketak
+        body: Testoua        
+        changelog: Aldaketak
         status: Egoera
         final_version: Azken bertsioa
       legislation/draft_version/translation:
         title: Bertsioaren izenburua
         body: Testua
-        changelog: Aldaketak      legislation/question:
+        changelog: Aldaketak      
+        legislation/question:
         title: Izenburua
-        question_options: Erantzunak      legislation/question_option:
+        question_options: Erantzunak      
+        legislation/question_option:
         value: Balioa
       legislation/annotation:
         text: Iruzkina
@@ -304,7 +322,8 @@
         description: Deskribapena
       poll/question/answer/translation:
         title: Erantzuna
-        description: Deskribapena      poll/question/answer/video:
+        description: Deskribapena      
+        poll/question/answer/video:
         title: Izenburua
         url: Kanpoko bideoa
       newsletter:
@@ -314,7 +333,8 @@
         body: E-postaren edukia
       admin_notification:
         segment_recipient: Hartzaileak
-        title: Izenburua        link: Esteka
+        title: Izenburua        
+        link: Esteka
         body: Testua
       admin_notification/translation:
         title: Izenburua
@@ -322,7 +342,8 @@
       widget/card:
         label: Etiketa (aukerazkoa)
         title: Izenburua
-        description: Deskribapena        link_text: Estekaren testua
+        description: Deskribapena        
+        link_text: Estekaren testua
         link_url: Loturaren URLa
         columns: Zutabe kopurua
       widget/card/translation:
@@ -334,12 +355,14 @@
         limit: Elementu kopurua
       dashboard/action:
         title: Izenburua
-        short_description: Deskribapen laburra        description: Deskribapena
+        short_description: Deskribapen laburra        
+        description: Deskribapena
         link: Kanpoko lotura
         request_to_administrators: Errekurtsoan administratzaileei errekurtsoa eskatzeko botoi bat sartzea
         day_offset: 'Proposamena sortu eta zenbat egunetara nahi duzu aktibatzea?'
         required_supports: 'Zenbat babes lortu behar ditu proposamenak aktibatzeko?'
-        order: Erabiltzaileari, ekintzen zerrendan, ekintza hori agertuko zaion posizioa sar dezakezu        active: Aktibo
+        order: Erabiltzaileari, ekintzen zerrendan, ekintza hori agertuko zaion posizioa sar dezakezu        
+        active: Aktibo
         action_type: Mota
       dashboard/administrator_task:
         source: Iturria
@@ -354,7 +377,8 @@
         can_edit_dossier: Txostenak edita ditzake
       local_census_record:
         document_type: Dokumentu mota
-        document_number: Dokumentu-zenbakia        date_of_birth: Jaiotze data
+        document_number: Dokumentu-zenbakia        
+        date_of_birth: Jaiotze data
         postal_code: Posta kodea
     errors:
       models:
@@ -397,8 +421,10 @@
             end_date:
               invalid_date_range: Hasiera-dataren berdina edo geroagokoa izan behar du
             debate_end_date:
-              invalid_date_range: Eztabaidaren hasiera-dataren berdina edo geroagokoa izan behar du            draft_end_date:
-              invalid_date_range: Zirriborroaren hasiera-dataren berdina edo geroagokoa izan behar du            allegations_end_date:
+              invalid_date_range: Eztabaidaren hasiera-dataren berdina edo geroagokoa izan behar du            
+              draft_end_date:
+              invalid_date_range: Zirriborroaren hasiera-dataren berdina edo geroagokoa izan behar du            
+              allegations_end_date:
               invalid_date_range: Iruzkinen hasiera-dataren berdina edo geroagokoa izan behar du
         proposal:
           attributes:
