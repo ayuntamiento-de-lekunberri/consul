@@ -1,144 +1,144 @@
-eu:
+es:
   date:
     abbr_day_names:
-      - dom
-      - lun
-      - mar
-      - mié
-      - jue
-      - vie
-      - sáb
+      - ign
+      - ast
+      - asr
+      - asz
+      - ost
+      - osr
+      - lar
     abbr_month_names:
       - 
-      - ene
-      - feb
+      - urt
+      - ots
       - mar
-      - abr
-      - may
-      - jun
-      - jul
-      - ago
-      - sep
-      - oct
-      - nov
-      - dic
+      - api
+      - mai
+      - eka
+      - uzt
+      - abu
+      - ira
+      - urr
+      - aza
+      - abe
     day_names:
-      - domingo
-      - lunes
-      - martes
-      - miércoles
-      - jueves
-      - viernes
-      - sábado
+      - igandea
+      - astelehena
+      - asteartea
+      - asteazkena
+      - osteguna
+      - ostirala
+      - larunbata
     formats:
-      default: "%d/%m/%Y"
-      long: "%d de %B de %Y"
-      short: "%d de %b"
+      default: "%Y/%m/%d"
+      long: "%Y de %B de %d"
+      short: "%b de %d"
     month_names:
       - 
-      - enero
-      - febrero
-      - marzo
-      - abril
-      - mayo
-      - junio
-      - julio
-      - agosto
-      - septiembre
-      - octubre
-      - noviembre
-      - diciembre
+      - urtarrila
+      - otsaila
+      - martxoa
+      - apirila
+      - maiatza
+      - ekaina
+      - uztaila
+      - abuztua
+      - iraila
+      - urria
+      - azaroa
+      - abendua
   datetime:
     distance_in_words:
       about_x_hours:
-        one: alrededor de 1 hora
-        other: alrededor de %{count} horas
+        one: Ordubete inguru
+        other: %{count} ordu inguru
       about_x_months:
-        one: alrededor de 1 mes
-        other: alrededor de %{count} meses
+        one: Hilabete inguru
+        other: %{count} hilabete inguru
       about_x_years:
-        one: alrededor de 1 año
-        other: alrededor de %{count} años
+        one: Urtebete inguru
+        other: %{count} urte inguru
       almost_x_years:
-        one: casi 1 año
-        other: casi %{count} años
-      half_a_minute: medio minuto
+        one: ia urtebete
+        other: ia %{count} urte
+      half_a_minute: minutu erdi
       less_than_x_minutes:
-        one: menos de 1 minuto
-        other: menos de %{count} minutos
+        one: minutu 1 baino gutxiago
+        other: %{count} minutu baino gutxiago
       less_than_x_seconds:
-        one: menos de 1 segundo
-        other: menos de %{count} segundos
+        one: Segundu 1 baino gutxiago
+        other: %{count} segundu baino gutxiago
       over_x_years:
-        one: más de 1 año
-        other: más de %{count} años
+        one: Urtebete baino gehiago
+        other: %{count} urte baino gehiago
       x_days:
-        one: 1 día
-        other: "%{count} días"
+        one: Egun 1
+        other: "%{count} egun"
       x_minutes:
-        one: 1 minuto
-        other: "%{count} minutos"
+        one: Minutu 1
+        other: "%{count} minutu"
       x_months:
-        one: 1 mes
-        other: "%{count} meses"
+        one: Hilabete 1
+        other: "%{count} hilabete"
       x_years:
-        one: '%{count} año'
-        other: "%{count} años"
+        one: 'Urte %{count}'
+        other: "%{count} urte"
       x_seconds:
-        one: 1 segundo
-        other: "%{count} segundos"
+        one: Segundu 1
+        other: "%{count} segundu"
     prompts:
-      day: Día
-      hour: Hora
-      minute: Minutos
-      month: Mes
-      second: Segundos
-      year: Año
+      day: Eguna
+      hour: Ordua
+      minute: Minutu
+      month: Hilabete
+      second: Segundu
+      year: Urte
   errors:
     format: "%{attribute} %{message}"
     messages:
-      accepted: debe ser aceptado
-      blank: no puede estar en blanco
-      present: debe estar en blanco
-      confirmation: no coincide
-      empty: no puede estar vacío
-      equal_to: debe ser igual a %{count}
-      even: debe ser par
-      exclusion: está reservado
-      greater_than: debe ser mayor que %{count}
-      greater_than_or_equal_to: debe ser mayor que o igual a %{count}
-      inclusion: no está incluido en la lista
-      invalid: no es válido
-      less_than: debe ser menor que %{count}
-      less_than_or_equal_to: debe ser menor que o igual a %{count}
-      model_invalid: "Error de validación: %{errors}"
-      not_a_number: no es un número
-      not_an_integer: debe ser un entero
-      odd: debe ser impar
-      required: debe existir
-      taken: ya está en uso
+      accepted: onartu behar da
+      blank: ezin da txuri egon
+      present: txuri egon behar da
+      confirmation: ez dator bat
+      empty: ezin da hutsik egon
+      equal_to: %{count}en berdina izan behar da
+      even: Bikoitia behar du izan
+      exclusion: erreserbatua dago
+      greater_than: %{count} baino handiagoa izan behar da
+      greater_than_or_equal_to: %{count} baino handiagoa edo berdina izan behar da
+      inclusion: ez dago zerrendan
+      invalid: ez da baliozkoa
+      less_than: %{count} baino txikiagoa izan behar da
+      less_than_or_equal_to: %{count} baino txikiagoa edo berdina izan behar da
+      model_invalid: "Baliozkotze akatsa: %{errors}"
+      not_a_number: Ez da zenbaki bat
+      not_an_integer: Osoa izan behar da
+      odd: bakoitia izan behar da
+      required: Existitu behar da
+      taken: erabilpenean dago dagoeneko
       too_long:
-        one: es demasiado largo (máximo %{count} caracteres)
-        other: es demasiado largo (máximo %{count} caracteres)
+        one: Luzeegia da (gehienez %{count} karaktere)
+        other: Luzeegia da (gehienez %{count} karaktere)
       too_short:
-        one: es demasiado corto (mínimo %{count} caracteres)
-        other: es demasiado corto (mínimo %{count} caracteres)
+        one: Laburregia da (gutxienez %{count} karaktere)
+        other: Laburregia da (gutxienez %{count} karaktere)
       wrong_length:
-        one: longitud inválida (debería tener %{count} caracteres)
-        other: longitud inválida (debería tener %{count} caracteres)
-      other_than: debe ser distinto de %{count}
+        one: Luzera baliogabea (%{count} karaktere behar ditu izan)
+        other: Luzera baliogabea (%{count} karaktere behar ditu izan)
+      other_than: %{count}en ezberdina izan behar da
     template:
-      body: "Se encontraron problemas con los siguientes campos:"
+      body: "Eremu hauekin arazoak topatu dira:"
       header:
-        one: No se pudo guardar este/a %{model} porque se encontró 1 error
-        other: "No se pudo guardar este/a %{model} porque se encontraron %{count} errores"
+        one: Ezin da %{model} honetan gorde akats 1 topatu delako.
+        other: "Ezin da %{model} honetan gorde %{count} akats topatu direlako."
   helpers:
     select:
-      prompt: Por favor seleccione
+      prompt: Mesedez hautatu
     submit:
-      create: Crear %{model}
-      submit: Guardar %{model}
-      update: Actualizar %{model}
+      create: Sortu %{model}
+      submit: Gorde %{model}
+      update: Eguneratu %{model}
   number:
     currency:
       format:
@@ -159,11 +159,11 @@ eu:
       decimal_units:
         format: "%n %u"
         units:
-          billion: mil millones
-          million: millón
-          quadrillion: mil billones
-          thousand: mil
-          trillion: billón
+          billion: mila milioi
+          million: milioi
+          quadrillion: mila bilioi
+          thousand: mila
+          trillion: bilioi
       format:
         precision: 3
         significant: true
@@ -183,15 +183,15 @@ eu:
         format: "%n%"
   support:
     array:
-      last_word_connector: " y "
-      two_words_connector: " y "
+      last_word_connector: " eta "
+      two_words_connector: " eta "
       words_connector: ", "
   time:
     am: am
     formats:
-      datetime: "%d/%m/%Y %H:%M:%S"
-      default: "%A, %d de %B de %Y %H:%M:%S %z"
-      long: "%d de %B de %Y %H:%M"
-      short: "%d de %b %H:%M"
-      api: "%d/%m/%Y %H"
+      datetime: "%Y/%m/%d %H:%M:%S"
+      default: "%A, %Yko %Bren %da %H:%M:%S %z"
+      long: "%Yko %Bren %da %H:%M"
+      short: "%bk %d %H:%M"
+      api: "%Y/%m/%d %H"
     pm: pm

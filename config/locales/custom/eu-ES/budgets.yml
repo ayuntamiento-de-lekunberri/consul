@@ -1,197 +1,178 @@
-eu:
+﻿es:
   budgets:
     ballots:
       show:
-        title: Mis votos
-        amount_spent: Coste total
-        remaining: "Te quedan <span>%{amount}</span> para invertir"
-        no_balloted_group_yet: "Todavía no has votado proyectos de este grupo, ¡vota!"
-        remove: Quitar voto
-        voted_html:
-          one: "Has votado <span>un</span> proyecto."
-          other: "Has votado <span>%{count}</span> proyectos."
-        voted_info_html: "¡Tus votos están confirmados!"
-        voted_info_2: "Pero puedes cambiarlos en cualquier momento hasta el cierre de esta fase."
-        zero: Todavía no has votado ningún proyecto de gasto.
-      reasons_for_not_balloting:
-        not_logged_in: Necesitas %{signin} o %{signup} para continuar.
-        not_verified: Los proyectos de gasto sólo pueden ser apoyados por usuarios verificados, %{verify_account}.
-        organization: Las organizaciones no pueden votar.
-        not_selected: No se pueden votar proyectos inviables.
-        not_enough_money_html: "Ya has asignado el presupuesto disponible.<br><small>Recuerda que puedes %{change_ballot} en cualquier momento</small>"
-        no_ballots_allowed: El periodo de votación está cerrado.
-        different_heading_assigned_html: "Ya has votado proyectos de otra partida: %{heading_link}"
-        change_ballot: cambiar tus votos
-        casted_offline: Ya has participado presencialmente
+        title: Nire botoak        amount_spent: Kostua guztira
+        remaining: "<span>%{amount}</span> geratzen zaizkizu invertitzeko"
+        no_balloted_group_yet: "Oraindik ez duzu talde honen proiekturik bozkatu, eman botoa!"
+        remove: Botoa kendu        voted_html:
+          one: "<span>un</span> proiektu bozkatu duzu."
+          other: "<span>%{count}</span> proiektu bozkatu dituzu."
+        voted_info_html: "Zure botoak baieztatuta daude!"
+        voted_info_2: "Baina edozein unetan alda ditzakezu fase hau itxi arte."
+        zero: Oraindik ez duzu gastu proiekturik bozkatu.      reasons_for_not_balloting:
+        not_logged_in: Jarraitzeko %{signin} edo %{signup} behar duzu.
+        not_verified: Egiaztatutako erabiltzaileek bakarrik sostengatu ditzakete gastu-proiektuak, %{verify_account}.
+        organization: Erakundeek ezin dute bozkatu.
+        not_selected: Ezin dira proiektu bideraezinak bozkatu.
+        not_enough_money_html: "Dagoeneko esleitu duzu erabilgarri dagoen aurrekontua.<br><small>Gogoratu edozein unetan %{change_ballot} egin dezakezula</small>"
+        no_ballots_allowed: Bozkatzeko epea itxita dago.        different_heading_assigned_html: "Beste partida bateko proiektuak bozkatu dituzu dagoeneko: %{heading_link}"
+        change_ballot: Zure botoak aldatu        casted_offline: Aurrez aurre parte hartu duzu dagoeneko
     groups:
       show:
-        title: Selecciona una opción
-        unfeasible_title: Proyectos de gasto inviables
-        unfeasible: Ver proyectos inviables
-        unselected_title: Proyectos no seleccionados para la votación final
-        unselected: Ver los proyectos no seleccionados para la votación final
-    phase:
-      drafting: Borrador (No visible para el público)
-      informing: Información
-      accepting: Presentación de proyectos
-      reviewing: Revisión interna de proyectos
-      selecting: Fase de apoyos
-      valuating: Evaluación de proyectos
-      publishing_prices: Publicación de precios
-      balloting: Votación final
-      reviewing_ballots: Votación finalizada
-      finished: Resultados
+        title: Hautatu aukera bat
+        unfeasible_title: Gastu-proiektu bideraezinak
+        unfeasible: Proiektu bideraezinak ikusi
+        unselected_title: Azken bozketarako aukeratu gabeko proiektuak
+        unselected: Azken bozketarako aukeratu gabeko proiektuak ikusi    phase:
+      drafting: Zirriborroa (ikusleek ezingo dute ikusi)
+      informing: Informazioa
+      accepting: Proiektuen aurkezpena
+      reviewing: Proiektuen barne-berrikuspena
+      selecting: Sostegu-fasea      valuating: Proiektuen ebaluazioa
+      publishing_prices: Prezioen argitaratzea
+      balloting: Azken bozketa
+      reviewing_ballots: Bozketa amaitua
+      finished: Emaitzak
     index:
-      title: Presupuestos participativos
-      empty_budgets: No hay presupuestos participativos.
+      title: Aurrekontu partehartzaileak
+      empty_budgets: Ez dago aurrekontu partehartzailerik.
       section_header:
-        icon_alt: Icono de Presupuestos participativos
-        title: Presupuestos participativos
-        help: Ayuda sobre presupuestos participativos
-        all_phases: Ver todas las fases
-      all_phases: Fases de los presupuestos participativos
-      map: Proyectos localizables geográficamente
-      investment_proyects: Ver lista completa de proyectos de gasto
-      unfeasible_investment_proyects: Ver lista de proyectos de gasto inviables
-      not_selected_investment_proyects: Ver lista de proyectos de gasto no seleccionados para la votación final
-      finished_budgets: Presupuestos participativos terminados
+        icon_alt: Aurrekontu partehartzaileen ikonoa        title: Aurrekontu partehartzaileak
+        help: Aurrekontu partehartzaileen gaineko laguntza
+        all_phases: Fase guztiak ikusi
+      all_phases: Aurrekontu partehartzaileen faseak
+      map: Geografikoki koka daitezkeen proiektuak
+      investment_proyects: Gastu-proiektuen zerrenda osoa
+ ikusi      unfeasible_investment_proyects: Gastu-proiektu bideraezinen zerrenda
+ ikusi      not_selected_investment_proyects:  Azken bozketarako hautatu ez diren gastu-proiektuen zerrenda ikusi
+      finished_budgets: Aurrekontu partehartzaile amaituak
       see_results: Ver resultados
       section_footer:
-        title: Ayuda sobre presupuestos participativos
-        description: Con los presupuestos participativos la ciudadanía decide a qué proyectos va destinada una parte del presupuesto.
-      milestones: Seguimiento de proyectos
+        title: Aurrekontu partehartzaileen gaineko laguntza
+        description: Aurrekontu partehartzaileekin, herritarrek erabakitzen dute aurrekontuaren zati bat zein proiektutara bideratuko den.
+      milestones: Proiektuen jarraipena
     investments:
       form:
-        tag_category_label: "Categorías"
-        tags_instructions: "Etiqueta este proyecto. Puedes elegir entre las categorías propuestas o introducir las que desees"
-        tags_label: Etiquetas
-        tags_placeholder: "Escribe las etiquetas que desees separadas por coma (',')"
-        map_location: "Ubicación en el mapa"
-        map_location_instructions: "Navega por el mapa hasta la ubicación y coloca el marcador."
-        map_remove_marker: "Eliminar el marcador"
-        location: "Información adicional de la ubicación"
-        map_skip_checkbox: "Este proyecto no tiene una ubicación concreta o no la conozco."
+        tag_category_label: "Kategoriak"
+        tags_instructions: "Etiketatu proiektu hau. Proposatutako kategorien artean aukera dezakezu edo nahi dituzun kategoriak sar ditzakezu"
+        tags_label: Etiketak
+        tags_placeholder: "Idatzi nahi dituzun etiketak koma batez bereizita (',')"
+        map_location: "Kokapena mapan"
+        map_location_instructions: "Mapan zehar nabigatu kokapenera arte eta jarri markagailua."
+        map_remove_marker: "Markagailua ezabatu"
+        location: "Kokapenari buruzko informazio gehigarria"
+        map_skip_checkbox: "Proiektu honek ez du kokapen zehatzik, edo ez dut ezagutzen."
       index:
-        title: Presupuestos participativos
-        unfeasible: Proyectos de gasto no viables
-        unfeasible_text: "Los proyectos presentados deben cumplir una serie de criterios (legalidad, concreción, no superar el tope del presupuesto) para ser declarados viables y llegar hasta la fase de votación final. Todos los proyectos que no cumplen estos criterios son marcados como inviables y publicados en la siguiente lista, junto con su informe de inviabilidad."
-        by_heading: "Proyectos de gasto con ámbito: %{heading}"
+        title: Aurrekontu partehartzaileak
+        unfeasible: Bideragarriak ez diren gastu-proiektuak
+        unfeasible_text: "Aurkeztutako proiektuek zenbait irizpide bete behar dituzte (legezkotasuna, zehaztapena, aurrekontuaren muga ez gainditzea) bideragarritzat jotzeko eta azken bozketa-fasera iristeko. Irizpide horiek betetzen ez dituzten proiektu guztiak bideraezintzat jotzen dira, eta hurrengo zerrendan argitaratzen dira, beren bideraezintasun-txostenarekin batera."
+        by_heading: "Eremua duten gastu proiektuak: %{heading}"
         search_form:
-          button: Buscar
-          placeholder: Buscar proyectos de gasto...
-          title: Buscar
+          button: Bilatu          placeholder: Gastu proiektuak bilatu...
+          title: Bilatu
         search_results_html:
-          one: " que contiene <strong>'%{search_term}'</strong>"
-          other: " que contienen <strong>'%{search_term}'</strong>"
+          one: "<strong>'%{search_term}'</strong> duena"
+          other: "<strong>'%{search_term}'</strong> dituena"
         sidebar:
-          my_ballot: Mis votos
+          my_ballot: Nire botoak
           voted_html:
-            one: "<strong>Has votado un proyecto por un valor de %{amount_spent}</strong>"
-            other: "<strong>Has votado %{count} proyectos por un valor de %{amount_spent}</strong>"
-          voted_info: Puedes %{link} en cualquier momento hasta el cierre de esta fase. No hace falta que gastes todo el dinero disponible.
-          voted_info_link: cambiar tus votos
-          different_heading_assigned_html: "Ya apoyaste proyectos de otra sección del presupuesto: %{heading_link}"
-          change_ballot: "Si cambias de opinión puedes borrar tus votos en %{check_ballot} y volver a empezar."
-          check_ballot_link: "revisar y confirmar mis votos"
-          zero: Todavía no has votado ningún proyecto de gasto en este ámbito del presupuesto.
-          verified_only: "Para crear un nuevo proyecto de gasto %{verify}."
-          verify_account: "verifica tu cuenta"
-          create: "Crear proyecto de gasto"
-          not_logged_in: "Para crear un nuevo proyecto de gasto debes %{sign_in} o %{sign_up}."
-          sign_in: "iniciar sesión"
-          sign_up: "registrarte"
-          by_feasibility: Por viabilidad
-          feasible: Ver los proyectos viables
-          unfeasible: Ver los proyectos inviables
+            one: "<strong> %{amount_spent}</strong> balioa duen proiektu bati eman diozu botoa"
+            other: "<strong> %{count} proiektu bozkatu dituzu %{amount_spent}</strong> balioa dutenak."
+          voted_info: Edozein unetan egin dezakezu %{link}, fase hau itxi arte. Ez duzu diru guztia gastatu behar.
+          voted_info_link: Zure botoak aldatu
+          different_heading_assigned_html: "Aurrekontuaren beste atal bateko proiektuak babestu dituzu dagoeneko: %{heading_link}"
+          change_ballot: "Iritziz aldatuz gero, zure botoak ezabatu ditzakezu %{check_ballot} -ean, eta berriro hasi."
+          check_ballot_link: "Nire botoak berrikusi eta berretsi"
+          zero: Oraindik ez duzu bozkatu aurrekontuaren esparru honetan gastu-proiekturik.
+          verified_only: "Gastu proiektu berri bat sortzeko %{verify}."
+          verify_account: "Egiaztatu zure kontua"
+          create: "Gastu-proiektua sortzea"
+          not_logged_in: "Gastu-proiektu berri bat sortzeko, %{sign_in} edo %{sign_up} egin behar duzu."
+          sign_in: "Saioa hasi"
+          sign_up: "Izena eman"
+          by_feasibility: Bideragarritasunagatik
+          feasible: Proiektu bideragarriak ikusi          unfeasible: Proiektu bideraezinak ikusi
         orders:
-          random: Aleatorios
-          confidence_score: Mejor valorados
-          price: Por coste
+          random: Ausazkoak
+          confidence_score: Hoberen baloratuak          price: Kostuaren arabera
       share:
-        message: "He presentado el proyecto %{title} en %{handle}. ¡Presenta un proyecto tú también!"
+        message: "%{title} proeiktua aurkeztu dut %{handle} -en. Aurkeztu zuk ere proiektu bat!"
       show:
-        author_deleted: Usuario eliminado
-        price_explanation: Informe de coste
-        unfeasibility_explanation: Informe de inviabilidad
-        code_html: "Código proyecto de gasto: <strong>%{code}</strong>"
-        location_html: "Ubicación: <strong>%{location}</strong>"
-        organization_name_html: "Propuesto en nombre de: <strong>%{name}</strong>"
-        share: Compartir
-        title: Proyecto de gasto
-        supports: Apoyos
-        votes: Votos
-        price: Coste
-        comments_tab: Comentarios
-        milestones_tab: Seguimiento
-        author: Autor
-        project_unfeasible_html: "Este proyecto de gasto <strong>ha sido marcado como inviable</strong> y no pasará a la fase de votación."
-        project_selected_html: "Este proyecto de gasto <strong>ha sido seleccionado</strong> para la fase de votación."
-        project_winner: "Proyecto de gasto ganador"
-        project_not_selected_html: "Este proyecto de gasto <strong>no ha sido seleccionado</strong> para la fase de votación."
-        see_price_explanation: Ver informe de coste
-      wrong_price_format: Solo puede incluir caracteres numéricos
+        author_deleted: Erabiltzailea ezabatua
+        price_explanation: Kostu-txostena        unfeasibility_explanation: Bideragarritasun-txostena        code_html: "Gastu-proiektuaren kodea: <strong>%{code}</strong>"
+        location_html: "Kokapena: <strong>%{location}</strong>"
+        organization_name_html: "Nork proposatua: <strong>%{name}</strong>"
+        share: Partekatu
+        title: Gastu proiektua        supports: Sostenguak
+        votes: Botosak        price: Kostua
+        comments_tab: Iruzkinak
+        milestones_tab: Jarraipena
+        author: Egilea
+        project_unfeasible_html: "< strong> gastu-proiektu hau bideraezintzat jo da </strong>, eta ez da bozketa-fasera igaroko."
+        project_selected_html: "< strong>gastu-proiektu hau </strong> hautatu izan da bozketa-faserako."
+        project_winner: "Gastu-proiektu irabazlea"
+        project_not_selected_html: "Gastu-proiektu hau < strong>ez da hautatu </strong> bozketa-faserako."
+        see_price_explanation: Ikusi kostu-txostena      wrong_price_format: Zenbakizko karaktereak bakarrik izan ditzake
       investment:
-        add: Votar
-        already_added: Ya has añadido este proyecto de gasto
-        already_supported: Ya has apoyado este proyecto de gasto. ¡Compártelo!
-        support_title: Apoyar este proyecto
+        add: Bozkatu        already_added: Gastu-proiektu hau gehitu duzu dagoeneko
+        already_supported: Dagoeneko babestu duzu gastu-proiektu hau. Partekatu zazu!
+        support_title: Proiektu hau sostengatu
         confirm_group:
-          one: "Sólo puedes apoyar proyectos en %{count} distrito. Si sigues adelante no podrás cambiar la elección de este distrito. ¿Estás seguro/a?"
-          other: "Sólo puedes apoyar proyectos en %{count} distritos. Si sigues adelante no podrás cambiar la elección de este distrito. ¿Estás seguro/a?"
+          one: "%{count} barrutiko proiektuak bakarrik sostengatu ditzakezu. Aurrera jarraitzen baduzu, ezingo duzu barruti honen hautaketa aldatu. Ziur zaude?"
+          other: "Proiektuak %{ count} barrutitan bakarrik sostengatu ditzakezu. Aurrera jarraitzen baduzu, ezingo duzu barruti honen hautaketa aldatu. Ziur zaude?"
         supports:
-          zero: Sin apoyos
-          one: 1 apoyo
-          other: "%{count} apoyos"
-        give_support: Apoyar
+          zero: Sostengurik gabe
+          one: Sostengu 1 
+          other: "%{count} sostengu"
+        give_support: Sostengatu
       header:
-        check_ballot: Revisar y confirmar mis votos
-        different_heading_assigned_html: "Ya apoyaste proyectos de otra sección del presupuesto: %{heading_link}"
-        change_ballot: "Si cambias de opinión puedes borrar tus votos en %{check_ballot} y volver a empezar."
-        check_ballot_link: "revisar y confirmar mis votos"
-        price: "Esta partida tiene un presupuesto de"
+        check_ballot: Nire botoak berrikusi eta baieztatu
+        different_heading_assigned_html: "Aurrekontuaren beste atal bateko proiektuak babestu dituzu dagoeneko: %{heading_link}"
+        change_ballot: "Iritziz aldatuz gero, zure botoak ezabatu ditzakezu %{check_ballot} -ean, eta berriro hasi."
+        check_ballot_link: "Nire botoak berrikusi eta baieztatu"
+        price: "Aurrekontu-sail honek honako aurrekontu hau du:"
     progress_bar:
-      assigned: "Has asignado: "
-      available: "Presupuesto disponible: "
+      assigned: "Esleitu duzu: "
+      available: "Aurrekontu erabilgarria: "
     show:
-      group: Grupo
-      phase: Fase actual
-      unfeasible_title: Proyectos de gasto inviables
-      unfeasible: Ver los proyectos inviables
-      unselected_title: Proyectos no seleccionados para la votación final
-      unselected: Ver los proyectos no seleccionados para la votación final
-      see_results: Ver resultados
+      group: Talde      phase: Egungo fasea
+      unfeasible_title: Gastu-proiektu bideraezinak
+      unfeasible: Proiektu bideraezinak ikusi
+      unselected_title: Azken bozketarako aukeratu gabeko proiektuak
+      unselected: Azken bozketarako aukeratu gabeko proiektuak ikusi
+      see_results: Emaitzak ikusi
     results:
-      link: Resultados
-      page_title: "%{budget} - Resultados"
-      heading: "Resultados presupuestos participativos"
-      heading_selection_title: "Ámbito de actuación"
-      ballot_lines_count: Votos
-      hide_discarded_link: Ocultar descartados
-      show_all_link: Mostrar todos
-      price: Precio total
-      amount_available: Presupuesto disponible
-      accepted: "Proyecto de gasto aceptado: "
-      discarded: "Proyecto de gasto descartado: "
-      incompatibles: Incompatibles
-      investment_title: Título del proyecto de gasto
-      investment_proyects: Ver lista completa de proyectos de gasto
-      unfeasible_investment_proyects: Ver lista de proyectos de gasto inviables
-      not_selected_investment_proyects: Ver lista de proyectos de gasto no seleccionados para la votación final
+      link: Emaitzak
+      page_title: "%{budget} - Emaitzak"
+      heading: "Aurrekontu partehartzaileak emaitzak"
+      heading_selection_title: "Jarduera-eremua"
+      ballot_lines_count: Botoak
+      hide_discarded_link: Ezkutatu baztertuak
+      show_all_link: Erakutsi guztiak
+      price: Prezioa osotara
+      amount_available: Eskuragarri dagoen aurrekontua
+      accepted: "Gastu-proiektu onartua: "
+      discarded: "Gastu-proiektu baztertua: "
+      incompatibles: Bateraezinak
+      investment_title: Gastu-proiektuaren izenburua
+      investment_proyects: Ikusi gastu-proiektuen zerrenda osoa
+      unfeasible_investment_proyects: Ikusi gastu-proiektu bideraezinen zerrenda      not_selected_investment_proyects: Ikusi azken bozketarako hautatu ez diren gastu-proiektuen zerrenda
     executions:
-      link: "Seguimiento"
-      page_title: "%{budget} - Seguimiento de proyectos"
-      heading: "Seguimiento de proyectos"
-      heading_selection_title: "Ámbito de actuación"
-      no_winner_investments: "No hay proyectos de gasto ganadores en este estado"
+      link: "Jarraipena"
+      page_title: "%{budget} - Proiektuen jarraipena"
+      heading: "Proiektuen jarraipena"
+      heading_selection_title: "Jarduera-eremua"
+      no_winner_investments: "Egoera honetan ez dago gastu-proiektu irabazlerik"
       filters:
         status:
-          label: "Estado actual del proyecto"
-          all: "Todos (%{count})"
+          label: "Proeiktuaren egungo egoera"
+          all: "Denak (%{count})"
         milestone_tag:
-          label: "Etiquetas de Seguimiento"
-          all: "Todos (%{count})"
+          label: "Jarraipenerako etiketak"
+          all: "Denak (%{count})"
     phases:
       errors:
-        dates_range_invalid: "La fecha de comienzo no puede ser igual o superior a la de finalización"
-        prev_phase_dates_invalid: "La fecha de inicio debe ser posterior a la fecha de inicio de la anterior fase habilitada (%{phase_name})"
-        next_phase_dates_invalid: "La fecha de fin debe ser anterior a la fecha de fin de la siguiente fase habilitada (%{phase_name})"
+        dates_range_invalid: "Hasiera-data ezin da izan amaiera-data bezalakoa edo geroagokoa"
+        prev_phase_dates_invalid: "Hasiera-datak gaitutako aurreko fasearen hasiera-data baino geroagokoa izan behar du (%{phase_name})"
+        next_phase_dates_invalid: "Amaiera-datak gaitutako hurrengo fasearen amaiera-data baino lehenagokoa izan behar du (%{phase_name})"

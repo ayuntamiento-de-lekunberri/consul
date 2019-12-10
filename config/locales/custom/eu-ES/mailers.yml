@@ -1,133 +1,133 @@
-eu:
+es:
   mailers:
-    no_reply: "Este mensaje se ha enviado desde una dirección de correo electrónico que no admite respuestas."
+    no_reply: "Mezu hau erantzunik onartzen ez duen helbide elektroniko batetik bidali da."
     comment:
-      hi: Hola
-      new_comment_by_html: Hay un nuevo comentario de <strong>%{commenter}</strong> en
-      subject: Alguien ha comentado en tu %{commentable}
-      title: Nuevo comentario
+      hi: Kaixo
+      new_comment_by_html: Iruzkin berri bat dago <strong>%{commenter}</strong> hemen
+      subject: Norbaitek iruzkin bat egin du zure %{commentable}
+      title: Iruzkin berria
     config:
-      manage_email_subscriptions: Puedes dejar de recibir estos emails cambiando tu configuración en
+      manage_email_subscriptions: Mezu hauek jasotzeari utz diezaiokezu zure konfigurazioa aldatuz:
     email_verification:
-      click_here_to_verify: en este enlace
-      instructions_2_html: Este email es para verificar tu cuenta con <b>%{document_type} %{document_number}</b>. Si esos no son tus datos, por favor no pulses el enlace anterior e ignora este email.
-      instructions_html: Para terminar de verificar tu cuenta de usuario pulsa %{verification_link}.
-      subject: Verifica tu email
-      thanks: Muchas gracias.
-      title: Verifica tu cuenta con el siguiente enlace
+      click_here_to_verify: Esteka honetan
+      instructions_2_html: E-posta hau zure kontua egiaztatzeko da honekin <b>%{document_type} %{document_number}</b>. Datu horiek ez badira zureak, mesedez, ez sakatu aurreko esteka eta ez onartu mezu hau.
+      instructions_html: Erabiltzaile-kontua egiaztatzen amaitzeko, sakatu %{verification_link}.
+      subject: Egiaztatu zure e-posta
+      thanks: Eskerrik asko.
+      title: Egiaztatut kontua hurrengo estekan.
     reply:
-      hi: Hola
-      new_reply_by_html: Hay una nueva respuesta de <strong>%{commenter}</strong> a tu comentario en
-      subject: Alguien ha respondido a tu comentario
-      title: Nueva respuesta a tu comentario
+      hi: Kaixo
+      new_reply_by_html: Zure iruzkinari erantzun berri bat dago <strong>%{commenter}</strong> hemen
+      subject: Norbatitek zure iruzkina erantzun du
+      title: Erantzun berri bat zure iruzkinari
     proposal_notification_digest:
-      info: "A continuación te mostramos las nuevas notificaciones que han publicado los autores de las propuestas que estás apoyando en %{org_name}."
-      title: "Notificaciones de propuestas en %{org_name}"
-      share: Compartir propuesta
-      comment: Comentar propuesta
-      unsubscribe: "Si no quieres recibir notificaciones de propuestas, puedes entrar en %{account} y desmarcar la opción 'Recibir resumen de notificaciones sobre propuestas'."
-      unsubscribe_account: Mi cuenta
+      info: "Hona hemen sostengatzen ari zaren proposamenen egileek argitaratu dituzten jakinarazpen berriak: %{org_name}."
+      title: "Proposamenen jakinarazpenak %{org_name}"
+      share: Proposamena partekatu
+      comment: Proposamena iruzkindu
+      unsubscribe: "Ez baduzu proposamenen jakinarazpenik jaso nahi, sartu hemen %{account} eta 'Proposamenei buruzko jakinarazpenen laburpena jaso' aukera desautatu.
+      unsubscribe_account: Nire kontua
     direct_message_for_receiver:
-      subject: "Has recibido un nuevo mensaje privado"
-      reply: Responder a %{sender}
-      unsubscribe: "Si no quieres recibir mensajes privados, puedes entrar en %{account} y desmarcar la opción 'Recibir emails con mensajes privados'."
-      unsubscribe_account: Mi cuenta
+      subject: "Mezu pribatu berro bat jaso duzu"
+      reply: Erantzun honi %{sender}
+      unsubscribe: "Ez baduzu mezu pribaturik jaso nahi, sartu hemen %{account} eta 'Mezu pribatuak dituzten mezu elektronikoak jasotzea'aukera desautatu."
+      unsubscribe_account: Nire kontua
     direct_message_for_sender:
-      subject: "Has enviado un nuevo mensaje privado"
-      title_html: "Has enviado un nuevo mensaje privado a <strong>%{receiver}</strong> con el siguiente contenido:"
+      subject: "Mezu pribatu berri bat bidali duzu"
+      title_html: "Mezu pribatu bat bidali diozu honi<strong>%{receiver}</strong> eduki honekin:"
     user_invite:
-      ignore: "Si no has solicitado esta invitación no te preocupes, puedes ignorar este correo."
-      text: "¡Gracias por solicitar unirte a %{org}! En unos segundos podrás empezar a participar, sólo tienes que rellenar el siguiente formulario:"
-      thanks: "Muchas gracias."
-      title: "Bienvenido a %{org}"
-      button: Completar registro
-      subject: "Invitación a %{org_name}"
+      ignore: "Gonbidapen hau eskatu ez baduzu, ez kezkatu, mezu honi kasurik ez egin diezaiokezu."
+      text: "Eskerrik asko %{org} era elkartzea eskatzeagatik! Segundo gutxi barru parte hartzen hasi ahal izango zara. Formulario hau bete besterik ez duzu egin behar:"
+      thanks: "Eskerrik asko"
+      title: "Ongi etorria hona %{org}"
+      button: Izena ematea amaitu
+      subject: "Gonbidapena hona %{org_name}"
     budget_investment_created:
-      subject: "¡Gracias por crear un proyecto!"
-      title: "¡Gracias por crear un proyecto!"
-      intro_html: "Hola <strong>%{author}</strong>,"
-      text_html: "Muchas gracias por crear tu proyecto <strong>%{investment}</strong> para los Presupuestos Participativos <strong>%{budget}</strong>."
-      follow_html: "Te informaremos de cómo avanza el proceso, que también puedes seguir en la página de <strong>%{link}</strong>."
-      follow_link: "Presupuestos participativos"
-      sincerely: "Atentamente,"
-      share: "Comparte tu proyecto"
+      subject: "Eskerrik asko proiektu bat sortzeagatik!"
+      title: "Eskerrik asko proiektu bat sortzeagatik!"
+      intro_html: "Kaixo <strong>%{author}</strong>,"
+      text_html: "Eskerrik asko zure proiektua sortzeagatik <strong>%{investment}</strong> Aurrekontu partehartzaileetarako <strong>%{budget}</strong>."
+      follow_html: "Prozesuak aurrera nola egiten duen azalduko dizugu, eta web orrian ere jarrai dezakezu: <strong>%{link}</strong>."
+      follow_link: "Aurrekontu partehartzaileak"
+      sincerely: "Adeitasunez,"
+      share: "Partekatu zure proiektua"
     budget_investment_unfeasible:
-      hi: "Estimado/a usuario/a"
-      new_html: "Por todo ello, te invitamos a que elabores un <strong>nuevo proyecto de gasto</strong> que se ajuste a las condiciones de este proceso. Esto lo puedes hacer en este enlace: %{url}."
-      new_href: "nuevo proyecto de gasto"
-      sincerely: "Atentamente"
-      sorry: "Sentimos las molestias ocasionadas y volvemos a darte las gracias por tu inestimable participación."
-      subject: "Tu proyecto de gasto '%{code}' ha sido marcado como inviable"
+      hi: "Erabiltzaile agurgarria"
+      new_html: "Horregatik guztiagatik, prozesu honen baldintzetara egokitzen den <strong>gastu-proiektu berri bat</strong> aurkeztera gonbidatzen zaitugu. Esteka honetan egin dezakezu hori: %{url}."
+      new_href: "Gastu proiektu berri bat"
+      sincerely: "Adeitasunez"
+      sorry: "Barkatu eragozpenak, eta eskerrik asko berriro parte hartzeagatik."
+      subject: "Zure gastu-proiektua '%{code}' bideraezin bezala markatu da"
     budget_investment_selected:
-      subject: "Tu proyecto de gasto '%{code}' ha sido seleccionado"
-      hi: "Estimado/a usuario/a"
-      share: "Empieza ya a conseguir votos, comparte tu proyecto de gasto en redes sociales. La difusión es fundamental para conseguir que se haga realidad."
-      share_button: "Comparte tu proyecto"
-      thanks: "Gracias de nuevo por tu participación."
-      sincerely: "Atentamente"
+      subject: "Zure gastu-proiektua '%{code}' hautatua izan da"
+      hi: "Erabiltzaile agurgarria"
+      share: "Hasi botoak lortzen, partekatu sare sozialetan zure gastu-proiektua. Hedapena funtsezkoa da errealitate bihurtzeko."
+      share_button: "Partekatu zure proeiktua"
+      thanks: "Eskerrik asko berriro parte hartzeagatik."
+      sincerely: "Adeitasunez"
     budget_investment_unselected:
-      subject: "Tu proyecto de gasto '%{code}' no ha sido seleccionado"
-      hi: "Estimado/a usuario/a"
-      thanks: "Gracias de nuevo por tu participación."
-      sincerely: "Atentamente"
+      subject: "Zure gastu proiektua '%{code}' ez da hautatua izan"
+      hi: "Erabiltzaile agurgarria"
+      thanks: "Eskerrik asko berriro parte hartzeagatik."
+      sincerely: "Adeitasunez"
     evaluation_comment:
-      subject: "Nuevo comentario de evaluación"
-      title: Nuevo comentario de evaluación para %{investment}
-      hi: Hola
-      new_comment_by_html: Hay un nuevo comentario de evaluación de <strong>%{commenter}</strong> en el presupuesto participativo %{investment}
+      subject: "Ebaluaketa iruzkin berria"
+      title: Ebaluaketa iruzkin berria honetarako: %{investment}
+      hi: Kaixo
+      new_comment_by_html: Honen <strong>%{commenter}</strong> ebaluaketa iruzkin berri bat dago aurrekontu partehartzailean %{investment}
       commenter_info: "%{commenter}, %{time}"
     new_actions_notification_rake_created:
-      subject: "Más novedades de tu propuesta ciudadana"
-      hi: "Hola %{name},"
-      new_resource: "NUEVO RECURSO DESBLOQUEADO"
-      introduction: "Como sabes, el día %{created_at_day} del %{created_at_month} creaste la propuesta en modo borrador %{title}."
-      text_1: "Cuando quieras puedes publicar en este enlace: %{link_to_published}. Si aún no lo tienes claro…"
-      text_2: "¡aprovecha este momento! Aprende, suma a otras personas con los mismos intereses y prepara la difusión que necesitarás al publicar tu propuesta definitivamente."
-      text_3: "Y para acompañarte en este reto, aquí van las novedades..."
-      text_4: "Échale un vistazo a esta NUEVA ACCIÓN recomendada:"
-      text_5: "La siguiente acción que te recomendamos es:"
-      footer_text: "Como siempre, entra en el Panel de propuestas y te contamos detalladamente cómo utilizar estos recursos y cómo sacarle el máximo partido."
-      dashboard_button: "Adelante, ¡descúbrelos!"
+      subject: "Zure herritar proposamenaren nobedade gehiago"
+      hi: "Kaixo %{name},"
+      new_resource: "BALIABIDE BERRIA DESBLOKEATU DA"
+      introduction: "Dakizun bezala, %{created_at_month} hilabeteko %{created_at_day} egunean proposamena zirriborro modura sortu zenuen %{title}."
+      text_1: "Nahi duzunean argitaratu dezakezu esteka honetan: %{link_to_published}. Oraindik ez bazaude zihur…"
+      text_2: "aprobetxatu une hau! Ikasi, gehitu interes berberak dituzten pertsonak, eta prestatu zure behin betiko proposamena argitaratze duzunean beharko duzun hedapena."
+      text_3: "Eta erronka honetan laguntzeko, hona hemen berrikuntzak..."
+      text_4: "Begira iezaiozu gomendatutako EKINTZA BERRI honi:"
+      text_5: "Gomendatzen dizugun hurrengo ekintza:"
+      footer_text: "Beti bezala, sartu Proposamenen panelean, eta baliabide horiek nola erabili eta ahalik eta etekin handiena nola atera azalduko dizugu."
+      dashboard_button: "Aurrera, Ikus itzazu!"
     new_actions_notification_rake_published:
-      subject: "Más novedades de tu propuesta ciudadana"
-      hi: "Hola %{name},"
-      new_resource: "NUEVO RECURSO DESBLOQUEADO"
-      introduction: "Como sabes, el día %{published_at_day} del %{published_at_month} publicaste la propuesta %{title}."
-      text_1: "Pues bien, has conseguido %{votes_count} apoyos hasta este momento ¡Felicidades!"
-      text_2: "Y por eso, tienes disponible un nuevo recurso para ayudarte a seguir avanzando."
-      text_3: "Te faltan %{days_count} días para que tu propuesta consiga los %{max_votes_count} apoyos y que vaya a referéndum. Ánimo y sigue difundiendo. ¿Te faltan ideas?"
-      text_4: "NUEVA ACCIÓN DE DIFUSIÓN RECOMENDADA"
-      text_5: "Aún hay más, consulta la siguiente acción:"
-      footer_text: "Como siempre, entra en el Panel de propuestas y te contamos detalladamente cómo utilizar estos recursos y cómo sacarle el máximo partido."
-      dashboard_button: "Adelante, ¡descúbrelos!"
+      subject: "zure herritar proposamenean berrikuntza gehiago"
+      hi: "Kaixo %{name},"
+      new_resource: "BALIABIDE BERRIA DESBLOKEATU DAO"
+      introduction: "Dakizun bezala, %{published_at_month} hilabeteko %{published_at_day} egunean proposamena argitaratu  zenuen %{title}."
+      text_1: "Bada, orain arte %{votes_count} sostengu lortu dituzu. Zorionak!"
+      text_2: "Eta horregatik, aurrera egiten laguntzeko baliabide berri bat duzu eskura."
+      text_3: "%{days_count} egun falta zaizkizu zure proposamenak %{max_votes_count} sostenguak eskuratzeko eta erreferendumera joatea lortzeko. Animo eta jarraitu hedatzen. Ideiak falta zaizkizu?"
+      text_4: "GOMENDATUTAKO HEDAPEN EKINTZA BERRIA"
+      text_5: "Are gehiago, ikusi ekintza hauek:"
+      footer_text: "Beti bezala, sartu Proposamenen panelean, eta baliabide horiek nola erabili eta ahalik eta etekin handiena nola atera azalduko dizugu."
+      dashboard_button: "Aurrera, ikus itzazu!"
     new_actions_notification_on_create:
-      subject: "Tu borrador de propuesta ciudadana está creado"
-      hi: "Hola %{name}!"
-      introduction: "Tu propuesta %{title} ha sido creada con éxito."
-      text_1: "Aprovecha que tu propuesta aún no es pública y prepárate para contactar a mucha gente."
-      text_2: "Cuando estés preparado/a publica tu propuesta ciudadana desde este <a href='%{link}'>enlace</a>."
-      text_3: "Sabemos que crear una propuesta con gancho y conseguir los apoyos necesarios, puede parecerte complicado. Pero no te preocupes porque ¡vamos a ayudarte!"
-      text_4: "Tienes una herramienta que será tu nuevo mejor aliado: El panel de Propuestas Ciudadanas."
-      list_1: "Entra cada día en el panel de tu propuesta para utilizar los consejos y recursos que te iremos compartiendo."
-      list_2: "Estos consejos, acciones y recursos te darán ideas y también soluciones prácticas para lograr más apoyos y contar con una comunidad más amplia. ¡No te olvides de ellos!"
-      list_3: "A medida que logres más apoyos, desbloquearás nuevos y mejores recursos. De momento, cuentas con una plantilla de e-mail para enviar masivamente a todos tus contactos, un cartel para imprimir, entre otras funcionalidades y recompensas que irás descubriendo ¡No dejes de sumar apoyos y nosotros no dejaremos de premiarte y ayudarte!"
-      list_4: "Tienes %{max_month} meses desde que publiques la propuesta para conseguir %{max_votes} apoyos y que tu propuesta pueda hacerse realidad. Pero los primeros días son los más importantes. Es un reto ¡prepárate!"
-      text_5: "Y para que empieces con toda la motivación,"
-      text_6: "¡aquí tienes varios recursos y toda una lista de consejos que te irán llegando cada día para preparar la difusión!"
-      dashboard_button: "Adelante, ¡descúbrelos!"
+      subject: "Herritar proposamenaren zirriborroa sortuta dago"
+      hi: "Kaixo %{name}!"
+      introduction: "%{title} zure proposamena behar bezala sortu da."
+      text_1: "Aprobetxatu zure proposamena oraindik publikoa ez dela, eta presta zaitez jende askorekin harremanetan jartzeko."
+      text_2: "Prest zaudenean argitaratu zure proposamena honako <a href='%{link}'>esteka</a> honetan."
+      text_3: "Badakigu proposamen erakargarri bat egitea eta behar diren sostenguak lortzea zaila izan daitekeela. Baina ez kezkatu, lagunduko zaitugu eta!"
+      text_4: "Zure lagunik hoberena izango den tresna duzu hau: Herritar Proposamenak panela."
+      list_1: "Sartu egunero zure proposamenaren panelean, partekatuko ditugun aholkuak eta baliabideak erabiltzeko."
+      list_2: "Aholku, ekintza eta baliabide hauek ideiak eta irtenbide praktikoak emango dizkizute sostengu gehiago lortzeko eta komunitate zabalagoa izateko. Ez ahaztu!"
+      list_3: "Sostengu gehiago lortu ahala, baliabide berriak eta hobeak desblokeatuko dituzu. Oraingoz, posta elektronikoko txantiloi bat duzu kontaktu guztiei masiboki bidaltzeko, inprimatzeko kartel bat, ezagutzen joango zaren funtzionalitate eta sarien hartean. Ez utzi sostenguak batzeari, eta guk saritu eta lagunduko dizugu!"
+      list_4: "%{max_month} Hilabete dituzu proposamena argitaratzen duzunetik %{max_votes} sostengu lortu ahal izateko eta zure proposamena errealitate bihurtu ahal izateko. Erronka bat da, prestatu zaitez!"
+      text_5: "Eta motibazio guztiarekin has zaitezen,"
+      text_6: "Hemen dituzu hainbat baliabide eta egunero bidaliko dizkizugun aholku-zerrenda bat, hedapena prestatzeko!"
+      dashboard_button: "Aurrera, ikus itzazu!"
     new_actions_notification_on_published:
-      subject: "Tu propuesta ciudadana ya está publicada ¡No pares de difundir!"
-      hi: "¡Enhorabuena %{name}! Tu propuesta %{title} ha sido creado con éxito."
-      text_1: "Y ahora, ¡a por tus primeros 100 apoyos! "
-      text_2: "¿Por qué 100?"
-      text_3: "Nuestra experiencia nos dice que el primer día es fundamental. Porque además de tener la energía de lanzar algo nuevo, al ser una propuesta recién publicada, contarás con la importante visibilidad de estar entre las nuevas propuestas destacadas."
-      text_4: "Logra 100 apoyos en el primer día, y tendrás una primera comunidad en la que respaldarte."
-      text_5: "Por eso, te retamos a que lo consigas, ¡pero no sin una gran ayuda!"
-      text_6: "Recuerda que en tu Panel de propuestas tienes nuevos recursos disponibles y recomendaciones de acciones de difusión."
-      list_1: "Entra cada día para ver tu progreso y utilizar los consejos y recursos que te iremos compartiendo. Son ideas y también soluciones prácticas para lograr los apoyos que necesitas."
-      list_2: "A medida que logres más apoyos, desbloquearás nuevos y mejores recursos. ¡No dejes de sumar apoyos y nosotros no dejaremos de premiarte y ayudarte!"
-      text_7: "Y para que empieces a toda máquina..."
-      text_8: "¡aquí tienes un gran recurso a tu total disposición!"
-      text_9: "También encontrarás esta nueva acción de difusión recomendada…"
-      text_10: "¡Seguro que tienes más recursos pendientes de usar!"
-      dashboard_button: "Adelante, ¡descúbrelos!"
+      subject: "Zure herritar proposamena argitaratuta dago dagoeneko. Ez utzi zabaltzeari!"
+      hi: "¡Zorionak %{name}! Zure proposamena %{title} behar bezala sortu da."
+      text_1: "Eta orain, Zure lehen 100 sostenguen bila! "
+      text_2: "Zergatik 100?"
+      text_3: "Gure esperientziaren arabera, lehen eguna funtsezkoa da. Izan ere, zerbait berria argitaratzeak daukan indarra izateaz gain, proposamena argitaratu berria denez, ikusgarritasun handia izango duzu nabarmendutako proposamen berrien artean."
+      text_4: "Lortu 100 sostengu lehen egunean, eta lehen komunitate bat izango duzu laguntza bezala."
+      text_5: "Horregatik, erronka hau jartzen dizugu, beti ere gure laguntzarekin!"
+      text_6: "Gogoratu zure Proposamen panelean baliabide berriak dituzula eskura eta hedapen ekintzen gomendioak."
+      list_1: "Sartu egunero zure aurrerapena ikusteko eta partekatuko ditugun aholkuak eta baliabideak erabiltzeko. Behar dituzun sostenguak lortzeko ideiak eta irtenbide praktikoak dira."
+      list_2: "Sostengu gehiago lortu ahala, baliabide berriak eta hobeak desblokeatuko dituzu. Sostenguak batu, eta guk saritu eta lagunduko dizugu!"
+      text_7: "Eta gogotsu has zaitezen"
+      text_8: "baliabide bikaina duzu zuretzat eskuragarri!"
+      text_9: "Gomendatutako hedapen-ekintza berri bat ere aurkituko duzu…"
+      text_10: "Zihur baliabide gehiago dituzula erabiltzeke!"
+      dashboard_button: "Aurrera, ikus itzazu!"

@@ -1,60 +1,60 @@
-eu:
+es:
   community:
     sidebar:
-      title: Comunidad
+      title: Komunitatea
       description:
-        proposal: Participa en la comunidad de usuarios de esta propuesta.
-        investment: Participa en la comunidad de usuarios de este proyecto de gasto.
-      button_to_access: Acceder a la comunidad
+        proposal: Parte hartu proposamen honen erabiltzaileen komunitatean.
+        investment: Parte hartu gastu-proiektu honen erabiltzaile komunitatean.
+      button_to_access: Komunitatera sartu
     show:
       title:
-        proposal: Comunidad de la propuesta
-        investment: Comunidad del presupuesto participativo
+        proposal: Proposamenaren komunitatea
+        investment: Aurrekontu partehartzailearen komunitatea
       description:
-        proposal: Participa en la comunidad de esta propuesta. Una comunidad activa puede ayudar a mejorar el contenido de la propuesta así como a dinamizar su difusión para conseguir más apoyos.
-        investment: Participa en la comunidad de este proyecto de gasto. Una comunidad activa puede ayudar a mejorar el contenido del proyecto de gasto así como a dinamizar su difusión para conseguir más apoyos.
+        proposal: Parte hartu proposamen honen komunitatean. Komunitate aktibo batek proposamenaren edukia hobetzen eta haren hedapena dinamizatzen lagun dezake, sostengu gehiago lortzeko.
+        investment: Parte hartu gastu-proiektu honen komunitatean. Komunitate aktibo batek gastu-proiektuaren edukia hobetzen eta haren hedapena dinamizatzen lagun dezake, sostengu gehiago lortzeko.
       create_first_community_topic:
-        first_theme_not_logged_in: No hay ningún tema disponible, participa creando el primero.
-        first_theme: Crea el primer tema de la comunidad
-        sub_first_theme: "Para crear un tema debes %{sign_in} o %{sign_up}."
-        sign_in: "iniciar sesión"
-        sign_up: "registrarte"
+        first_theme_not_logged_in: Ez dago gai erabilgarririk, lehena sortzen parte hartu zazu.
+        first_theme: Sortu proposamenaren lehenengo gaia
+        sub_first_theme: "%{sign_in} edo %{sign_up} egin behar duzu gai bat sortzeko."
+        sign_in: "Saioa hasi"
+        sign_up: "Izena eman"
       tab:
-        participants: Participantes
+        participants: Parte-hartzaileak
       sidebar:
-        participate: Participa
-        new_topic: Crea un tema
+        participate: Parte-hartu
+        new_topic: Gai bat sortu
       topic:
-        edit: Editar tema
-        destroy: Eliminar tema
+        edit: Gaia editatu
+        destroy: Gaia ezabatu
         comments:
-          zero: Sin comentarios
-          one: 1 Comentario
-          other: "%{count} Comentarios"
+          zero: Iruzkinik gabe
+          one: Iruzkin 1
+          other: "%{count} Iruzkin"
       author: Autor
-      back: Volver a %{community} %{proposal}
+      back: %{community} %{proposal}ra itzuli
     topic:
-      create: Crear un tema
-      edit: Editar tema
+      create: Gai bat sortu
+      edit: Gaia editatu
       form:
-        topic_title: Título
-        topic_text: Texto inicial
+        topic_title: Izenburua
+        topic_text: Hasierako testua
         new:
-          submit_button: Crear tema
+          submit_button: Gaia sortu
         edit:
-          submit_button: Guardar cambios
+          submit_button: Aldaketak gorde
         create:
-          submit_button: Crear tema
+          submit_button: Gaia sortu
         update:
-          submit_button: Actualizar tema
+          submit_button: Gaia eguneratu
       show:
         tab:
-          comments_tab: Comentarios
+          comments_tab: Iruzkinak
       sidebar:
-        recommendations_title: Recomendaciones para crear un tema
-        recommendation_one: No escribas el título del tema o frases enteras en mayúsculas. En internet eso se considera gritar. Y a nadie le gusta que le griten.
-        recommendation_two: Cualquier tema o comentario que implique una acción ilegal será eliminada, también las que tengan la intención de sabotear los espacios del tema, todo lo demás está permitido.
-        recommendation_three: Disfruta de este espacio, de las voces que lo llenan, también es tuyo
+        recommendations_title: Gai bat sortzeko gomendioak
+        recommendation_one: Ez idatzi gaiaren izenburua edo esaldi osoak letra larriz. Interneten hori garrasi egitea da. Eta inori ez zaio gustatzen garrasi egiten diotenean'
+        recommendation_two: Legez kanpoko ekintzaren bat dakarren edozein gai edo iruzkin baztertuko da, baita gaiaren espazioak saboteatzeko asmoa dutenak ere, gainerako guztia baimenduta dago.
+        recommendation_three: Gozatu espazio honetaz, betetzen duten ahotsez, zurea ere bada
   topics:
     show:
-      login_to_comment: Necesitas %{signin} o %{signup} para comentar.
+      login_to_comment: %{signin} edo %{signup} behar duzu iruzkintzeko.

@@ -1,117 +1,117 @@
-eu:
+es:
   moderation:
     comments:
       index:
-        block_authors: Bloquear autores
-        confirm: '¿Estás seguro?'
-        filter: Filtro
+        block_authors: Egileak blokeatu
+        confirm: 'Zihur zaude?'
+        filter: Filtroa
         filters:
-          all: Todos
-          pending_flag_review: Pendientes
-          with_ignored_flag: Marcados como revisados
+          all: Denak
+          pending_flag_review: Egiteke
+          with_ignored_flag: Berrikusi gisa markatutakoak
         headers:
-          comment: Comentario
-          moderate: Moderar
-        hide_comments: Ocultar comentarios
-        ignore_flags: Marcar como revisados
-        order: Orden
+          comment: Iruzkina
+          moderate: Moderatu
+        hide_comments: Iruzkinak izkutatu
+        ignore_flags: Berrikusi gisa markatu
+        order: Ordena
         orders:
-          flags: Más denunciados
-          newest: Más nuevos
-        title: Comentarios
+          flags: Salatuenak
+          newest: Berrienak
+        title: Iruzkinak
     dashboard:
       index:
-        title: Moderar
+        title: Moderatu
     debates:
       index:
-        block_authors: Bloquear autores
-        confirm: '¿Estás seguro?'
-        filter: Filtrar
+        block_authors: Egileak blokeatu
+        confirm: 'Zihur zaude?'
+        filter: Filtratu
         filters:
-          all: Todos
-          pending_flag_review: Pendientes
-          with_ignored_flag: Marcados como revisados
+          all: Denak
+          pending_flag_review: Egiteke
+          with_ignored_flag: Berrikusi gisa markatu
         headers:
-          debate: Debate
-          moderate: Moderar
-        hide_debates: Ocultar debates
-        ignore_flags: Marcar como revisados
-        order: Orden
+          debate: Eztabaida
+          moderate: Moderatu
+        hide_debates: Eztabaidak ezkutatu
+        ignore_flags: Berrikusi gisa markatu
+        order: Ordena
         orders:
-          created_at: Más nuevos
-          flags: Más denunciados
-        title: Debates
+          created_at: Berrienak
+          flags: Salatuenak
+        title: Eztabaidak
     header:
-      title: Moderación
+      title: Moderazioa
     menu:
-      flagged_comments: Comentarios
-      flagged_debates: Debates
-      flagged_investments: Proyectos de gasto
-      proposals: Propuestas
-      proposal_notifications: Notificaciones de propuestas
-      users: Bloquear usuarios
+      flagged_comments: Iruzkinak
+      flagged_debates: Eztabaidak
+      flagged_investments: Gastu-proiektuak
+      proposals: Proposamenak
+      proposal_notifications: Proposamen jakinarazpenak
+      users: Erabiltzaileak blokeatu
     proposals:
       index:
-        block_authors: Bloquear autores
-        confirm: '¿Estás seguro?'
-        filter: Filtro
+        block_authors: Egileak blokeatu
+        confirm: 'Zihur zaude?'
+        filter: Filtroa
         filters:
-          all: Todas
-          pending_flag_review: Pendientes de revisión
-          with_ignored_flag: Marcadas como revisadas
+          all: Denak
+          pending_flag_review: Berrikusteko zain
+          with_ignored_flag: Berrikusi gisa markatuak
         headers:
-          moderate: Moderar
-          proposal: Propuesta
-        hide_proposals: Ocultar Propuestas
-        ignore_flags: Marcar como revisadas
-        order: Ordenar por
+          moderate: Moderatu
+          proposal: Proposamen
+        hide_proposals: Proposamenak ezkutatu
+        ignore_flags:  Berrikusi gisa markatuak
+        order: Honen arabera ordenatu
         orders:
-          created_at: Más recientes
-          flags: Más denunciadas
-        title: Propuestas
+          created_at: Berrienak
+          flags: Salatuenak
+        title: Proposamenak
     budget_investments:
       index:
-        block_authors: Bloquear autores
-        confirm: '¿Estás seguro?'
-        filter: Filtro
+        block_authors: Egileak blokeatu
+        confirm: 'Zihur zaude?'
+        filter: Filtroa
         filters:
-          all: Todos
-          pending_flag_review: Pendientes de revisión
-          with_ignored_flag: Marcados como revisados
+          all: Denak
+          pending_flag_review: Berrikusteko zain
+          with_ignored_flag: Berrikusi gisa markatuak
         headers:
-          moderate: Moderar
-          budget_investment: Proyecto de gasto
-        hide_budget_investments: Ocultar proyectos de gasto
-        ignore_flags: Marcar como revisados
-        order: Ordenar por
+          moderate: Moderatu
+          budget_investment: Gastu-proiektua
+        hide_budget_investments: Gastu-proiektuak ezkutatu
+        ignore_flags:  Berrikusi gisa markatu
+        order: Honen arabera ordenatu
         orders:
-          created_at: Más recientes
-          flags: Más denunciadas
-        title: Proyectos de gasto
+          created_at: Berrienak
+          flags: Salatuenak
+        title: Gastu-proiektuak
     proposal_notifications:
       index:
-        block_authors: Bloquear autores
-        confirm: '¿Estás seguro?'
-        filter: Filtro
+        block_authors: Egileak blokeatu
+        confirm: 'Zihur zaude?'
+        filter: Filtroa
         filters:
-          all: Todas
-          pending_review: Pendientes de revisión
-          ignored: Marcadas como revisadas
+          all: Denak
+          pending_review: Berrikusteko zain
+          ignored:  Berrikusi gisa markatuak
         headers:
-          moderate: Moderar
-          proposal_notification: Notificación de propuesta
-        hide_proposal_notifications: Ocultar notificaciones
-        ignore_flags: Marcar como revisadas
-        order: Ordenar por
+          moderate: Moderatu
+          proposal_notification: Proposamen jakinarazpena
+        hide_proposal_notifications: Jakinarazpenak ezkutatu
+        ignore_flags:  Berrikusi gisa markatu
+        order: Honen arabera ordenatu
         orders:
-          created_at: Más recientes
-          moderated: Moderadas
-        title: Notificaciones de propuestas
+          created_at: Berrienak
+          moderated: Moderatuak
+        title: Proposamen jakinarazpena
     users:
       index:
-        hidden: Bloqueado
-        hide: Bloquear
-        search: Buscar
-        search_placeholder: email o nombre de usuario
-        title: Bloquear usuarios
-      notice_hide: Usuario bloqueado. Se han ocultado todos sus debates y comentarios.
+        hidden: Blokeatuak
+        hide: Blokeatu
+        search: Bilatu
+        search_placeholder: e-posta edo erabiltzaile izena
+        title: Erabiltzaileak blokeatu
+      notice_hide: Erabiltzailea blokeatu da. Bere eztabaida eta iruzkin guztiak ezkutatu dira.

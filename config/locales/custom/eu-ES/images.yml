@@ -1,20 +1,20 @@
-eu:
+es:
   images:
-    remove_image: Eliminar imagen
+    remove_image: Irudia ezabatu
     form:
-      title: Imagen descriptiva
-      title_placeholder: Añade un título descriptivo para la imagen
-      attachment_label: Selecciona una imagen
-      delete_button: Eliminar imagen
-      note: "Puedes subir una imagen en los formatos: %{accepted_content_types}, y de hasta %{max_file_size} MB por archivo."
-      add_new_image: Añadir imagen
-      admin_title: "Imagen"
-      admin_alt_text: "Texto alternativo para la imagen"
+      title: Irudi deskribatzailea
+      title_placeholder: Gehitu izenburu deskribatzaile bat irudiari
+      attachment_label: Irudi bat hautatu zazu
+      delete_button: Irudia ezabatu
+      note: "Irudi bat igo dezakezu ondorengo formatuetan: %{accepted_content_types}, fitxategiko gehienez %{max_file_size} MB dituena."
+      add_new_image: Irudia gehitu
+      admin_title: "Irudia"
+      admin_alt_text: "Irudirako testu alternatiboa"
     actions:
       destroy:
-        notice: La imagen se ha eliminado correctamente.
-        alert: La imagen no se ha podido eliminar.
+        notice: Irudia behar bezala ezabatu da.
+        alert: Irudia ezin izan da ezabatua izan.
     errors:
       messages:
-        in_between: debe estar entre %{min} y %{max}
-        wrong_content_type: El tipo de contenido %{content_type} de la imagen no coincide con ninguno de los tipos de contenido aceptados %{accepted_content_types}
+        in_between: %{min} eta %{max} tartean egon behar da.
+        wrong_content_type: Irudiaren %{content_type} eduki-mota ez dator bat onartutako eduki-mota bakar batekin ere: %{accepted_content_types}

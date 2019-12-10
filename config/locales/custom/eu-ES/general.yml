@@ -1,1048 +1,1002 @@
-eu:
+﻿es:
   account:
     show:
-      change_credentials_link: Aldatu nire saioa hasteko informazioa
-      email_on_comment_label: Email bat hartzea norbaitek nire proposamenetan azaltzen duenean edo debateak
-      email_on_comment_reply_label: Email bat hartzea norbaitek nire iruzkinei erantzuten dienean
-      erase_account_link: Baja ematea
-      finish_verification: Egiaztatzea amaitzea
-      notifications: Notificaciones
-      organization_name_label: Erakundeko izena
-      organization_responsible_name_placeholder: Elkartea / ordezkari kolektiboa
+      change_credentials_link: Aldatu nire sarbide-datuak
+      email_on_comment_label: E-posta bat jasotzea norbaitek nire proposamenei edo eztabaidei buruz hitz egiten duenean
+      email_on_comment_reply_label: E-posta bat jasotzea norbaitek nire iruzkinei erantzuten dienean      erase_account_link: Baja ematea
+      finish_verification: Amaitu egiaztapena
+      notifications: Jakinarazpenak
+      organization_name_label: Erakundearen izena      organization_responsible_name_placeholder: Elkartearen/kolektiboaren ordezkaria
       personal: Datu pertsonalak
-      phone_number_label: Telefono zenbakia
-      public_activity_label: Nire jardueren zerrenda jendaurrean erakutsi
-      public_interests_label: Jarraitzen ditudan elementuen etiketa publikoki erakutsi
+      phone_number_label: Telefono
+      public_activity_label: Erakutsi publikoki nire jarduera-zerrenda
+      public_interests_label: Erakutsi publikoki jarraitzen ditudan elementuen etiketak
       public_interests_my_title_list: Jarraitzen dituzun elementuen etiketak
-      public_interests_user_title_list: Erabiltzaile honek jarraitzen dituen elementuen etiketak
-      save_changes_submit: Gorde aldaketak
-      subscription_to_website_newsletter_label: Jaso mezu elektronikoak sareko informazio interesgarriarekin
-      email_on_direct_message_label: Jaso mezu elektronikoak mezu elektronikoak jasotzeko
-      email_digest_label: Jaso proposamenen inguruko jakinarazpenen laburpena
-      official_position_badge_label: Erakutsi erabiltzaile motaren etiketa
-      recommendations: Gomendioak
-      show_debates_recommendations: Erakutsi gomendioak eztabaida-zerrendan
-      show_proposals_recommendations: Erakutsi gomendioak proposamenen zerrendan
+      public_interests_user_title_list: Erabiltzaile honek jarraitzen dituen elementuen etiketak      save_changes_submit: Aldaketak gorde      subscription_to_website_newsletter_label: Webguneari buruzko informazio interesgarria duten e-postak jaso      email_on_direct_message_label: Mezu pribatuak dituzten e-postak jaso      email_digest_label: Proposamenei buruzko jakinarazpenen laburpena jasotzea
+      official_position_badge_label: Erakutsi erabiltzaile motaren etiketa      recommendations: Recomendaciones
+      show_debates_recommendations: Mostrar recomendaciones en el listado de debates
+      show_proposals_recommendations: Proposamenen zerrendan gomendioak erakustea
       title: Nire kontua
-      user_permission_debates: Parte hartu eztabaidetan
-      user_permission_info: Kontuarekin dagoeneko ...
+      user_permission_debates: Eztabaidetan parte-hartu      user_permission_info: Zure kontuarekin dagoeneko egin dezakezu...
       user_permission_proposal: Proposamen berriak sortu
-      user_permission_support_proposal: Laguntza proposamenak *
-      user_permission_title: Parte-hartze
-      user_permission_verify: Ekintza guztiak egiteko, egiaztatu zure kontua.
-      user_permission_verify_info: "* Erregistratutako erabiltzaileak bakarrik."
-      user_permission_votes: Parte hartu azken bozketan*
+      user_permission_support_proposal: proposamena sostengatu
+      user_permission_title: Parte-hartzea      user_permission_verify: Ekintza guztiak egin ahal izateko, egiaztatu zure kontua.      user_permission_verify_info: "* Erroldatutako erabiltzaileak bakarrik."
+      user_permission_votes: Azken bozketetan parte hartzea*
       username_label: Erabiltzaile-izena
-      verified_account: Egiaztatu kontua
-      verify_my_account: Egiaztatu nire kontua
+      verified_account: Kontu egiaztatua
+      verify_my_account: Nire kontua egiaztatu
   application:
-    close: Cerrar
-    menu: Menú
+    close: Itxi
+    menu: Menua
   comments:
-    comments_closed: Los comentarios están cerrados
-    verified_only: Para participar %{verify_account}
-    verify_account: verifica tu cuenta
+    comments_closed: Iruzkinak itxita daude
+    verified_only: Parte hartzeko %{verify_account}
+    verify_account: Egiaztatu zure kontua
     comment:
-      admin: Administrador
-      author: Autor
-      deleted: Este comentario ha sido eliminado
-      moderator: Moderador
+      admin: Administratzailea
+      author: Egilea      deleted: Iruzkin hau ezabatua izan da
+      moderator: Moderatzailea
       responses:
-        zero: Sin respuestas
-        one: 1 respuesta
-        other: "%{count} respuestas"
+        zero: Erantzunik gabe
+        one: Erantzun 1
+        other: "%{count} Erantzun"
       responses_show:
-        one: "1 respuesta (mostrar)"
-        other: "%{count} respuestas (mostrar)"
-        zero: Sin respuestas
+        one: "Erantzun 1 (erakutsi)"
+        other: "%{count} erantzun (erakutsi)"
+        zero: Erantzunik gabe
       responses_collapse:
-        one: "1 respuesta (colapsar)"
-        other: "%{count} respuestas (colapsar)"
-        zero: Sin respuestas
-      user_deleted: Usuario eliminado
+        one: "Erantzun 1 (kolapsatu)"
+        other: "%{count} erantzun (kolapsatu)"
+        zero: Erantzunik gabe
+      user_deleted: Ezabatutako erabiltzailea
       votes:
-        zero: Sin votos
-        one: 1 voto
-        other: "%{count} votos"
+        zero: Botorik gabe        one: Boto 1
+        other: "%{count} boto"
     form:
-      comment_as_admin: Comentar como administrador
-      comment_as_moderator: Comentar como moderador
-      leave_comment: Deja tu comentario
+      comment_as_admin: Administratzaile bezala iruzkindu
+      comment_as_moderator: Moderatzaile bezala iruzkindu
+      leave_comment: Utzi zure iruzkina
     orders:
-      most_voted: Más votados
-      newest: Más nuevos primero
-      oldest: Más antiguos primero
-      most_commented: Más comentados
-    select_order: Ordenar por
-    show:
-      return_to_commentable: "Volver a "
+      most_voted: Bozkatuenak
+      newest: Berrienak lehenengo
+      oldest: Zaharrenak lehenengo
+      most_commented: Iruzkinduenak
+    select_order: Ordenatu honen arabera:    show:
+      return_to_commentable: "Itzuli honetara "
   comments_helper:
-    comment_button: Publicar comentario
-    comment_link: Comentar
-    comments_title: Comentarios
-    reply_button: Publicar respuesta
-    reply_link: Responder
+    comment_button: Argitaratu iruzkina
+    comment_link: Iruzkindu
+    comments_title: Iruzkinak
+    reply_button: Argitaratu Erantzuna
+    reply_link: Erantzun
   debates:
     create:
       form:
-        submit_button: Empieza un debate
+        submit_button: Hasi eztabaida bat
     debate:
       comments:
-        zero: Sin comentarios
-        one: 1 Comentario
-        other: "%{count} Comentarios"
+        zero: Iruzkinik gabe
+        one: Iruzkin 1
+        other: "%{count} iruzkin"
       votes:
-        zero: Sin votos
-        one: 1 voto
-        other: "%{count} votos"
+        zero: Botorik gabe
+        one: Boto 1        other: "%{count} boto"
     edit:
-      editing: Editar debate
+      editing: Eztabaida editatu
       form:
-        submit_button: Guardar cambios
-      show_link: Ver debate
+        submit_button: Aldaketak gorde
+      show_link: Ikusi eztabaida
     form:
-      debate_title: Título del debate
-      tags_instructions: Etiqueta este debate.
-      tags_label: Temas
-      tags_placeholder: "Escribe las etiquetas que desees separadas por coma (',')"
+      debate_title: Eztabaidaren izenburua
+      tags_instructions: Eztabaida hau etiketatu.
+      tags_label: Gaiak      tags_placeholder: "Idatzi nahi dituzun etiketak koma batez bereizita (',')"
     index:
-      featured_debates: Destacar
+      featured_debates: Nabarmendu
       filter_topic:
-        one: " con el tema '%{topic}'"
-        other: " con el tema '%{topic}'"
+        one: " '%{topic}' gaiarekin"
+        other: " '%{topic}' gaiarekin"
       orders:
-        confidence_score: Mejor valorados
-        created_at: Nuevos
-        hot_score: Más activos
-        most_commented: Más comentados
-        relevance: Más relevantes
-        recommendations: Recomendaciones
-      recommendations:
-        without_results: No existen debates relacionados con tus intereses
-        without_interests: Sigue propuestas para que podamos darte recomendaciones
-        disable: "Si ocultas las recomendaciones para debates, no se volverán a mostrar. Puedes volver a activarlas en 'Mi cuenta'"
+        confidence_score: Hoberen baloratuak
+        created_at: Berriak
+        hot_score: Aktiboenak
+        most_commented: Iruzkinduenak
+        relevance: Garrantzitsuenak        recommendations: Gomendioak      recommendations:
+        without_results: Ez dago zure interesekin lotutako eztabaidarik
+        without_interests: Jarraitu gomendioak proposamenak eman ahal izateko
+        disable: "Eztabaidetarako gomendioak ezkutatzen badituzu, ez dira berriro erakutsiko. Berriro aktiba ditzakezu 'Nire kontua' atalean"
         actions:
-          success: "Las recomendaciones de debates han sido desactivadas"
-          error: "Ha ocurrido un error. Por favor dirígete al apartado 'Mi cuenta' para desactivar las recomendaciones manualmente"
+          success: "Eztabaida gomendioak desaktibatu egin dira"
+          error: "Akats bat gertatu da. Mesedez, jo 'Nire kontua' atalera gomendioak eskuz desaktibatzeko"
       search_form:
-        button: Buscar
-        placeholder: Buscar debates...
-        title: Buscar
+        button: Bilatu        placeholder: Eztabaidak bilatu...
+        title: Bilatu
       search_results_html:
-        one: " que contiene <strong>'%{search_term}'</strong>"
-        other: " que contienen <strong>'%{search_term}'</strong>"
-      select_order: Ordenar por
-      start_debate: Empieza un debate
-      title: Debates
-      section_header:
-        icon_alt: Icono de Debates
-        title: Debates
-        help: Ayuda sobre los debates
+        one: " <strong>'%{search_term}'</strong> duena"
+        other: " <strong>'%{search_term}'</strong> dituztenak"
+      select_order: Ordenatu honen arabera
+      start_debate: Hasi eztabaida bat
+      title: Eztabaidak      section_header:
+        icon_alt: Eztabaida ikonoa        title: Eztabaidak
+        help: Laguntza eztabaiden inguruan
       section_footer:
-        title: Ayuda sobre los debates
-        description: Inicia un debate para compartir puntos de vista con otras personas sobre los temas que te preocupan.
-        help_text_1: "El espacio de debates ciudadanos está dirigido a que cualquier persona pueda exponer temas que le preocupan y sobre los que quiera compartir puntos de vista con otras personas."
-        help_text_2: 'Para abrir un debate es necesario registrarse en %{org}. Los usuarios ya registrados también pueden comentar los debates abiertos y valorarlos con los botones de "Estoy de acuerdo" o "No estoy de acuerdo" que se encuentran en cada uno de ellos.'
+        title: Laguntza eztabaiden inguruan
+
+        description: Hasi eztabaida bat, kezkatzen zaituzten gaiei buruzko ikuspuntuak beste pertsona batzuekin partekatzeko.
+        help_text_1: "Herritarren arteko eztabairako gunea edozein pertsonak bere kezka eta ikuspuntuak beste pertsona batzuekin partekatu ditzan dago sortua."
+        help_text_2: 'Eztabaida bat irekitzeko,% {org} -en erregistratu behar da. Dagoeneko erregistratuta dauden erabiltzaileek ere eztabaida irekiak komentatu ditzakete, eta horietako bakoitzean dauden "ados nago" edo "ez nago ados" botoiekin baloratu.'
     new:
       form:
-        submit_button: Empieza un debate
-      info: Si lo que quieres es hacer una propuesta, esta es la sección incorrecta, entra en %{info_link}.
-      info_link: crear nueva propuesta
-      more_info: Más información
-      recommendation_four: Disfruta de este espacio, de las voces que lo llenan, también es tuyo.
-      recommendation_one: No escribas el título del debate o frases enteras en mayúsculas. En internet eso se considera gritar. Y a nadie le gusta que le griten.
-      recommendation_three: Las críticas despiadadas son muy bienvenidas. Este es un espacio de pensamiento. Pero te recomendamos conservar la elegancia y la inteligencia. El mundo es mejor con ellas presentes.
-      recommendation_two: Cualquier debate o comentario que implique una acción ilegal será eliminado, también los que tengan la intención de sabotear los espacios de debate, todo lo demás está permitido.
-      recommendations_title: Recomendaciones para crear un debate
-      start_new: Empezar un debate
-    show:
-      author_deleted: Usuario eliminado
+        submit_button: Hasi eztabaida bat
+      info: Proposamen bat egin nahi baduzu, hau atal okerra da, sartu hemen: %{info_link}.
+      info_link: Proposamen berria sortu      more_info: Informazio gehiago
+      recommendation_four: Gozatu espazio honetaz, betetzen duten ahotsez, zurea ere bada.
+      recommendation_one: Ez idatzi eztabaidaren izenburua edo esaldi osoak letra larriz. Interneten hori garrasi egitea da. Eta inori ez zaio gustatzen garrasiak jasotzea.
+      recommendation_three: Kritika gupidagabeak oso ongi etorriak dira. Pentsamendu gune bat da hau. Baina dotorezia eta adimena gordetzea gomendatzen dizugu. Mundua hobea da beraiekin.      recommendation_two: Legez kanpoko ekintza bat dakarren edozein eztabaida edo iruzkin ezabatu egingo da, eztabaidaguneak saboteatzeko asmoa dutenak ere bai, gainerako guztia baimenduta dago.
+      recommendations_title: Eztabaida bat sortzeko gomendioak
+      start_new: Eztabaida bat hasi    show:
+      author_deleted: Ezabatutako erabiltzailea
       comments:
-        zero: Sin comentarios
-        one: 1 Comentario
-        other: "%{count} Comentarios"
-      comments_title: Comentarios
-      edit_debate_link: Editar debate
-      flag: Este debate ha sido marcado como inapropiado por varios usuarios.
-      login_to_comment: Necesitas %{signin} o %{signup} para comentar.
-      share: Compartir
-      author: Autor
+        zero: Iruzkinik gabe
+        one: Iruzkin 1
+        other: "%{count} iruzkin"
+      comments_title: Iruzkinak
+      edit_debate_link: Eztabaida editatu
+      flag: Eztabaida hau desegoki gisa markatu dute hainbat erabiltzailek.
+      login_to_comment: Iruzkinak egiteko %{signin} edo %{signup} egin behar duzu.
+      share: Partekatu
+      author: Egilea
     update:
       form:
-        submit_button: Guardar cambios
+        submit_button: Aldaketak gorde
   errors:
     messages:
-      user_not_found: Usuario no encontrado
-      invalid_date_range: "El rango de fechas no es válido"
+      user_not_found: Erabiltzailea ez da aurkitu.
+      invalid_date_range: "Data-tarteak ez du balio"
   form:
-    accept_terms: Acepto la %{policy} y las %{conditions}
-    accept_terms_title: Acepto la Política de privacidad y las Condiciones de uso
-    conditions: Condiciones de uso
-    debate: el debate
-    direct_message: el mensaje privado
-    error: error
-    errors: errores
-    not_saved_html: "impidieron guardar %{resource}. <br>Por favor revisa los campos marcados para saber cómo corregirlos:"
-    policy: Política de privacidad
-    proposal: la propuesta
-    proposal_notification: "la notificación"
-    budget/investment: el proyecto de gasto
-    budget/group: el grupo de partidas presupuestarias
-    budget/heading: la partida presupuestaria
-    poll/shift: el turno
-    poll/question/answer: la respuesta
-    user: la cuenta
-    verification/sms: el teléfono
-    signature_sheet: la hoja de firmas
-    document: el documento
-    topic: Tema
-    image: Imagen
-    local_census_record: el registro del censo local
-    local_census_records/import: la importación de registros del censo local
-  geozones:
-    none: Toda la ciudad
+    accept_terms: %{policy} eta %{conditions} onartzen ditut
+    accept_terms_title: Pribatutasun-politika eta erabilera-baldintzak
+ onartzen ditut    conditions: Erabilera baldintzak
+    debate: Eztabaida
+    direct_message: Mezu pribatua
+    error: Akatsa
+    errors: Akatsak    not_saved_html: " %{resource} gordetzea eragotzi dute. <br>Mesedez, berrikusi markatutako eremuak, nola zuzendu jakiteko:"
+    policy: Pribatutasun politika
+    proposal: Proposamena
+    proposal_notification: "Jakinarazpena"
+    budget/investment: Gastu-proiektua
+    budget/group: Aurrekontu-partiden multzoa    budget/heading: Aurrekontu-partida
+    poll/shift: Txanda
+    poll/question/answer: Erantzuna
+    user: Kontua
+    verification/sms: Telefonoa
+    signature_sheet: sinadura-orria    document: Dokumentua    topic: Gaia
+    image: Irudia
+    local_census_record: Tokiko erroldaren erregistroa
+    local_census_records/import: Tokiko erroldako erregistroen inportazioa  geozones:
+    none: Hiri osoa
   layouts:
     application:
       chrome: Google Chrome
       firefox: Firefox
-      ie: Hemos detectado que estás navegando desde Internet Explorer. Para una mejor experiencia te recomendamos utilizar %{firefox} o %{chrome}.
-      ie_title: Esta web no está optimizada para tu navegador
-    dashboard:
+      ie: Hemos detectado que estás navegando desde Internet Explorer. Esperientzia hobea izateko, %{firefox} edo %{chrome} erabiltzea gomendatzen dizugu..
+      ie_title: Webgune hau ez dago optimizatuta zure nabigatzailerako    dashboard:
       proposal_header:
-        published: Publicada
-        draft: Borrador
-        retired: Retirada
-      proposal_totals:
-        active_resources: Recursos activos
-        community: Participantes en tu comunidad
-        show_proposal: Ver propuesta
-        preview_proposal: Previsualizar propuesta
-        current_goal: Meta actual
+        published: Argitaratua        draft: Zirriborroa
+        retired: Kentzea      proposal_totals:
+        active_resources: Baliabide aktiboak
+        community: Parte-hartzaileak zure komunitatean
+        show_proposal: Ikusi proposamena
+        preview_proposal: Proposamena aurreikusi
+        current_goal: Egungo helburua
         supports:
-          zero: Sin apoyos
-          one: 1 Apoyo
-          other: "Apoyos"
+          zero: Sostengurik gabe
+          one: Sostengu 1          other: "Sostenguak"
     footer:
-      accessibility: Accesibilidad
-      conditions: Condiciones de uso
-      consul: aplicación CONSUL
+      accessibility: Irisgarritasuna
+      conditions: Erabilera baldintzak
+      consul: Aplikazioa CONSUL
       consul_url: https://github.com/consul/consul
-      contact_us: Para asistencia técnica entra en
-      copyright: Ayuntamiento de Lekunberri, %{year}
-      description: Este portal usa la %{consul} que es %{open_source}.
-      open_source: software de código abierto
+      contact_us: Laguntza teknikorako, sartu hemen:
+      copyright: CONSUL, %{year}
+      description: Atari honek %{consul} a erabiltzen du, €{open_source} a dena..
+      open_source: Kode irekiko softwarea
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
-      participation_text: Decide cómo debe ser Lekunberri.
-      participation_title: Participación
-      privacy: Política de privacidad
+      participation_text: Lekunberrik nolakoa izan behar den erabaki zazu.
+      participation_title: Parte-hartzea      privacy: Pribatutasun politika
     header:
-      administration_menu: Menú
-      administration: Administración
-      available_locales: Idiomas disponibles
-      collaborative_legislation: Legislación colaborativa
-      debates: Debates
-      locale: "Idioma:"
-      logo: Logo de CONSUL
-      management: Gestión
-      moderation: Moderar
-      valuation: Evaluación
-      officing: Presidentes de mesa
-      help: Ayuda
-      my_account_link: Mi cuenta
-      my_activity_link: Mi contenido
-      open: abierto
-      open_gov: Gobierno %{open}
-      proposals: Propuestas
-      poll_questions: Votaciones
-      budgets: Presupuestos participativos
+      administration_menu: Menua
+      administration: Administrazioa
+      available_locales: Eskuragarri dauden hizkuntzak
+      collaborative_legislation: Lankidetzazko legegintza      debates: Eztabaidak
+      locale: "Hizkuntzak:"
+      logo: CONSUL
+en logoa      management: Kudeaketa
+      moderation: Moderatu
+      valuation: Ebaluaketa      officing: Mahaiko lehendakaria
+      help: Laguntza      my_account_link: Nire kontua
+      my_activity_link: Nire edukia
+      open: Irekia      open_gov: Gobernua %{open}
+      proposals: Proposamenak
+      poll_questions: Bozketak      budgets: Aurrekontu partehartzaileak
       notification_item:
         new_notifications:
-          one: Tienes una nueva notificación
-          other: Tienes %{count} notificaciones nuevas
-        notifications: Notificaciones
-        no_notifications: "No tienes notificaciones nuevas"
-      tracking: "Seguimiento"
+          one: Jakinarazpen berri bat daukazu
+          other: %{count} jakinarazpen berri dituzu
+        notifications: Jakinarazpenak
+        no_notifications: "Ez duzu jakinarazpen berririk"
+      tracking: "Jarraipena"
     admin:
-      watch_form_message: "Has realizado cambios que no han sido guardados. ¿Seguro que quieres abandonar la página?"
+      watch_form_message: "Gorde ez diren aldaketak egin dituzu. Ziur zaude orrialdea utzi nahi duzula?"
   notifications:
     index:
       empty_notifications: No tienes notificaciones nuevas.
       mark_all_as_read: Marcar todas como leídas
-      read: Leídas
-      title: Notificaciones
-      unread: Nuevas
-    notification:
+      read: Irakurriak
+      title: Jakinarazpenak
+      unread: Berriak    notification:
       action:
         comments_on:
-          one: Hay un nuevo comentario en
-          other: Hay %{count} comentarios nuevos en
-        proposal_notification:
-          one: Hay una nueva notificación en
-          other: Hay %{count} nuevas notificaciones en
+          one: Iruzkin berri bat dago hemen:
+          other: %{count} iruzkin berri daude hemen:        proposal_notification:
+          one: Jakinarazpen berri bat dago hemen:
+          other: %{count} Jakinarazpen berri daude hemen:
         replies_to:
-          one: Hay una respuesta nueva a tu comentario en
-          other: Hay %{count} nuevas respuestas a tu comentario en
-      mark_as_read: Marcar como leída
-      mark_as_unread: Marcar como no leída
-      notifiable_hidden: Este elemento ya no está disponible.
-  map:
-    title: "Distritos"
-    proposal_for_district: "Crea una propuesta para tu distrito"
-    select_district: Ámbito de actuación
-    start_proposal: Crea una propuesta
+          one: Erantzun berri bat dago zure iruzkinari hemen:
+          other: %{count} erantzun berri daude zure iruzkinari hemen:
+      mark_as_read: Markatu irakurria bezala
+      mark_as_unread: Markatu irakurri gabea bezala      notifiable_hidden: Elementu hori jada ez dago eskuragarri.  map:
+    title: "Barrutiak"
+    proposal_for_district: "Sortu proposamen bat zure barrutirako"
+    select_district: Jarduera-eremua
+    start_proposal: Sortu proposamen bat
   omniauth:
     facebook:
-      sign_in: Entra con Facebook
-      sign_up: Regístrate con Facebook
+      sign_in: Sartu Facebookekin
+      sign_up: Eman izena Facebookekin
       name: Facebook
     finish_signup:
-      title: "Detalles adicionales de tu cuenta"
-      username_warning: "Debido a que hemos cambiado la forma en la que nos conectamos con redes sociales y es posible que tu nombre de usuario aparezca como 'ya en uso', incluso si antes podías acceder con él. Si es tu caso, por favor elige un nombre de usuario distinto."
+      title: "Zure kontuaren xehetasun gehigarriak"
+      username_warning: "Sare sozialekin konektatzeko modua aldatu dugunez, litekeena da zure erabiltzaile-izena 'jada erabiltzen' bezala agertzea, baita lehenago harekin sartzeko aukera bazenuen ere. Zure kasuan, aukeratu, mesedez, beste erabiltzaile-izen bat."
     google_oauth2:
-      sign_in: Entra con Google
-      sign_up: Regístrate con Google
+      sign_in: Sartu Googlerekin      sign_up: Eman izena Googlerekin
       name: Google
     twitter:
-      sign_in: Entra con Twitter
-      sign_up: Regístrate con Twitter
+      sign_in: Sartu Twitterrekin
+      sign_up: Eman izena Twitterrekin
       name: Twitter
-    info_sign_in: "Entra con:"
-    info_sign_up: "Regístrate con:"
-    or_fill: "O rellena el siguiente formulario:"
+    info_sign_in: "Sartu honekin:"
+    info_sign_up: "Eman izena honekin:"
+    or_fill: "Edo bete formulario hau:"
   proposals:
     create:
       form:
-        submit_button: Crear propuesta
+        submit_button: Proposamena sortu
     created:
-      title: '¡Enhorabuena! Has dado el primer paso.'
-      motivation: "Es importante preparar la campaña de lanzamiento de tu propuesta para que tenga éxito. Los primeros días son decisivos."
-      motivation_2_html: "<strong>Si quieres recomendaciones para preparar la publicación deja tu propuesta como borrador y te guiaremos.</strong>"
-      publish: No, quiero publicar la propuesta ya
-      dashboard: Si, quiero ayuda y publicaré mas tarde
-      preview_title: Así es como quedará tu propuesta cuando la publiques
+      title: 'Zorionak! Lehen urratsa eman duzu.'
+      motivation: "Garrantzitsua da zure proposamena kaleratzeko kanpaina prestatzea, arrakasta izan dezan. Lehen egunak erabakigarriak dira."
+      motivation_2_html: "<strong>Argitalpena prestatzeko gomendioak nahi badituzu, utzi zure proposamena zirriborro gisa eta gidatu egingo zaitugu.</strong>"
+      publish: Ez, proposamena argitaratu nahi dut.
+      dashboard: Bai, laguntza nahi dut eta geroago argitaratuko dut.
+      preview_title: Horrela geratuko da zure proposamena argitaratzen duzunean
     share:
-      improve_it: Mejora tu campaña y consigue mas apoyos.
-      dashboard: Ver mas información
-      message: "He apoyado la propuesta %{title} en %{handle}. Si te interesa, ¡apoya tú también!"
+      improve_it: Hobetu zure kanpaina eta lortu laguntza gehiago.      dashboard: Ikusi informazio gehiago      message: "%{title}  proposamenaren alde egin dut %{handle}en. Interesatzen bazaizu, babestu zuk ere!"
     edit:
-      editing: Editar propuesta
+      editing: Editatu proposamena
       form:
-        submit_button: Guardar cambios
-      show_link: Ver propuesta
-    retire_form:
-      title: Retirar propuesta
-      warning: "Si sigues adelante tu propuesta podrá seguir recibiendo apoyos, pero dejará de ser listada en la lista principal, y aparecerá un mensaje para todos los usuarios avisándoles de que el autor considera que esta propuesta no debe seguir recogiendo apoyos."
-      retired_reason_label: Razón por la que se retira la propuesta
-      retired_reason_blank: Selecciona una opción
-      retired_explanation_placeholder: Explica brevemente por que consideras que esta propuesta no debe recoger más apoyos
-      submit_button: Retirar propuesta
+        submit_button: Aldaketak gorde
+      show_link: Ikusi proposamena    retire_form:
+      title: Erretiratu proposamena
+      warning: "Aurrera jarraitzen baduzu, zure proposamenak laguntzak jasotzen jarraitzen ahal izango ditu, baina zerrenda nagusian zerrendatzeari utziko dio, eta mezu bat agertuko da erabiltzaile guztientzat, ohartaraziz egileak uste duela proposamen horrek ez dituela babesak biltzen jarraitu behar."
+      retired_reason_label: Proposamena erretiratzeko arrazoia      retired_reason_blank: Hautatu aukera bat
+      retired_explanation_placeholder: Azaldu labur-labur zure ustez proposamen honek zergatik ez duen sostengu gehiago jaso behar
+      submit_button: Erretiratu proposamena
     retire_options:
-      duplicated: Duplicada
-      started: En ejecución
-      unfeasible: Inviable
-      done: Realizada
-      other: Otra
+      duplicated: Bikoiztua
+      started: Gauzatzen
+      unfeasible: Bideraezina
+      done: Eginda
+      other: Beste bat
     form:
-      geozone: Ámbito de actuación
-      proposal_responsible_name: Nombre y apellidos de la persona que hace esta propuesta
-      proposal_responsible_name_note: "(individualmente o como representante de un colectivo; no se mostrará públicamente)"
-      proposal_summary: Resumen de la propuesta
-      proposal_summary_note: "(máximo 200 caracteres)"
-      proposal_text: Texto desarrollado de la propuesta
-      proposal_title: Título de la propuesta
-      proposal_video_url: Enlace a vídeo externo
-      proposal_video_url_note: Puedes añadir un enlace a YouTube o Vimeo
-      tag_category_label: "Categorías"
-      tags_instructions: "Etiqueta esta propuesta. Puedes elegir entre las categorías propuestas o introducir las que desees"
-      tags_label: Etiquetas
-      tags_placeholder: "Escribe las etiquetas que desees separadas por coma (',')"
-      map_location: "Ubicación en el mapa"
-      map_location_instructions: "Navega por el mapa hasta la ubicación y coloca el marcador."
-      map_remove_marker: "Eliminar el marcador"
-      map_skip_checkbox: "Esta propuesta no tiene una ubicación concreta o no la conozco."
+      geozone: Jarduera-eremua
+      proposal_responsible_name: Proposamen hau egiten duen pertsonaren izen-abizenak
+      proposal_responsible_name_note: "(Banaka edo kolektibo baten ordezkari gisa; ez da jendaurrean erakutsiko)"
+      proposal_summary: Proposamenaren laburpena
+      proposal_summary_note: "(200 karaktere gehienez)"
+      Proposal_text: Proposamenaren testu garatua
+      Proposal_title: Proposamenaren izenburua
+      Proposal_video_url: Kanpoko bideorako esteka
+      Proposal_video_url_Note: YouTubera edo Vimeora esteka bat gehitu dezakezu
+      Tag_category_label: "Mailak"
+      Tags_instructions: "Etiketatu proposamen hau. Proposatutako kategorien artean aukera dezakezu edo nahi dituzun kategoriak sar ditzakezu "
+      Tags_label: Etiketak
+      Tags_placeholder: "Idatzi nahi dituzun etiketak koma (',') batez bereizita"
+      Map_location: "Kokapena mapan"
+      Map_location_instructions: "Mapan zehar nabigatu kokagunera arte eta jarri markagailua. "
+      Map_remove_marker: "Markagailua ezabatzea"
+      Map_skip_checkbox: "Proposamen honek ez du kokapen zehatzik edo ez dut ezagutzen. "
     index:
-      featured_proposals: Destacadas
+      featured_proposals: Nabarmenduak
       filter_topic:
-        one: " con el tema '%{topic}'"
-        other: " con el tema '%{topic}'"
+        one: " '% {topic} 'gaiarekin"
+        other: " '% {topic} 'gaiarekin"
       orders:
-        confidence_score: Más apoyadas
-        created_at: Nuevas
-        hot_score: Más activas
-        most_commented: Más comentadas
-        relevance: Más relevantes
-        archival_date: Archivadas
-        recommendations: Recomendaciones
+        confidence_score: Sostengatuenak
+        created_at: Berriak
+        hot_score: Aktiboenak
+        most_commented: Iruzkinduenak
+        relevance: Garrantzitsuenak
+        archival_date: Artxibatuak
+        recommendations: Gomendioak
       recommendations:
-        without_results: No existen propuestas relacionadas con tus intereses
-        without_interests: Sigue propuestas para que podamos darte recomendaciones
-        disable: "Si ocultas las recomendaciones para propuestas, no se volverán a mostrar. Puedes volver a activarlas en 'Mi cuenta'"
+        without_results: Ez dago zure interesekin lotutako proposamenik
+        without_interests: Jarraitu gomendioak proposamenak eman ahal izateko
+        disable: "Proposamenetarako gomendioak ezkutatzen badituzu, ez dira berriro erakutsiko. Berriro aktiba ditzakezu 'Nire kontua' atalean"
         actions:
-          success: "Las recomendaciones de propuestas han sido desactivadas"
-          error: "Ha ocurrido un error. Por favor dirígete al apartado 'Mi cuenta' para desactivar las recomendaciones manualmente"
-      retired_proposals: Propuestas retiradas
-      retired_proposals_link: "Propuestas retiradas por sus autores"
-      selected_proposals: Propuestas seleccionadas
-      selected_proposals_link: Ver propuestas seleccionadas
-      archived_proposals: Propuestas archivadas
-      proposals_lists: Listas de propuestas
+          success: "Proposamenen gomendioak desaktibatu egin dira"
+          error: "Akats bat gertatu da. Mesedez, jo 'Nire kontua' atalera gomendioak eskuz desaktibatzeko"
+      retired_proposals: Erretiratutako proposamenak
+      retired_proposals_link: "Egileek erretiratutako proposamenak"
+      selected_proposals: Hautatutako proposamenak
+      selected_proposals_link: Ikusi hautatutako proposamenak
+      archived_proposals: Artxibatutako proposamenak
+      proposals_lists: Proposamenen zerrendak
       retired_links:
-        all: Todas
-        duplicated: Duplicadas
-        started: En ejecución
-        unfeasible: Inviables
-        done: Realizadas
-        other: Otras
+        all: Denak
+        duplicated: Bikoiztuak
+        started: Gauzatzen
+        unfeasible: Bideraezinak
+        done: Egindakoak
+        other: Beste batzuk
       search_form:
-        button: Buscar
-        placeholder: Buscar propuestas...
-        title: Buscar
+        button: Bilatu
+        placeholder: Bilatu proposamenak...
+        title: Bilatu
       search_results_html:
-        one: " que contiene <strong>'%{search_term}'</strong>"
-        other: " que contienen <strong>'%{search_term}'</strong>"
-      select_order: Ordenar por
-      select_order_long: "Estas viendo las propuestas"
-      start_proposal: Crea una propuesta
-      title: Propuestas ciudadanas
-      top: Top semanal
-      top_link_proposals: Propuestas más apoyadas por categoría
+        one: " < strong> '% {search_term}' </strong> duena"
+        other: " < strong> '% {search_term}' </strong> dutenak"
+      select_order: Ordenatu honen arabera
+      select_order_long: "Proposamenak ikusten ari dituzu"
+      start_proposal: Sortu proposamen bat
+      title: Herritarren proposamenak
+      top: Asteko Topa
+      top_link_proposals: Gehien babestutako proposamenak, kategoria bakoitzeko
       section_header:
-        icon_alt: Icono de Propuestas
-        title: Propuestas
-        help: Ayuda sobre las propuestas
+        icon_alt: Proposamenen ikonoa
+        title: Proposamenak
+        help: Proposamenei buruzko laguntza
       section_footer:
-        title: Ayuda sobre las propuestas
-        description: Las propuestas ciudadanas son una oportunidad para que los vecinos y colectivos decidan directamente cómo quieren que sea su ciudad, después de conseguir los apoyos suficientes y de someterse a votación ciudadana.
+        title: Proposamenei buruzko laguntza
+        description: Herritarren proposamenak aukera bat dira auzotarrek eta kolektiboek zuzenean erabaki dezaten beren hiria nolakoa izatea nahi duten, behar adina babes lortu eta herritarren bozka jaso ondoren.
     new:
       form:
-        submit_button: Crear propuesta
-      more_info: '¿Cómo funcionan las propuestas ciudadanas?'
-      recommendation_one: No escribas el título de la propuesta o frases enteras en mayúsculas. En internet eso se considera gritar. Y a nadie le gusta que le griten.
-      recommendation_three: Disfruta de este espacio, de las voces que lo llenan, también es tuyo.
-      recommendation_two: Cualquier propuesta o comentario que implique una acción ilegal será eliminada, también las que tengan la intención de sabotear los espacios de propuesta, todo lo demás está permitido.
-      recommendations_title: Recomendaciones para crear una propuesta
-      start_new: Crear una propuesta
+        submit_button: Proposamenak sortu
+      more_info: 'Nola funtzionatzen dute herritarren proposamenek?'
+      recommendation_one: Ez idatzi proposamenaren izenburua edo esaldi osoak letra larriz. Interneten hori garrasi egitea da. Eta inori ez zaio gustatzen garrasiak jasotzeak.
+      recommendation_three: Gozatu espazio honetaz, betetzen duten ahotsez, zurea ere bada.
+      recommendation_two: Legez kanpoko ekintza bat dakarren edozein proposamen edo iruzkin ezabatu egingo da, baita proposamen-espazioak saboteatzeko asmoa dutenak ere; gainerako guztia baimenduta dago.
+      recommendations_title: Proposamen bat sortzeko gomendioak
+      start_new: Sortu proposamen bat
     notice:
-      retired: Propuesta retirada
-      published: La propuesta ha sido publicada
+      retired: Erretiratutako proposamena
+      published: Proposamena argitaratua izan da
     proposal:
-      created: "¡Has creado una propuesta!"
+      created: "Proposamen bat sortu duzu!"
       share:
-        guide: "Compártela para que la gente empiece a apoyarla."
-        edit: "Antes de que se publique podrás modificar el texto a tu gusto."
-        view_proposal: Ahora no, ir a mi propuesta
-      already_supported: '¡Ya has apoyado esta propuesta, compártela!'
+        guide: "Partekatu, jendeak sostengua eman diezaion."
+        edit: "Argitaratu aurretik testua nahi bezala aldatu ahal izango duzu."
+        view_proposal: Orain ez, nire proposamenera joan
+      already_supported: 'Proposamen hau sostengatu duzu, partekatu!'
       comments:
-        zero: Sin comentarios
-        one: 1 Comentario
-        other: "%{count} Comentarios"
-      support: Apoyar
-      support_title: Apoyar esta propuesta
+        zero: Iruzkinik gabe
+        one: Iruzkin 1
+        other: "%{count} iruzkin"
+      support: Sostengatu
+      support_title: Sostengatu proposamen hau
       supports:
-        zero: Sin apoyos
-        one: 1 apoyo
-        other: "%{count} apoyos"
+        zero: Sostengurik gabe
+        one: Sostengu 1
+        other: "%{count} sostengu"
       votes:
-        zero: Sin votos
-        one: 1 voto
-        other: "%{count} votos"
-      supports_necessary: "%{number} apoyos necesarios"
+        zero: Botorik gabe
+        one: Boto 1
+        other: "%{count} boto"
+      supports_necessary: "Hauek dira beharrezko sostenguak: %{number}"
       reason_for_supports_necessary: ""
-      total_percent: 100%
-      archived: "Esta propuesta ha sido archivada y ya no puede recoger apoyos."
-      successful: "Esta propuesta ha alcanzado los apoyos necesarios."
-      selected: "Propuesta seleccionada"
+      total_percent: %100
+      archived: "Proposamen hau artxibatu egin dute, eta jada ezin du sostengurik jaso."
+      successful: "Proposamen honek beharrezko sostenguak lortu ditu."
+      selected: "Aukeratutako proposamena"
     show:
-      author_deleted: Usuario eliminado
-      code: "Código de la propuesta:"
+      author_deleted: Ezabatutako erabiltzailea
+      code: "Proposamenaren kodea:"
       comments:
-        zero: Sin comentarios
-        one: 1 Comentario
-        other: "%{count} Comentarios"
-      comments_tab: Comentarios
-      dashboard_proposal_link: Panel de control
-      flag: Esta propuesta ha sido marcada como inapropiada por varios usuarios.
-      login_to_comment: Necesitas %{signin} o %{signup} para comentar.
-      notifications_tab: Notificaciones
-      milestones_tab: Seguimiento
-      retired_warning: "El autor de esta propuesta considera que ya no debe seguir recogiendo apoyos."
-      retired_warning_link_to_explanation: Revisa su explicación antes de apoyarla.
-      retired: Propuesta retirada por el autor
-      share: Compartir
-      no_notifications: "Esta propuesta no tiene notificaciones."
-      embed_video_title: "Vídeo en %{proposal}"
-      title_video_url: "Vídeo externo"
-      author: Autor
-      draft: Propuesta en borrador. Todavía no puede recoger apoyos, ni aparece en la lista de propuestas.
+        zero: Iruzkinik gabe
+        one: Iruzkin 1
+        other: "%{count} Iruzkin"
+      comments_tab: Iruzkinak
+      dashboard_proposal_link: Kontrol-panela
+      flag:  Hainbat erabiltzailek proposamen hau desegokitzat jo dute.
+      login_to_comment: % {signin} edo% {signup} behar duzu iruzkinak egiteko.
+      notifications_tab: Jakinarazpenak
+      milestones_tab: Jarraipena
+      retired_warning: "Proposamen honen egileak uste du jada ez duela sostenguak biltzen jarraitu behar."
+      retired_warning_link_to_explanation: Berrikusi azalpena, sostengatu aurretik.
+      retired: Egileak erretiratutako proposamena
+      share: Partekatu
+      no_notifications: "Proposamen honek ez du jakinarazpenik."
+      embed_video_title: "Bideoa hemen: %{proposal}"
+      title_video_url: "Kanpoko bideoa"
+      author: Egilea
+      draft: Proposamena zirriborroan. Oraindik ezin du sostengurik jaso, eta proposamenen zerrendan ere ez da agertzen.
     update:
       form:
-        submit_button: Guardar cambios
+        submit_button: Aldaketak gorde
   dashboard:
     menu:
-      my_proposal: Editar mi propuesta
-      progress: Progreso
-      resources: Recursos
-      community: Comunidad
-      polls: Encuestas
-      mailing: Correo electrónico
-      poster: Póster
-      recommended_actions: Acciones recomendadas
-      messages: Mensajes a usuarios
+      my_proposal: Editatu nire proposamena
+      progress: Aurrerapena
+      resources: Baliabideak
+      community: Komunitatea
+      polls: Inkestak
+      mailing: E-posta
+      poster: Posterra
+      recommended_actions: Gomendatutako ekintzak
+      messages: Erabiltzaileen mezuak
     form:
-      request: Solicitar
+      request: Eskatu
     create_request:
-      success: La petición ha sido correctamente enviada. Te contactaremos lo antes posible para informarte al respecto.
-      archived: Esta propuesta está archivada y no puede solicitar recursos.
+      success: Eskaera behar bezala bidali da. Lehenbailehen jarriko gara zurekin harremanetan, horren berri emateko.
+      archived: Proposamen hau artxibatuta dago, eta ezin du baliabiderik eskatu.
     progress:
-      title: Gráfico
-      group_by_month: Mensual
-      group_by_week: Semanal
-      group_by_date: Diario
-      progress: Progreso acumulado
-      supports: Apoyos
-      success: Progreso ideal
-      new_action: Nuevo
+      title: Grafikoa
+      group_by_month: Hilerokoa
+      group_by_week: Asterokoa
+      group_by_date: Egunerokoa
+      progress: Metatutako aurrerapena
+      supports: Sostenguak
+      success: Aurrerapen ideala
+      new_action: Berria
     index:
-      title: Edición
-      edit_proposal_link: Editar propuesta
-      publish: Publicar propuesta
-      retire: Retirar propuesta
+      title: Edizioa
+      edit_proposal_link: Proposamena editatu
+      publish: Proposamena argitaratu
+      retire: Proposamena erretiratu
     new_request:
-      links: Enlaces
+      links: Estekak
     resources:
-      available_resources: Recursos disponibles
+      available_resources: Baliabide erabilgarriak
     resource:
-      required_days: "%{days} días necesarios"
-      required_supports: "%{supports} apoyos necesarios"
-      and: "y"
-      view_resource: Ver recurso
-      resource_requested: Recurso solicitado
-      request_resource: Solicitar recurso
-      resource_locked: Recurso bloqueado
+      required_days: "Hauek dira beharrezko egunak: %{days}"
+      required_supports: "Hauek dira beharrezko sostenguak: %{supports}"
+      and: "eta"
+      view_resource: Ikusi baliabidea
+      resource_requested: Baliabidea eskatu da
+      request_resource: Baliabidea eskatu
+      resource_locked: Baliabidea blokeatu da
     recommended_actions:
-      title: Acciones recomendadas
-      goto_proposed_actions: Ir a las acciones recomendadas
-      see_proposed_actions: Ver todas las acciones recomendadas
-      hide_proposed_actions: Ocultar acciones recomendadas
-      pending_title: Pendientes
-      show_description: Mostrar descripción
-      without_pending_actions: No hay acciones recomendadas pendientes
-      done_title: Realizadas
-      without_done_actions: No hay acciones recomendadas realizadas
+      title: Gomendatutako ekintzak
+      goto_proposed_actions: Gomendatutako ekintzetara joan
+      see_proposed_actions: Gomendatutako ekintza guztiak ikusi
+      hide_proposed_actions: Ezkutatu gomendatutako ekintzak
+      pending_title: Egiteke
+      show_description: Deskribapena erakutsi
+      without_pending_actions: Ez dago ekintza gomendaturik egiteke
+      done_title: Egindakoak
+      without_done_actions: Ez dago egindako gomendatutako ekintzarik
     next_goal:
-      title: Meta
-      see_complete_course: Ver ruta completa
-      hide_course: Ocultar ruta
+      title: Helburu
+      see_complete_course: Ikusi ibilbide osoa
+      hide_course: Ezkutatu bidea
     goal:
       target_supports:
-        one: Consigue %{count} apoyo para tu propuesta
-        other: Consigue %{count} apoyos para tu propuesta
+        one: Lortu zure proposamenerako %{count} sostengu
+        other: Lortu zure proposamenerako %{count} sostengu
       days:
-        one: "%{count} día"
-        other: "%{count} días"
-      locked_resource: Recurso bloqueado
-      ideal_time: Tiempo ideal
+        one: "%{count} egun"
+        other: "%{count} egun"
+      locked_resource: blokeatutako baliabidea
+      ideal_time: Denbora ideala
     community:
-      access_community: Acceder a la comunidad
-      latest_activity: "Última actividad de la comunidad: %{at}"
-      participants: Participantes
-      debates: Debates
-      comments: Comentarios
-      latest_comments: Últimos mensajes
+      access_community: Komunitatera sartu
+      latest_activity: "Komunitatearen azken jarduera: %{at}"
+      participants: Parte-hartzaileak
+      debates: Eztabaidak
+      comments: Iruzkinak
+      latest_comments: Azken iruzkinak
     messages:
-      send_notification: Enviar mensaje a los que han apoyado la propuesta
-      previous_notifications: Ver notificaciones anteriores
+      send_notification: Bidali mezua proposamenaren alde egin dutenei
+      previous_notifications: Ikusi aurreko jakinarazpenak
     polls:
       index:
-        title: Encuestas
-        create: Crear encuesta
-        succesfull: Respuesta añadida correctamente.
+        title: Inkestak
+        create: Inkesta sortu
+        succesfull: Erantzuna ondo gehitu da.
         count:
-          one: Has creado %{count} encuesta.
-          other: Has creado %{count} encuestas.
-        links: Enlaces
-        additiontal_information: Información adicional
+          one: %{count} inkesta sortu duzu.
+          other: %{count} inkesta sortu dituzu.
+        links: Estekak
+        additiontal_information: Informazio gehigarria
       new:
-        title: Nueva encuesta
-        submit: Crear encuesta
+        title: Inkesta berria
+        submit: Inkesta sortu
       edit:
-        submit: Actualizar encuesta
+        submit: Inkesta eguneratu
       poll:
         responses:
-          one: "%{count} respuesta"
-          other: "%{count} respuestas"
-        view_results: Ver resultados
-        edit_poll: Editar encuesta
-        show_results: Mostrar resultados
-        show_results_help: Si marcas esta casilla los resultados serán públicos y todos los usuarios podrán verlos
-        delete: Eliminar encuesta
-        alert_notice: Esta acción eliminará la encuesta y todas sus preguntas asociadas.
-        success_notice: Encuesta eliminada correctamente
-        unable_notice: No se pueden eliminar encuestas con respuestas
+          one: "%{count} erantzun"
+          other: "%{count} erantzun"
+        view_results: Emaitzak ikusi
+        edit_poll: Inkesta editatu
+        show_results: Emaitzak erakutsi
+        show_results_help: Lauki hau markatuz gero, emaitzak publikoak izango dira eta erabiltzaile guztiek ikusi ahal izango dituzte.
+        delete: Inkesta ezabatu
+        alert_notice: Ekintza honek inkesta eta hari lotutako galdera guztiak ezabatuko ditu.
+        success_notice: Inkesta ongi ezabatu da.
+        unable_notice: Ezin dira ezabatu erantzunak dituzten inkestak
       form:
-        name: Título de la encuesta
-        add_question: Añadir pregunta
+        name: Inkestaren izenburua
+        add_question: Galdera gehitu
       question_fields:
-        remove_question: Borrar pregunta
-        add_answer: Añadir respuesta
+        remove_question: Galdera ezabatu
+        add_answer: Erantzuna gehitu
       question_answer_fields:
-        remove_answer: Borrar respuesta
+        remove_answer: Erantzuna ezabatu
     poster:
       index:
-        title: Previsualización del poster
-        poster_title: "No te quedes mirando,"
-        poster_subtitle: "¡apóyame! ;)"
-        intro_text_html: "<strong>Estoy participando en %{org}</strong> con mi propia propuesta ciudadana y sólo si tú también te sumas podré lograr el apoyo necesario para hacer la ciudad que todos queremos."
-        proposal_code: "Código de la propuesta: %{code}"
-        support: Apoya mi propuesta
-        footer_html: "<strong>Entra en %{link} y apoya esta propuesta.</strong> Necesitamos ser muchos. Decide tu también. ¡Gracias!"
+        title: Posterraren aurrebista
+        poster_title: "Ez zaitez begira gelditu,"
+        poster_subtitle: "sostenga nazazu! ;)"
+        intro_text_html: "<strong> %{org}</strong> en parte hartzen ari naiz nire proposamen herritarrarekin, eta zuk ere parte hartzen baduzu bakarrik lortuko dut guztiok nahi dugun hiria egiteko behar den sostengua."
+        proposal_code: "Proposamenaren kodea: %{code}"
+        support: Nire proposamena sostengatu
+        footer_html: "<strong> %{link} n sartu etaproposamen hau sostengatu.</strong> Asko izan behar dugu. Zuk ere erabaki. Eskerrik asko!"
       new:
-        title: Póster de tu propuesta
+        title: Proposamenaren posterra.
       options:
-        preview: Previsualizar
-        download: Descargar
+        preview: Aurreikusi
+        download: Deskargatu
     mailing:
       index:
-        title: Previsualización del correo electrónico
+        title: E-postaren aurrebista
       new:
-        title: Modelo de correo electrónico para compartir
+        title: Partekatzeko posta elektronikoaren eredua
       mailing_options:
-        send: Enviar a %{address}
-        preview: Previsualizar
+        send: Bidali hona: %{address}
+        preview: Aurreikusi
       create:
-        sent: El e-mail ha sido enviado
+        sent: E- posta bidali da
     mailer:
       forward:
-        subtitle_html: "Si me apoyas, <br>lo conseguiremos."
-        support_button: Apoyar esta propuesta
-        share_in: Compartir en
-        hi: "¡Hola!"
-        introduction: Te escribo para comunicarte que estoy participando en %{org}, la plataforma para que podamos decidir qué ciudad queremos. Y para ello, he creado mi propia propuesta ciudadana y ahora, ¡voy a necesitar tu apoyo! Pero no te preocupes porque es muy sencillo.
-        support: "Tan sólo tienes que hacer clic en el botón que verás a continuación 'Apoyar esta propuesta' y directamente podrás informarte acerca de ella antes de impulsarla. Sólo las propuestas que consigan el máximo apoyo se llevarán a cabo por parte del Ayuntamiento, y he pensado que tú ¡seguro que me ayudas a lograrlo!"
-        share: "Y si además, me haces el gran favor de compartir mi propuesta con tus amigos, familiares y contactos ¡sería perfecto!"
+        subtitle_html: "Sostengatzen banauzu, <br>lortuko dugu."
+        support_button: Proposamen hau sostengatu
+        share_in: Partekatu hemen:
+        hi: "Kaixo!"
+        introduction: Idatzi honen bidez jakinarazten dizut %{org} en parte hartzen ari naizela, zein hiri nahi dugun erabaki ahal izateko plataforman. Eta horretarako, nire proposamena sortu dut, eta orain, zure laguntza beharko dut! Baina ez kezkatu, oso erraza baita.
+        support: "'Proposamen hau sostengatu' botoian klik egin besterik ez duzu egin behar, eta zuzenean hari buruzko informazioa izango duzu bultzatu aurretik. Sostengu handiena lortzen duten proposamenak bakarrik egingo ditu Udalak, eta pentsatu dut zuk lagunduko didazula hori lortzen!"
+        share: "Eta, gainera, nire proposamena zure lagun, senide eta kontaktuekin partekatzen baduzu, primerakoa litzateke!"
   polls:
-    all: "Todas"
-    no_dates: "sin fecha asignada"
-    dates: "Desde el %{open_at} hasta el %{closed_at}"
-    final_date: "Recuento final/Resultados"
+    all: "Denak"
+    no_dates: "datarik esleitu gabea"
+    dates: "%{open_at} datatik %{closed_at} datara"
+    final_date: "Azken kontaketa/Emaitzak"
     index:
       filters:
-        current: "Abiertas"
-        expired: "Terminadas"
-      title: "Votaciones"
-      participate_button: "Participar en esta votación"
-      participate_button_expired: "Votación terminada"
-      no_geozone_restricted: "Toda la ciudad"
-      geozone_restricted: "Distritos"
-      geozone_info: "Pueden participar las personas empadronadas en: "
-      already_answer: "Ya has participado en esta votación"
-      not_logged_in: "Necesitas iniciar sesión o registrarte para participar"
-      unverified: "Por favor verifica tu cuenta para participar"
-      cant_answer: "Esta votación no está disponible en tu zona"
+        current: "Irekita daudenak"
+        expired: "Amaituta daudenak"
+      title: "Bozketak"
+      participate_button: "Bozketan parte hartu"
+      participate_button_expired: "Amaitutako bozketa"
+      no_geozone_restricted: "Hiri osoa"
+      geozone_restricted: "Barrutiak"
+      geozone_info: "Hemen erroldatutakoek parte har dezakete: "
+      already_answer: "Dagoeneko parte hartu duzu bozketa honetan"
+      not_logged_in: "Saioa hasi edo erregistratu egin behar duzu parte hartzeko"
+      unverified: "Mesedez, egiaztatu zure kontua parte hartu ahal izateko"
+      cant_answer: "Zure eskualdean ezin da bozketa honetan parte hartu"
       section_header:
-        icon_alt: Icono de Votaciones
-        title: Votaciones
-        help: Ayuda sobre las votaciones
+        icon_alt: Bozketen ikonoa
+        title: Bozketak
+        help: Bozketei buruzko laguntza
       section_footer:
-        title: Ayuda sobre las votaciones
-        description: Las votaciones ciudadanas son un mecanismo de participación por el que la ciudadanía con derecho a voto puede tomar decisiones de forma directa.
-      no_polls: "No hay votaciones abiertas."
-      max_votes_reached: "Ya has realizado el número máximo de votos. Muchas gracias por participar"
+        title: Bozketei buruzko laguntza
+        description: Herritarren bozketak parte-hartze mekanismo bat dira, zeinaren bidez, bozkatzeko eskubidea duten herritarrek zuzenean har ditzakete erabakiak.
+      no_polls: "Ez dago bozketa irekirik."
+      max_votes_reached: "Dagoeneko gehienezko boto-kopurua eman duzu. Eskerrik asko parte hartzeagatik."
       descriptions:
-        unique: Solo se puede responder a la pregunta con una única respuesta.
-        multiple: Permite elegir más de una respuesta. Se puede elegir el número máximo de respuestas.
-        prioritized: Permite elegir mas de una respuesta, que a su vez se podran ordenar por prioridad. Se puede elegir el número máximo de respuestas y que tipo de recuento se utilizará en la priorización.
-        positive_open: Permite votar positivamente a un número máximo de respuestas. Se puede elegir el número máximo y los usuarios podran añadir resuestas.
-        positive_negative_open: Permite votar positiva y negativamente a un máximo de respuestas. Se puede elegir el número máximo y los usuarios podran añadir resuestas.
-        answer_couples_open: Permite votar a un número maximo de pares de respuestas. Se puede elegir el número maximo de pares y los usuarios podran añadir respuestas.
-        answer_couples_closed: Permite votar a un número maximo de pares de respuestas. Se puede elegir el número maximo de pares y los usuarios NO podran añadir respuestas.
-        answer_set_open: Permite votar un número máximo de respuestas en un conjunto de ellas. Se puede elegir el numero máximo de respuestas y el número de respuestas que hay en el conjunto. Los usuarios podran añadir respuestas.
-        answer_set_closed: Permite votar un número máximo de respuestas en un conjunto de ellas. Se puede elegir el numero máximo de respuestas y el número de respuestas que hay en el conjunto.
+        unique: Galderari erantzun bakarra eman dakioke.
+        multiple: Erantzun bat baino gehiago hautatzeko aukera ematen du. Erantzun-kopuru maximoa aukera daiteke.
+        prioritized: Erantzun bat baino gehiago hautatzeko aukera ematen du, eta, aldi berean, lehentasunaren arabera ordenatu ahal izango dira. Erantzun-kopuru maximoa aukera daiteke, eta zein zenbaketa-mota erabiliko den lehenestean.
+        positive_open: Gehienez erantzun kopuru bati aldeko botoa emateko aukera ematen du. Gehienezko kopurua aukera daiteke, eta erabiltzaileek erantzunak gehi ditzakete.
+        positive_negative_open: Gehienez erantzun kopuru bati aldeko eta kontrako botoa emateko aukera ematen du. Gehienezko kopurua aukera daiteke, eta erabiltzaileek erantzunak gehi ditzakete.
+        answer_couples_open: Gehienez erantzun pare-kopuru bati botoa emateko aukera ematen du. Gehienezko pare-kopurua aukera daiteke, eta erabiltzaileek erantzunak gehitu ahal izango dituzte.
+        answer_couples_closed: Gehienez erantzun pare-kopuru bati botoa emateko aukera ematen du. Gehienezko pare-kopurua aukera daiteke, eta erabiltzaileek ezingo dituzte erantzunak gehitu.
+        answer_set_open: Gehienez erantzun kopuru bat bozkatzeko aukera ematen du. Gehienezko rantzun kopurua eta multzoan dauden erantzun kopurua aukera daitezke. Erabiltzaileek erantzunak gehitu ditzakete.
+        answer_set_closed: Gehienez erantzun kopuru bat bozkatzeko aukera ematen du. Gehienezko rantzun kopurua eta multzoan dauden erantzun kopurua aukera daitezke.
     show:
-      already_voted_in_booth: "Ya has participado en esta votación en urnas presenciales, no puedes volver a participar."
-      already_voted_in_web: "Ya has participado en esta votación. Si vuelves a votar se sobreescribirá tu resultado anterior."
-      back: Volver a votaciones
-      cant_answer_not_logged_in: "Necesitas %{signin} o %{signup} para participar."
-      comments_tab: Comentarios
-      login_to_comment: Necesitas %{signin} o %{signup} para comentar.
-      signin: iniciar sesión
-      signup: registrarte
-      cant_answer_verify_html: "Por favor %{verify_link} para poder responder."
-      verify_link: "verifica tu cuenta"
-      cant_answer_expired: "Esta votación ha terminado."
-      cant_answer_wrong_geozone: "Esta votación no está disponible en tu zona."
-      more_info_title: "Más información"
-      documents: Documentos
-      zoom_plus: Ampliar imagen
-      read_more: "Leer más sobre %{answer}"
-      read_less: "Leer menos sobre %{answer}"
-      videos: "Vídeo externo"
-      info_menu: "Información"
-      stats_menu: "Estadísticas de participación"
-      results_menu: "Resultados de la votación"
+      already_voted_in_booth: "Dagoeneko parte hartu duzu hautestontzi presentzialetan, ezin duzu berriro parte hartu."
+      already_voted_in_web: "Dagoeneko parte hartu duzu bozketa honetan. Berriro bozkatzen baduzu, aurreko emaitza gainidatziko da."
+      back: Itzuli bozketetara
+      cant_answer_not_logged_in: "%{signin} edo %{signup} behar duzu parte hartzeko"
+      comments_tab: Iruzkinak
+      login_to_comment: %{signin} edo %{signup} behar duzu iruzkinak egiteko.
+      signin: saioa hasi
+      signup: izena eman
+      cant_answer_verify_html: "Mesedez, %{verify_link} erantzun ahal izateko."
+      verify_link: "Baieztatu zure kontua"
+      cant_answer_expired: "Bozketa hau amaitu da."
+      cant_answer_wrong_geozone: "Zure zonaldean ezin da bozketa honetan parte hartu."
+      more_info_title: "Informazio gehiago"
+      documents: Dokumentuak
+      zoom_plus: Irudia handitu
+      read_more: "%{answer} ri buruz gehiago irakurri"
+      read_less: "%{answer} ri buruz gutxiago irakurri"
+      videos: "Kanpoko bideoa"
+      info_menu: "Informazioa"
+      stats_menu: "Parte-hartze estatistikak"
+      results_menu: "Bozketaren emaitzak"
       stats:
-        total_votes: "Nº total de votos emitidos"
-        votes: "VOTOS"
-        web: "WEB"
-        mail: "CORREO"
-        booth: "URNAS"
-        total: "TOTAL"
-        valid: "Válidos"
-        white: "Totalmente en blanco"
-        null_votes: "Nulos"
+        total_votes: "Emandako botoak, guztira"
+        votes: "BOTOAK"
+        web: "WEBGUNEA"
+        mail: "E-POSTA"
+        booth: "HAUTESONTZIAK"
+        total: "OSOTARA"
+        valid: "Baliozkoak"
+        white: "Txuriak"
+        null_votes: "Baliogabeak"
       results:
-        title: "Preguntas"
-        most_voted_answer: "Respuesta más votada: "
+        title: "Galderak"
+        most_voted_answer: "Boto gehien jaso duen erantzuna: "
     poll_header:
-      back_to_proposal: Volver a la propuesta
+      back_to_proposal: Proposamenera itzuli
   poll_questions:
     show:
-      vote_answer: "Votar %{answer}"
-      voted: "Has votado %{answer}"
-      add_answer: "Añadir respuesta"
+      vote_answer: "Bozkatu %{answer}"
+      voted: "Bozkatu duzu %{answer}"
+      add_answer: "Erantzuna gehitu"
     description:
-      multiple: "Puedes seleccionar un máximo de %{maximum} respuestas."
-      positive_negative_open: "Puedes votar, positiva o negativamente, un máximo de %{maximum} respuestas. Puedes añadir tus propias respuestas."
-      multiple: "Puedes seleccionar un máximo de %{maximum} respuestas"
-      answer_couples_open: "Elige una opción entre el siguiente par. Puedes elegir un máximo de %{maximum} respuestas"
-      answer_couples_closed: "Elige una opción entre el siguiente par. Puedes elegir un máximo de %{maximum} respuestas"
-      prioritized: "Puedes seleccionar un máximo de %{maximum} respuestas. Esta pregunta utilizara el método %{system} para el recuento."
-      positive_open: "Puedes seleccionar un máximo de %{maximum} respuestas y añadir tus propias respuestas."
+      multiple: "Gehienez ere %{maximum} erantzun hauta ditzakezu."
+      positive_negative_open: "Baiezko edo ezezko botoa eman dezakezu, gehienez ere %{maximum} erantzun emanez. Zure erantzunak gehitu ditzakezu."
+      multiple: "Gehienez ere %{maximum} erantzun hauta ditzakezu"
+      answer_couples_open: "Aukeratu aukera bat hurrengo parearen artean. Gehienez ere %{maximum} erantzun hauta ditzakezu"
+      answer_couples_closed: "Aukeratu aukera bat hurrengo parearen artean. Gehienez ere %{maximum} erantzun hauta ditzakezu"
+      prioritized: "Gehienez ere %{maximum} erantzun hauta ditzakezu. Galdera honek %{system} metodoa erabiliko du zenbaketarako."
+      positive_open: "Gehienez ere %{maximum} erantzun hauta ditzakezu eta zure erantzunak gehitu ditzakezu"
       unique: ""
-    read_more_about: "Leer más:"
+    read_more_about: "Irakurri gehiago:"
   proposal_notifications:
     new:
-      title: "Enviar mensaje"
-      title_label: "Título"
-      body_label: "Mensaje"
-      submit_button: "Enviar mensaje"
-      info_about_receivers_html: "Este mensaje se enviará a <strong>%{count} usuarios</strong> y se publicará en %{proposal_page}.<br> El mensaje no se enviará inmediatamente, los usuarios recibirán periódicamente un email con todas las notificaciones de propuestas."
-      proposal_page: "la página de la propuesta"
+      title: "Bidali mezua"
+      title_label: "Izenburua"
+      body_label: "Mezua"
+      submit_button: "Bidali mezua"
+      info_about_receivers_html: "Mezu hau <strong>%{count} </strong> erabiltzaileei bidaliko zaie eta %{proposal_page}.<br> en argitaratuko da. Mezua ez da berehala bidaliko, erabiltzaileek aldizka mezu elektroniko bat jasoko dute proposamenen jakinarazpen guztiekin."
+      proposal_page: "Proposamenaren orrialdea"
     show:
-      back: "Volver a mi contenido"
+      back: "Itzuli nire edukira"
   shared:
-    edit: "Editar"
-    save: "Guardar"
-    delete: "Borrar"
-    "yes": "Si"
-    "no": "No"
-    search_results: "Resultados de la búsqueda"
+    edit: "Editatu"
+    save: "Gorde"
+    delete: "Ezabatu"
+    "yes": "Bai"
+    "no": "Ez"
+    search_results: "Bilaketaren emaitzak"
     advanced_search:
-      author_type: "Por categoría de autor"
-      author_type_blank: "Elige una categoría"
-      date: "Por fecha"
-      date_placeholder: "DD/MM/AAAA"
-      date_range_blank: "Elige una fecha"
-      date_1: "Últimas 24 horas"
-      date_2: "Última semana"
-      date_3: "Último mes"
-      date_4: "Último año"
-      date_5: "Personalizada"
-      from: "Desde"
-      general: "Con el texto"
-      general_placeholder: "Escribe el texto"
-      search: "Filtrar"
-      title: "Búsqueda avanzada"
-      to: "Hasta"
+      author_type: "Egilearen kategoriaren arabera"
+      author_type_blank: "Aukeratu kategoria bat"
+      date: "Dataren arabera"
+      date_placeholder: "EE/HH/UUUU"
+      date_range_blank: "Aukeratu data bat"
+      date_1: "Azken 24 orduak"
+      date_2: "Azken astea"
+      date_3: "Azken hilabetea"
+      date_4: "Azken urtea"
+      date_5: "Pertsonalizatua"
+      from: "Nondik"
+      general: "Testuarekin"
+      general_placeholder: "Idatzi testua"
+      search: "Filtratu"
+      title: "Bilaketa aurreratua"
+      to: "Noraino"
     author_info:
-      author_deleted: Usuario eliminado
-      email_deleted: Email eliminado
-    back: Volver
-    check: Seleccionar
-    check_all: Todos
-    check_none: Ninguno
-    collective: Colectivo
-    flag: Denunciar como inapropiado
-    follow: "Seguir"
-    following: "Siguiendo"
-    follow_entity: "Seguir %{entity}"
+      author_deleted: Erabiltzailea ezabatua izan da
+      email_deleted: E-posta ezabatua izan da
+    back: Itzuli
+    check: Aukeratu
+    check_all: Denak
+    check_none: Bat ere ez
+    collective: Taldea
+    flag: Ezegoki bezala salatu
+    follow: "Jarraitu"
+    following: "Jarraitzen"
+    follow_entity: "Jarraitu %{entity}"
     followable:
       budget_investment:
         create:
-          notice_html: "¡Ahora estás siguiendo este proyecto de gasto! </br> Te notificaremos los cambios a medida que se produzcan para que estés al día."
+          notice_html: "Orain gastu-proiektu hau jarraitzen duzu! </br> Aldaketak gertatu ahala jakinaraziko dizkizugu, eguneratuta egon zaitezen."
         destroy:
-          notice_html: "¡Has dejado de seguir este proyecto de gasto! </br> Ya no recibirás más notificaciones relacionadas con este proyecto."
+          notice_html: "Gastu-proiektu hau jarraitzeari utzi diozu! </br> Ez duzu jasoko proiektu honi buruzko jakinarazpen gehiagorik."
       proposal:
         create:
-          notice_html: "¡Ahora estás siguiendo esta propuesta ciudadana! </br> Te notificaremos los cambios a medida que se produzcan para que estés al día."
+          notice_html: "Orain herritar-proposamen hau jarraitzen duzu! </br> Aldaketak gertatu ahala jakinaraziko dizkizugu, eguneratuta egon zaitezen."
         destroy:
-          notice_html: "¡Has dejado de seguir esta propuesta ciudadana! </br> Ya no recibirás más notificaciones relacionadas con esta propuesta."
-    hide: Ocultar
+          notice_html: "Herritar-proposamen hau jarraitzeari utzi diozu! </br> Ez duzu jasoko proiektu honi buruzko jakinarazpen gehiagorik."
+    hide: Ezkutatu
     print:
-      print_button: Imprimir esta información
-    search: Buscar
-    show: Mostrar
+      print_button: Informazio hau inprimatu
+    search: Bilatu
+    show: Erakutsi
     suggest:
       debate:
         found:
-          one: "Existe un debate con el término '%{query}', puedes participar en él en vez de abrir uno nuevo."
-          other: "Existen debates con el término '%{query}', puedes participar en ellos en vez de abrir uno nuevo."
-        message: "Estás viendo %{limit} de %{count} debates que contienen el término '%{query}'"
-        see_all: "Ver todos"
+          one: "Eztabaida bat dago '%{query}' kontzeptuarekin; bertan parte har dezakezu, berri bat ireki beharrean."
+          other: "Eztabaidak daude '%{query}' kontzeptuarekin; hauetan parte har dezakezu, berri bat ireki beharrean."
+        message: "'%{query}' kontzeptua duten %{count} eztabaidetatik %{limit} ikusten ari zara"
+        see_all: "Guztiak ikusi"
       budget_investment:
         found:
-          one: "Existe un proyecto de gasto con el término '%{query}', puedes participar en él en vez de crear uno nuevo."
-          other: "Existen proyectos de gasto de con el término '%{query}', puedes participar en ellos en vez de crear una nuevo."
-        message: "Estás viendo %{limit} de %{count} proyectos de gasto que contienen el término '%{query}'"
-        see_all: "Ver todos"
+          one: "Gastu-proiektu bat dago '%{query}' kontzeptuarekin, bertan parte har dezakezu, berri bat sortu beharrean."
+          other: "Gastu-proiektuak daude '%{query}' kontzeptuarekin, hauetan parte har dezakezu, berri bat sortu beharrean."
+        message: "'%{query}' kontzeptua duten %{count} gastu-proiektuetatik %{limit} ikusten ari zara"
+        see_all: "Guztiak ikusi"
       proposal:
         found:
-          one: "Existe una propuesta con el término '%{query}', puedes participar en ella en vez de abrir uno nuevo."
-          other: "Existen propuestas con el término '%{query}', puedes participar en ellas en vez de abrir uno nuevo."
-        message: "Estás viendo %{limit} de %{count} propuestas que contienen el término '%{query}'"
-        see_all: "Ver todas"
+          one: "Proposamen bat dago '%{query}' kontzeptuarekin, bertan parte har dezakezu, berri bat sortu beharrean."
+          other: "Proposamenak daude '%{query}' kontzeptuarekin, hauetan parte har dezakezu, berri bat sortu beharrean"
+        message: "'%{query}' kontzeptua duten %{count} proposamenetatik %{limit} ikusten ari zara"
+        see_all: "Guztiak ikusi"
     tags_cloud:
-      tags: Tendencias
-      districts: "Distritos"
-      districts_list: "Listado de distritos"
-      categories: "Categorías"
-    target_blank_html: " (se abre en ventana nueva)"
-    you_are_in: "Estás en"
-    unflag: Deshacer denuncia
-    unfollow_entity: "Dejar de seguir %{entity}"
+      tags: Joerak
+      districts: "Barrutiak"
+      districts_list: "Barruti zerrenda"
+      categories: "Kategoriak"
+    target_blank_html: " (Lehio berri bat irekitzen da)"
+    you_are_in: "Hemen zaude:"
+    unflag: Salaketa desegin
+    unfollow_entity: "%{entity} jarraitzeari utzi"
     outline:
-      searcher: Buscador
-    go_to_page: "Ir a la página de "
-    share: Compartir
+      searcher: Bilatzailea
+    go_to_page: "Orri honetara joan: "
+    share: Partekatu
     orbit:
-      previous_slide: Imagen anterior
-      next_slide: Siguiente imagen
-    documentation: Documentación adicional
+      previous_slide: Aurreko irudia
+      next_slide: Hurrengo irudia
+    documentation: Dokumentazio gehigarria
     view_mode:
-      title: Modo de vista
-      cards: Tarjetas
-      list: Lista
+      title: Ikusteko modua
+      cards: Txartelak
+      list: Zerrenda
     recommended_index:
-      title: Recomendaciones
-      see_more: Ver más recomendaciones
-      hide: Ocultar recomendaciones
+      title: Gomendioak
+      see_more: Gomendio gehiago ikusi
+      hide: Gomendioak ezkutatu
     download:
-      title: "Descargas"
+      title: "Deskargak"
       link:
-        proposal: "Descargar propuestas"
-        debate: "Descargar debates"
-        legislation_process: "Descargar procesos legislativos"
-        budget: "Descargar presupuestos"
-        investments: "Descargar proyectos"
+        proposal: "Proposamena deskargatu"
+        debate: "Eztabaidak deskargatu"
+        legislation_process: "Prozesu legegintzaileak deskargatu"
+        budget: "Aurrekontuak deskargatu"
+        investments: "Proiektuak deskargatu"
     translations:
-      select_language_prompt: Seleccionar idioma
-      remove_language: Eliminar idioma
-      add_language: Añadir idioma
+      select_language_prompt: Hizkuntza aukeratu
+      remove_language: Hizkuntza ezabatu
+      add_language: Hizkuntza gehitu
       languages_in_use_html:
-        zero: "<span class='js-languages-count'>0</span> idiomas en uso"
-        one: "<span class='js-languages-count'>1</span> idioma en uso"
-        other: "<span class='js-languages-count'>%{count}</span> idiomas en uso"
+        zero: "<span class='js-languages-count'>0</span> hizkuntza erabiltzen"
+        one: "<span class='js-languages-count'>1</span> hizkuntza erabiltzen"
+        other: "<span class='js-languages-count'>%{count}</span> hizkuntza erabiltzen"
   social:
-    facebook: "Facebook de %{org}"
-    twitter: "Twitter de %{org}"
-    youtube: "YouTube de %{org}"
+    facebook: "Facebook: %{org}"
+    twitter: "Twitter: %{org}"
+    youtube: "YouTube: %{org}"
     whatsapp: WhatsApp
-    telegram: "Telegram de %{org}"
-    instagram: "Instagram de %{org}"
+    telegram: "Telegram: %{org}"
+    instagram: "Instagram: %{org}"
   stats:
     index:
-      visits: Visitas
-      debates: Debates
-      proposals: Propuestas ciudadanas
-      comments: Comentarios
-      proposal_votes: Votos en propuestas
-      debate_votes: Votos en debates
-      comment_votes: Votos en comentarios
-      votes: Votos
-      verified_users: Usuarios verificados
-      unverified_users: Usuarios sin verificar
+      visits: Ikustaldiak
+      debates: Eztabaidak
+      proposals: Herritar proposamenak
+      comments: Iruzkinak
+      proposal_votes: Proposamenetako botoak
+      debate_votes: Eztabaidetako botoak
+      comment_votes: Iruzkinetako botoak
+      votes: Botoak
+      verified_users: Egiaztatutako erabiltzaileak
+      unverified_users: Egiaztatu gabeko erabiltzaileak
   unauthorized:
-    default: No tienes permiso para acceder a esta página.
+    default: Ez duzu orri honetara sartzeko baimenik.
     manage:
-      all: "No tienes permiso para realizar la acción '%{action}' sobre %{subject}."
+      all: "Ez duzu baimenik %{subject}en gaineko '%{action}' ekintza egiteko"
   users:
     direct_messages:
       new:
-        body_label: Mensaje
-        direct_messages_bloqued: "Este usuario ha decidido no recibir mensajes privados"
-        submit_button: Enviar mensaje
-        title: Enviar mensaje privado a %{receiver}
-        title_label: Título
-        verified_only: Para enviar un mensaje privado %{verify_account}
-        verify_account: verifica tu cuenta
-        authenticate: Necesitas %{signin} o %{signup}.
-        signin: iniciar sesión
-        signup: registrarte
+        body_label: Mezua
+        direct_messages_bloqued: "Erabiltzaile honek mezu pribaturik ez jasotzea erabaki du"
+        submit_button: Mezua bidali
+        title: Mezu pribatua bidali honi: %{receiver}
+        title_label: Izenburua
+        verified_only: Mezu pribatua bidaltzeko: %{verify_account}
+        verify_account: Egiaztatu zure kontua
+        authenticate: %{signin} edo %{signup} behar duzu.
+        signin: saioa hasi
+        signup: izena eman
       show:
-        receiver: Mensaje enviado a %{receiver}
+        receiver: Mezua bidalia honi: %{receiver}
     show:
-      deleted: Eliminado
-      deleted_debate: Este debate ha sido eliminado
-      deleted_proposal: Esta propuesta ha sido eliminada
-      deleted_budget_investment: Este proyecto de gasto ha sido eliminado
-      proposals: Propuestas
-      proposals_status: Estado
-      debates: Debates
-      budget_investments: Proyectos de presupuestos participativos
-      comments: Comentarios
-      actions: Acciones
+      deleted: Ezabatua
+      deleted_debate: Eztabaida hau ezabatua izan da
+      deleted_proposal: Proposamen hau ezabatua izan da
+      deleted_budget_investment: gastu-proiektu hau ezabatua izan da
+      proposals: Proposamenak
+      proposals_status: Egoera
+      debates: Eztabaidak
+      budget_investments: Aurrekontu partehartzaileen proposamenak
+      comments: Iruzkinak
+      actions: Ekintzak
       filters:
         comments:
-          one: 1 Comentario
-          other: "%{count} Comentarios"
+          one: Iruzkin 1
+          other: "%{count} Iruzkin"
         debates:
-          one: 1 Debate
-          other: "%{count} Debates"
+          one: Eztabaida 1
+          other: "%{count} Eztabaida"
         proposals:
-          one: 1 Propuesta
-          other: "%{count} Propuestas"
+          one: Proposamen 1
+          other: "%{count} Proposamen"
         budget_investments:
-          one: 1 Proyecto de presupuestos participativos
-          other: "%{count} Proyectos de presupuestos participativos"
+          one: Aurrekontu partehartzaileen proiektu 1
+          other: "%{count} Aurrekontu partehartzaileen proiektu"
         follows:
-          one: 1 Siguiendo
-          other: "%{count} Siguiendo"
-      no_activity: Usuario sin actividad pública
-      no_private_messages: "Este usuario no acepta mensajes privados."
-      private_activity: Este usuario ha decidido mantener en privado su lista de actividades.
-      send_private_message: "Enviar un mensaje privado"
-      delete_alert: "¿Estás seguro de que deseas borrar tu proyecto de gasto? Esta acción no se puede deshacer"
+          one: 1 jarraitzen
+          other: "%{count} jarraitzen"
+      no_activity: Jarduera publikorik gabeko erabiltzailea
+      no_private_messages: "Erabiltzaile honek ez duzu mezu pribaturik onartzen"
+      private_activity: Erabiltzaile honek erabaki du bere jarduera-zerrenda pribatuki gordetzea.
+      send_private_message: "Mezu pribatu bat bidali"
+      delete_alert: "Ziur zaude gastu-proiektua ezabatu nahi duzula? Ekintza hori ezin da desegin"
     proposals:
-      retired: "Propuesta retirada"
-      draft: Borrador
-      published: Publicada
-      see: "Ver propuesta"
-      actions: Acciones
-      retired_help_text: Dashboard no disponible para propuestas retiradas
+      retired: "Erretiratutako proposamena"
+      draft: Zirriborroa
+      published: Argitaratua
+      see: "proposamena ikusi"
+      actions: Ekintzak
+      retired_help_text: Erretiratutako proposamenentzat Dashboarda ez dago eskuragarri
   votes:
-    agree: Estoy de acuerdo
-    anonymous: Demasiados votos anónimos, para poder votar %{verify_account}.
-    comment_unauthenticated: Necesitas %{signin} o %{signup} para poder votar.
-    disagree: No estoy de acuerdo
-    organizations: Las organizaciones no pueden votar.
-    signin: iniciar sesión
-    signup: registrarte
-    supports: Apoyos
-    unauthenticated: Necesitas %{signin} o %{signup} para continuar.
-    verified_only: Las propuestas sólo pueden ser votadas por usuarios verificados, %{verify_account}.
-    verify_account: verifica tu cuenta
+    agree: Ados nago
+    anonymous: Boto anonimo gehiegi, %{verify_account} bozkatu ahal izateko.
+    comment_unauthenticated: Bozkatu ahal izateko %{signin} edo %{signup} behar duzu.
+    disagree: Ez nago ados
+    organizations: Elakrteek ezin dute bozkatu.
+    signin: Saioa hasi
+    signup: Izena eman
+    supports: Sostenguak
+    unauthenticated: Jarraitzeko %{signin} edo %{signup} behar duzu.
+    verified_only: Erabiltzaile egiaztatuek bakarrik bozka ditzakete proposamenak, %{verify_account}.
+    verify_account: Egiaztatu zure kontua
     budget_investments:
-      not_logged_in: Necesitas %{signin} o %{signup} para continuar.
-      not_verified: Los proyectos de gasto sólo pueden ser apoyadas por usuarios verificados, %{verify_account}.
-      organization: Las organizaciones no pueden votar.
-      unfeasible: No se pueden votar propuestas inviables.
-      not_voting_allowed: El periodo de votación está cerrado.
+      not_logged_in: Jarraitzeko %{signin} edo %{signup} behar duzu.
+      not_verified: Erabiltzaile egiaztatuek bakarrik sostengatu ditzakete gastu-proiektuak, %{verify_account}.
+      organization: Elkarteeek ezin dute bozkatu.
+      unfeasible: Ezin dira proposamen bideraezinak bozkatu.
+      not_voting_allowed: Bozka emateko epea itxita dago.
       different_heading_assigned:
-        one: "Sólo puedes apoyar proyectos de gasto de %{count} distrito. Ya has apoyado en %{supported_headings}."
-        other: "Sólo puedes apoyar proyectos de gasto de %{count} distritos. Ya has apoyado en %{supported_headings}."
+        one: "Soilik %{count} barrutiko gastu-proiektuak sostengatu ditzakezu. Dagoeneko sostengatu duzu %{supported_headings}n."
+        other: "Soilik %{count} barrutiko gastu-proiektuak sostengatu ditzakezu. Dagoeneko sostengatu duzu %{supported_headings}n."
   welcome:
     feed:
       most_active:
-        debates: "Debates más activos"
-        proposals: "Propuestas más activas"
-        processes: "Procesos abiertos"
-      see_all_debates: Ver todos los debates
-      see_all_proposals: Ver todas las propuestas
-      see_all_processes: Ver todos los procesos
-      process_label: Proceso
-      see_process: Ver proceso
+        debates: "Eztabaida aktiboenak"
+        proposals: "Proposamen aktiboenak"
+        processes: "Prozesu irkiak"
+      see_all_debates: Eztabaida guztiak ikusi
+      see_all_proposals: Proposamen guztiak ikusi
+      see_all_processes: Prozesu guztiak ikusi
+      process_label: Prozesua
+      see_process: Prozesua ikusi
     cards:
-      title: Destacados
+      title: Nabarmenak
     recommended:
-      title: Recomendaciones que te pueden interesar
-      help: "Estas recomendaciones se generan por las etiquetas de los debates y propuestas que estás siguiendo."
+      title: Zuretzat interesgarriak izan daitezkeen gomendioak
+      help: "Gomendio hauek jarraitzen dituzun eztabaidetako eta proposamenetako etiketen arabera sortzen dira."
       debates:
-        title: Debates recomendados
-        btn_text_link: Todos los debates recomendados
+        title: Gomendatutako eztabaidak
+        btn_text_link: Gomendatutako eztabaida guztiak
       proposals:
-        title: Propuestas recomendadas
-        btn_text_link: Todas las propuestas recomendadas
+        title: Gomendatutako proposamenak
+        btn_text_link: Gomendatutako proposamen guztiak
       budget_investments:
-        title: Presupuestos recomendados
-      slide: "Ver %{title}"
+        title: Gomendatutako aurrekontuak
+      slide: "%{title} ikusi"
     verification:
-      i_dont_have_an_account: No tengo cuenta, quiero crear una y verificarla
-      i_have_an_account: Ya tengo una cuenta que quiero verificar
-      question: '¿Tienes ya una cuenta en %{org_name}?'
-      title: Verificación de cuenta
+      i_dont_have_an_account: Ez dut konturik, bat sortu eta egiaztatu nahi dut
+      i_have_an_account: Dagoeneko badut egiaztatu nahi dudan kontu bat
+      question: 'Dagoeneko %{org_name}en kontu bat daukazu?'
+      title: Kontuaren egiaztatzea
     welcome:
-      go_to_index: Ahora no, ir a la página de inicio
-      start_using_consul: Ir a la página de inicio
-      title: Empieza a participar
-      user_permission_debates: Participar en debates
-      user_permission_info: Con tu cuenta ya puedes...
-      user_permission_proposal: Crear nuevas propuestas
-      user_permission_support_proposal: Apoyar propuestas*
-      user_permission_verify: "Para poder realizar las siguientes acciones, verifica tu cuenta."
-      user_permission_verify_info: "* Sólo usuarios empadronados."
-      user_permission_verify_my_account: Verificar mi cuenta
-      user_permission_votes: Participar en las votaciones finales*
+      go_to_index: orain ez, hasierako orrira joan
+      start_using_consul: Hasierako orrira joan
+      title: Ekin parte-hartzeari
+      user_permission_debates: Eztabaidetan parte-hartu
+      user_permission_info: Zure kontuarekin, dagoeneko honako hau egin dezakezu...
+      user_permission_proposal: Proposamen berriak sortu
+      user_permission_support_proposal: Proposamenak sostengatu*
+      user_permission_verify: "Ekintza hauek egin ahal izateko, egiaztatu zure kontua."
+      user_permission_verify_info: "* Soilik erroldatutako erabiltzaileak"
+      user_permission_verify_my_account: Nire kontua egiaztatu
+      user_permission_votes: Azken bozketeta parte-hartu*
   invisible_captcha:
-    sentence_for_humans: "Si eres humano, por favor ignora este campo"
-    timestamp_error_message: "Eso ha sido demasiado rápido. Por favor, reenvía el formulario."
+    sentence_for_humans: "Gizakia bazara, mesedez, ez izan kontuan eremu hau"
+    timestamp_error_message: "Hori azkarregia izan da. Mesedez, bidali berriro formularioa."
   related_content:
-    title: "Contenido relacionado"
-    add: "Añadir contenido relacionado"
-    label: "Enlace a contenido relacionado"
+    title: "Erlazionatutako edukia"
+    add: "Gehitu erlazionatutako edukia"
+    label: "Erlazionatutako edukiara esteka"
     placeholder: "%{url}"
-    help: "Puedes introducir cualquier enlace de %{models} que esté dentro de %{org}."
-    submit: "Añadir"
-    error: "Enlace no válido. Recuerda que debe empezar por %{url}."
-    error_itself: "Enlace no válido. No se puede relacionar un contenido consigo mismo."
-    success: "Has añadido un nuevo contenido relacionado"
-    is_related: "¿Es contenido relacionado?"
-    score_positive: "Sí"
-    score_negative: "No"
+    help: "%{org}en barruan dagoene edozein %{models}ko edozein esteka sartu dezakezu."
+    submit: "Gehitu"
+    error: "Esteka ez da baliozkoa. Gogoan izan %{url}rekin hasi behar duzula."
+    error_itself: "Esteka ez da baliozkoa. Ezin da eduki bat bere buruarekin lotu."
+    success: "Lotutako eduki berri bat gehitu duzu"
+    is_related: "Erlazionatutako edukia da?"
+    score_positive: "Bai"
+    score_negative: "Ez"
     content_title:
-      proposal: "Propuesta"
-      debate: "Debate"
-      budget_investment: "Proyecto de gasto"
+      proposal: "Proposamena"
+      debate: "Eztabaida"
+      budget_investment: "Gastu-proiektua"
   admin/widget:
     header:
-      title: Administración
+      title: Administrazioa
   annotator:
     help:
-      alt: Selecciona el texto que quieres comentar y pulsa en el botón con el lápiz.
-      text: Para comentar este documento debes %{sign_in} o %{sign_up}. Después selecciona el texto que quieres comentar y pulsa en el botón con el lápiz.
-      text_sign_in: iniciar sesión
-      text_sign_up: registrarte
-      title: '¿Cómo puedo comentar este documento?'
+      alt: Aukeratu iruzkindu nahi duzun testua eta sakatu botoia arkatzarekin.
+      text: dokumentu hau iruzkintzeko %{sign_in} edo %{sign_up} behar duzu. ondoren aukeratu iruzkindu nahi duzun testua eta sakatu botoia arkatzarekin.
+      text_sign_in: Saioa hasi
+      text_sign_up: Izena eman
+      title: 'Nola iruzkindu dezaket dokumentu hau?'
   links:
     form:
-      delete_button: Borrar
-      cancel_button: Cancelar
+      delete_button: Ezabatu
+      cancel_button: Bertan behera utzi
     nested_links:
-      title: Enlaces
-      note: Añade los enlaces que sean de interés.
-      add_new_link: Añadir nuevo enlace
+      title: Estekak
+      note: Gehitu interesgarriak diren estekak.
+      add_new_link: Esteka berria gehitu
     link_fields:
-      label_placeholder: Título del enlace
-      url_placeholder: Dirección del enlace
+      label_placeholder: Estekaren izenburua
+      url_placeholder: Estekaren helbidea
   communities:
     show:
-      surveys: Encuestas
-      complete_survey: Completa la encuesta
+      surveys: Inkestak
+      complete_survey: Inkesta osatu
     subnav:
-      surveys: Encuestas
+      surveys: Inkestak
     poll:
-      take_part: Participa del %{from} al %{to}
+      take_part: %{from}tik %{to}ra parte-hartu
   question:
-    max_votes: Número máximo de votos
-    max_group_answers: Número máximo de respuestas en el conjunto
-    votation_type: Tipo de votación
+    max_votes: Gehienezko boto kopurua
+    max_group_answers: Multzoari gehienezko erantzun-kopurua
+    votation_type: Bozketa mota
   enum_type:
-    title: Tipo de votación
-    unique: Respuesta única, cerrada
-    multiple: Respuesta múltiple, cerrada
-    prioritized: Respuesta múltiple priorizada, cerrada
-    positive_open: Respuestas votables positivamente, abiertas
-    positive_negative_open: Respuestas votables positiva y negativamente, abiertas
-    answer_couples_open: Respuestas a pares, abiertas
-    answer_couples_closed: Respuestas a pares, cerradas
-    answer_set_open: Conjunto de respuestas, abiertas
-    answer_set_closed: Conjunto de respuestas, cerradas
+    title: Bozketa mota
+    unique: Erantzun bakarra, itxia.
+    multiple: Erantzun anitza, itxia
+    prioritized: Lehenetsi beharreko erantzun anitza, itxia
+    positive_open: Alde bozkatzeko moduko erantzunak, irekiak
+    positive_negative_open: Alde edo kontra bozkatzeko moduko erantzunak, irekiak
+    answer_couples_open: Bikotekako erantzunak, irekiak
+    answer_couples_closed: Bikotekako erantzunak, ixiak
+    answer_set_open: Erantzun multzoak, irekiak
+    answer_set_closed: Erantzun multzoak, itxiak
   prioritization_type:
-    title: Tipo de priorizacion
-    borda: Votación con recuento Borda
-    dowdall: Votación con recuento Dowdall
+    title: Leheneste mota
+    borda: Borda zenbaketarekin egindako bozketa
+    dowdall: Dowdall zenbaketarekin egindako bozketa
   remote_translations:
-    text: El contenido de esta página no está disponible en tu idioma
-    all_remote_translations_enqueued_text: "En un breve periodo de tiempo refrescando la página podrá ver todo el contenido en su idioma"
+    text: Orri honen edukia ez dago erabilgarri zure hizkuntzan
+    all_remote_translations_enqueued_text: "Denbora laburrean orria freskatzen baduzu eduki guztia zure hizkuntzan ikusi ahal izango duzu"
     create:
-      enqueue_remote_translation: Se han solicitado correctamente las traducciones.
-    button: Traducir página
+      enqueue_remote_translation: Itzulpenak behar bezala eskatu dira.
+    button: Orria itzuli

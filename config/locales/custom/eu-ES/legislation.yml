@@ -1,149 +1,149 @@
-eu:
+es:
   legislation:
     annotations:
       comments:
-        see_all: Ver todos
-        see_complete: Ver completo
+        see_all: Dena ikusi
+        see_complete: Osoa ikusi
         comments_count:
-          one: "%{count} comentario"
-          other: "%{count} comentarios"
+          one: "Iruzkin %{count}"
+          other: "%{count} Iruzkin"
         replies_count:
-          one: "%{count} respuesta"
-          other: "%{count} respuestas"
-        cancel: Cancelar
-        publish_comment: Publicar Comentario
+          one: "Erantzun %{count}"
+          other: "%{count} erantzun"
+        cancel: Utzi
+        publish_comment: Iruzkina argitaratu
       form:
-        phase_not_open: Esta fase del proceso no está abierta
-        login_to_comment: Necesitas %{signin} o %{signup} para comentar.
-        signin: iniciar sesión
-        signup: registrarte
+        phase_not_open: Prozesuaren fase hau ez dago irekia
+        login_to_comment: %{signin} edo %{signup} behar duzu iruzkindu ahal izateko.
+        signin: Saioa hasi
+        signup: Izena eman
       index:
         title: Comentarios
-        comments_about: Comentarios sobre
-        comment_about: "Comentario sobre:"
-        see_in_context: Ver en contexto
+        comments_about: Iruzkinak honen inguruan
+        comment_about: "Iruzkinak honen inguruan:"
+        see_in_context: Testuingurua ikusi
         comments_count:
-          one: "%{count} comentario"
-          other: "%{count} comentarios"
+          one: "Iruzkin %{count}"
+          other: "%{count} iruzkin"
       show:
-        title: Comentario
+        title: Iruzkina
       version_chooser:
-        seeing_version: Comentarios para la versión
-        see_text: Ver borrador del texto
+        seeing_version: Bertsiorako iruzkinak
+        see_text: Ikusi testuaren zirriborroa
     draft_versions:
       changes:
-        title: Cambios
-        seeing_changelog_version: Resumen de cambios de la revisión
-        see_text: Ver borrador del texto
+        title: Aldaketak
+        seeing_changelog_version: Berrikusketaren aldaketen laburpena
+        see_text: Ikusi testuaren zirriborroa
       show:
-        loading_comments: Cargando comentarios
-        seeing_version: Estás viendo la revisión
-        select_draft_version: Seleccionar borrador
-        select_version_submit: ver
-        updated_at: actualizada el %{date}
-        see_changes: ver resumen de cambios
-        see_comments: Ver todos los comentarios
-        text_toc: Índice
-        text_body: Texto
-        text_comments: Comentarios
+        loading_comments: Iruzkinak kargatzen
+        seeing_version: Berrikusketa ikusten ari zara
+        select_draft_version: Zirriborroa hautatu
+        select_version_submit: ikusi
+        updated_at: %{date} an eguneratua
+        see_changes: Ikusi aldaketen laburpena
+        see_comments: Ikusi iruzkin guztiak
+        text_toc: Aurkibidea
+        text_body: Testua
+        text_comments: Iruzkinak
     processes:
       header:
-        additional_info: Información adicional
-        description: En qué consiste
-        more_info: Más información y contexto
+        additional_info: Informazio gehigarria
+        description: Zertan datza
+        more_info: Informazio eta testuinguru gehiago
       proposals:
-        empty_proposals: No hay propuestas
+        empty_proposals: Ez dago proposamenik
         filters:
-          random: Aleatorias
-          winners: Seleccionadas
+          random: Ausazkoak
+          winners: Hautatuak
       debate:
-        empty_questions: No hay preguntas
-        participate: Realiza tus aportaciones al debate previo participando en los siguientes temas.
+        empty_questions: Ez dago galderarik
+        participate: Egin ekarpenak aurretiko eztabaidari, gai hauetan parte hartuz:
       index:
-        filter: Filtro
+        filter: Filtroa
         filters:
-          open: Procesos activos
-          past: Terminados
-        no_open_processes: No hay procesos activos
-        no_past_processes: No hay procesos terminados
+          open: Prozesu aktiboak
+          past: Amaituak
+        no_open_processes: Ez dago prozesu aktiborik
+        no_past_processes: Ez dago amaitutako prozesurik 
         section_header:
-          icon_alt: Icono de legislación colaborativa
-          title: Legislación colaborativa
-          help: Ayuda sobre legislación colaborativa
+          icon_alt: Legegintza kolaboratiboaren ikonoa
+          title: Legegintza kolaboratiboa
+          help: Legegintza kolaboratiboaren gaineko laguntza
         section_footer:
-          title: Ayuda sobre Legislación colaborativa
-          description: Participa en los debates y procesos previos a la aprobación de nuevas normas o planes. Tu opinión será tenida en cuenta.
+          title: Legegintza kolaboratiboaren gaineko laguntza
+          description: Arau edo plan berriak onetsi aurreko eztabaida eta prozesuetan parte hartu zazu. Zure iritzia kontuan hartuko da.
       phase_not_open:
-        not_open: Esta fase del proceso todavía no está abierta
+        not_open: Prozesuaren fase hau oraindik ez dago irekia
       phase_empty:
-        empty: No hay nada publicado todavía
+        empty: Ez dago ezer argitaratua oraindik
       process:
-        see_latest_comments: Ver últimas aportaciones
-        see_latest_comments_title: Aportar a este proceso
+        see_latest_comments: Ikusi azken ekarpenak
+        see_latest_comments_title: Ekarpenak egin prozesu honi
       shared:
-        key_dates: Fases de participación
-        homepage: Inicio
-        debate_dates: Debate previo
-        draft_publication_date: Publicación borrador
-        allegations_dates: Comentarios
-        result_publication_date: Publicación resultados
-        milestones_date: Seguimiento
-        proposals_dates: Propuestas
+        key_dates: Parte-hartze faseakFases de participación
+        homepage: Hasiera
+        debate_dates: Aurretiko eztabaida
+        draft_publication_date: Argitalpen ezabatua
+        allegations_dates: Iruzkinak
+        result_publication_date: Emaitzen argitalpena
+        milestones_date: Jarraipena
+        proposals_dates: Proposamenak
     questions:
       comments:
-        comment_button: Publicar respuesta
-        comments_title: Respuestas abiertas
-        comments_closed: Fase cerrada
+        comment_button: Erantzuna argitaratu
+        comments_title: Erantzun irekiak
+        comments_closed: Fase itxia
         form:
-          leave_comment: Deja tu respuesta
+          leave_comment: Utzi zure erantzuna
       question:
         total:
-          zero: No hay debates
-          one: "%{count} debate"
-          other: "%{count} debates"
+          zero: Ez dago eztabaidarik
+          one: "Eztabaida %{count}"
+          other: "%{count} eztabaida"
         comments:
-          zero: Sin comentarios
-          one: "%{count} comentario"
-          other: "%{count} comentarios"
-        debate: Debate
+          zero: Iruzkinik gabe
+          one: "Iruzkin %{count}"
+          other: "%{count} iruzkin"
+        debate: Eztabaida
       show:
-        answer_question: Enviar respuesta
-        next_question: Siguiente pregunta
-        first_question: Primera pregunta
-        share: Compartir
-        title: Proceso de legislación colaborativa
+        answer_question: Erantzuna bidali
+        next_question: Hurrengo galdera
+        first_question: Lehenengo galdera
+        share: Partekatu
+        title: Legegintza kolaboratiboaren prozesua
       participation:
-        phase_not_open: Esta fase no está abierta
-        organizations: Las organizaciones no pueden participar en el debate
-        signin: iniciar sesión
-        signup: registrarte
-        unauthenticated: Necesitas %{signin} o %{signup} para participar en el debate.
-        verified_only: Solo los usuarios verificados pueden participar en el debate, %{verify_account}.
-        verify_account: verifica tu cuenta
-        debate_phase_not_open: La fase de debate previo ya ha finalizado y en este momento no se aceptan respuestas
+        phase_not_open: Fase hau ez dago irekia
+        organizations: Elkarteek ezin dute parte-hartu eztabaidetan
+        signin: Saioa hasi
+        signup: Izena eman
+        unauthenticated: %{signin} edo %{signup} behar duzu eztabaidan parte-hartzeko.
+        verified_only: Soilik egiaztatutako erabiltzaileek parte-hartu dezakete eztabaidan, %{verify_account}.
+        verify_account: Egiaztatu zure kontua
+        debate_phase_not_open: Aurretiko eztabaidaren fasea amaitu da dagoeneko eta une honetan ez dira erantzunak onartzen.
     shared:
-      share: Compartir
-      share_comment: Comentario sobre la %{version_name} del borrador del proceso %{process_name}
+      share: Partekatu
+      share_comment: %{process_name} prozesuaren zirriborroaren %{version_name} buruzko iruzkina
     proposals:
       form:
-        tags_label: "Categorías"
-      not_verified: "Para votar propuestas %{verify_account}."
-      process_title: Proceso de legislación colaborativa
+        tags_label: "Kategoriak"
+      not_verified: "%{verify_account} proposamena bozkatzeko."
+      process_title: Legegintza kolaboratiboaren prozesua
       total:
-        zero: No hay propuestas
-        one: "%{count} propuesta"
-        other: "%{count} propuestas"
+        zero: Ez dago proposamenik
+        one: "Proposamen %{count}"
+        other: "%{count} proposamen"
     summary:
-      title: Resumen
-      votes: votos
-      debates_phase: Fase de debates
-      proposal_phase: Fase de propuestas
-      comments_phase: Fase de comentarios de texto
+      title: Laburpena
+      votes: Boto
+      debates_phase: Eztabaida fasea
+      proposal_phase: Proposamen fasea
+      comments_phase: Testu iruzkinen fasea
       comments:
-        zero: No hay comentarios
-        one: "%{count} comentario"
-        other: "%{count} comentarios"
-      most_voted_comments: "Comentarios más votados:"
-      no_allegation: No hay comentarios de texto.
-      version: versión
-      process_empty: The proces have no phases.
+        zero: Ez dago iruzkinik
+        one: "Iruzkin %{count}"
+        other: "%{count} iruzkin"
+      most_voted_comments: "Iruzkin bozkatuenak:"
+      no_allegation: Ez dago testu iruzkinik
+      version: Bertsioa
+      process_empty: Prozesuak ez du faserik

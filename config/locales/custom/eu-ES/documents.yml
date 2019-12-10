@@ -1,25 +1,25 @@
-eu:
+es:
   documents:
-    title: Documentos
-    max_documents_allowed_reached_html: '¡Has alcanzado el número máximo de documentos permitidos! <strong>Tienes que eliminar uno antes de poder subir otro.</strong>'
-    additional: Documentación adicional
+    title: Dokumentuak
+    max_documents_allowed_reached_html: 'Baimendutako gehienezko dokumentu-kopurura iritsi zara! <strong>Bat ezabatu behar duzu beste bat igo aurretik.</strong>'
+    additional: Dokumentazio gehigarria
     form:
-      title: Documentos
-      title_placeholder: Añade un título descriptivo para el documento
-      attachment_label: Selecciona un documento
-      delete_button: Eliminar documento
-      cancel_button: Cancelar
-      note: "Puedes subir hasta un máximo de %{max_documents_allowed} documentos en los formatos: %{accepted_content_types}, y de hasta %{max_file_size} MB por archivo."
-      add_new_document: Añadir nuevo documento
+      title: Dokumentuak
+      title_placeholder: Dokumentuaren izenburu deskribatzaile bat gehitu zazu
+      attachment_label: Dokumentu bat hautatu zazu
+      delete_button: Dokumentua ezabatu
+      cancel_button: Utzi
+      note: "Gehienez ere %{max_documents_allowed} dokumentu igo ditzakezu, formatu hauetan:%{accepted_content_types}, eta gehienez %{max_file_size} MB artxibo bakoitzeko."
+      add_new_document: Dokumentu berria gehitu.
     actions:
       destroy:
-        notice: El documento se ha eliminado correctamente.
-        alert: El documento no se ha podido eliminar.
-        confirm: '¿Está seguro de que desea eliminar el documento? Esta acción no se puede deshacer!'
+        notice: Dokumentua behar bezala ezabatu da.
+        alert: Ezin izan da dokumentua ezabatu.
+        confirm: 'Ziur zaude dokumentua ezabatu nahi duzula? Ekintza hau ezin da desegin!'
     buttons:
-      download_document: Descargar archivo
-      destroy_document: Eliminar documento
+      download_document: Deskargatu fitxategia
+      destroy_document: Dokumentua ezabatu
     errors:
       messages:
-        in_between: debe estar entre %{min} y %{max}
-        wrong_content_type: El tipo de contenido %{content_type} del archivo no coincide con ninguno de los tipos de contenido aceptados %{accepted_content_types}
+        in_between: %{min} eta %{max} tartean egon behar da
+        wrong_content_type: Fitxategiaren %{content_type} eduki-mota ez dator bat onartutako eduki-mota bakar batekin ere: %{accepted_content_types}

@@ -1,34 +1,34 @@
-eu:
+﻿es:
   activemodel:
     models:
       verification:
-        residence: "Residencia"
+        residence: "Bizilekua"
         sms: "SMS"
       local_census_records/import:
-        one: Importación de registros del censo local
-        other: Importaciones de registros del censo local
+        one:Tokiko erroldako erregistroen inportazioa
+        other: Tokiko erroldako erregistroen inportazioak
     attributes:
       verification:
         residence:
-          document_type: "Tipo de documento"
-          document_number: "Número de documento (incluida letra)"
-          date_of_birth: "Fecha de nacimiento"
-          postal_code: "Código postal"
+          document_type: "Dokumentu mota"
+          document_number: "Dokumentu zenbakia (letra barne)"
+          date_of_birth: "Jaiotze data"
+          postal_code: "Posta kodea"
         sms:
-          phone: "Teléfono"
-          confirmation_code: "Código de confirmación"
+          phone: "Telefonoa"
+          confirmation_code: "Egiaztapen kodea"
         email:
-          recipient: "Email"
+          recipient: "E-posta"
       officing/residence:
-        document_type: "Tipo de documento"
-        document_number: "Número de documento (incluida letra)"
-        year_of_birth: "Año de nacimiento"
+        document_type: "Dokumentu mota"
+        document_number: "Dokumentu zenbakia (letra barne)"
+        year_of_birth: "Jaiotze urtea"
       local_census_records/import:
-        file: Archivo
+        file: Fitxategi
     errors:
       models:
         local_census_records/import:
           attributes:
             file:
-              extension: "El formato del fichero es incorrecto. El formato de archivo permitido es: %{valid_extensions}."
-              headers: "Las cabeceras del fichero son incorrectas. Las cabeceras del fichero deben tener los nombres siguientes: %{required_headers}."
+              extension: "Fitxategiaren formatua ez da zuzena. Baimendutako fitxategi formatua ondorengoa da: %{valid_extensions}."
+              headers: "Fitxategiaren goiburuak okerrak dira. Fitxategiaren goiburuek ondorengo izen hauek izan behar dituzte: %{required_headers}."

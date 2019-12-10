@@ -1,8 +1,8 @@
-eu:
+es:
   milestones:
     index:
-      no_milestones: No hay hitos definidos
-      progress: Progreso
+      no_milestones: Ez dago mugarririk zehaztuta.
+      progress: Aurrerapena
     show:
-      publication_date: "Publicado el %{publication_date}"
-      status_changed: El proyecto ha cambiado al estado
+      publication_date: "%{publication_date} datan argitaratua"
+      status_changed: Proiektua egoerara aldatu da

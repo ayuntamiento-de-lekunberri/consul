@@ -1,170 +1,170 @@
-eu:
+es:
   pages:
     conditions:
-      title: Condiciones de uso
-      subtitle: AVISO LEGAL SOBRE LAS CONDICIONES DE USO, PRIVACIDAD Y PROTECCIÓN DE DATOS PERSONALES DEL PORTAL DE GOBIERNO ABIERTO
-      description: Página de información sobre las condiciones de uso, privacidad y protección de datos personales.
+      title: Erabilera baldintzak
+      subtitle: GOBERNU IREKIKO ATARIAREN ERABILERA, PRIBATUTASUN ETA DATU PERTSONALEN BABESARI BURUZKO LEGEZKO OHARRA
+      description: Datu pertsonalen erabilerari, pribatutasunari eta babesari buruzko informazio-orria.
     help:
-      title: "%{org} es una plataforma de participación ciudadana"
-      guide: "Esta guía explica para qué sirven y cómo funcionan cada una de las secciones de %{org}."
+      title: "%{org} herritarrek parte hartzeko plataforma bat da"
+      guide: "Gidaliburu honetan azaltzen da zertarako balio duten eta nola funtzionatzen duten %{org} eko atalek."
       menu:
-        debates: "Debates"
-        proposals: "Propuestas"
-        budgets: "Presupuestos participativos"
-        polls: "Votaciones"
-        other: "Otra información de interés"
-        processes: "Legislación colaborativa"
+        debates: "Eztabaidak"
+        proposals: "Proposamenak"
+        budgets: "Aurrekontu partehartzaileak"
+        polls: "Bozketak"
+        other: "Bestelako informazio interesgarria"
+        processes: "Lankidetzan egiten den legegintza"
       debates:
-        title: "Debates"
-        description: "En la sección de %{link} puedes exponer y compartir tu opinión con otras personas sobre temas que te preocupan relacionados con la ciudad. También es un espacio donde generar ideas que a través de las otras secciones de %{org} lleven a actuaciones concretas por parte del Ayuntamiento."
-        link: "debates ciudadanos"
-        feature_html: "Puedes abrir debates, comentarlos y valorarlos con los botones de <strong>Estoy de acuerdo</strong> o <strong>No estoy de acuerdo</strong>. Para ello tienes que %{link}."
-        feature_link: "registrarte en %{org}"
-        image_alt: "Botones para valorar los debates"
-        figcaption: 'Botones "Estoy de acuerdo" y "No estoy de acuerdo" para valorar los debates.'
+        title: "Eztabaidak"
+        description: "%{link} atalean hiriaren ingurukoak diren eta arduratzen zaituzten gaien inguruko zure iritziak aurkeztu eta partekatu ditzakezu, beste pertsona batzuekin. Halaber sorkuntza espazio bat da, %{org}en beste atalen bidez, udala ekintza konkretuak egitera zuzentzeko."
+        link: "Herri eztabaidak"
+        feature_html: "Eztabaidak ireki, komentatu eta balora ditzakezu <strong>Ados nago</strong> edo <strong>Ez nago ados</strong> botoiekin. Horretarako %{link}."
+        feature_link: "Izena eman hemen %{org}"
+        image_alt: "Eztabaidak baloratzeko botoiak"
+        figcaption: '"Ados nago" eta "Ez nago ados" botoiak eztabaidak baloratzeko.'
       proposals:
-        title: "Propuestas"
-        description: "En la sección de %{link} puedes plantear propuestas para que el Ayuntamiento las lleve a cabo. Las propuestas recaban apoyos, y si alcanzan los apoyos suficientes se someten a votación ciudadana. Las propuestas aprobadas en estas votaciones ciudadanas son asumidas por el Ayuntamiento y se llevan a cabo."
-        link: "propuestas ciudadanas"
-        image_alt: "Botón para apoyar una propuesta"
-        figcaption_html: 'Botón para "Apoyar" una propuesta.'
+        title: "Proposamenak"
+        description: "Udalari proposamenak egiteko aukera izango duzu %{link} atalean. Proposamenek sostenguak jasotzen dituzte, eta nahikoa sostengu lortzen badute, herritar bozketa egingo da. Herritar bozketa horietan onartutako proposamenak Udalak onartzen ditu eta gauzatu egiten dira."
+        link: "Herritar-proposamenak"
+        image_alt: "Proposamen bat sostengatzeko botoia"
+        figcaption_html: 'Proposamen bat "sostengatu" botoia'
       budgets:
-        title: "Presupuestos participativos"
-        description: "La sección de %{link} sirve para que la gente decida de manera directa a qué se destina una parte del presupuesto municipal."
-        link: "presupuestos participativos"
-        image_alt: "Diferentes fases de un presupuesto participativo"
-        figcaption_html: 'Fase de "Apoyos" y fase de "Votación" de los presupuestos participativos.'
+        title: "Aurrekontu partehartzaileak"
+        description: "%{link} atalak jendeak zuzenean udal aurrekontuaren zati bat zertarako erabiliko den erabaki dezan balio du."
+        link: "Aurrekontu partehartzaileak"
+        image_alt: "Aurrekontu partehartzaile baten fase ezberdinak"
+        figcaption_html: 'Aurrekontu partehartzaileen "Sostengu" fasea eta "Bozketa" fasea.'
       polls:
-        title: "Votaciones"
-        description: "La sección de %{link} se activa cada vez que una propuesta alcanza el 1% de apoyos y pasa a votación o cuando el Ayuntamiento propone un tema para que la gente decida sobre él."
-        link: "votaciones ciudadanas"
-        feature_1: "Para participar en las votaciones tienes que %{link} y verificar tu cuenta."
-        feature_1_link: "registrarte en %{org_name}"
+        title: "Bozketak"
+        description: "Proposamen bat %1eko sostengura iritsi eta bozketara pasatzen denean edo Udalak gai bat proposatzen duenean jendeak horri buruz erabaki dezan, %{link} atala aktibatzen da."
+        link: "Herritar bozketak"
+        feature_1: "%{link} egin behar duzu eta zure kontua egiaztatu, bozketetan parte-hartzeko."
+        feature_1_link: "hemen izena eman %{org_name}"
       processes:
-        title: "Legislación colaborativa"
-        description: "En la sección de %{link} la ciudadanía participa en la elaboración y modificación de normativa que afecta a la ciudad y puede dar su opinión sobre las políticas municipales en debates previos."
-        link: "legislación colaborativa"
+        title: "Legegintza kolaboratiboa"
+        description: "%{link}  atalean, hiriari eragiten dion araudia prestatzen eta aldatzen parte hartzen dute herritarrek, eta udal-politikei buruzko iritzia eman dezakete aurreko eztabaidetan."
+        link: "Legegintza kolaboratiboa"
       faq:
-        title: "¿Problemas técnicos?"
-        description: "Lee las preguntas frecuentes y resuelve tus dudas."
-        button: "Ver preguntas frecuentes"
+        title: "Arazo teknikoak?"
+        description: "Irakurri ohiko galderak eta argitu zure zalantzak."
+        button: "Ohiko galderak ikusi"
         page:
-          title: "Preguntas Frecuentes"
-          description: "Utiliza esta página para resolver las Preguntas frecuentes a los usuarios del sitio."
+          title: "Ohiko Galderak"
+          description: "Erabili orri hau erabiltzaileei ohiko galderak ebazteko."
       other:
-        title: "Otra información de interés"
-        how_to_use: "Utiliza %{org_name} en tu municipio"
+        title: "Bestelako informazio interesgarria"
+        how_to_use: "Erabili %{org_name} zure udalerrian"
       how_to_use:
         text: |-
-          Utilízalo en tu municipio libremente o ayúdanos a mejorarlo, es software libre.
+          Erabili zure udalerrian askatasun osoz, edo lagundu hobetzen; software librea da.
 
-          Este Portal de Gobierno Abierto usa la [aplicación CONSUL](https://github.com/consul/consul 'github consul') que es software libre, con [licencia AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), esto significa en palabras sencillas, que cualquiera puede libremente usar el código, copiarlo, verlo en detalle, modificarlo, y redistribuirlo al mundo con las modificaciones que quiera (manteniendo el que otros puedan a su vez hacer lo mismo). Porque creemos que la cultura es mejor y más rica cuando se libera.
+          Gobernu Ireki atari honek [aplicación CONSUL](https://github.com/consul/consul 'github consul') erabiltzen du, software librea dena,  [licencia AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' )rekin . horrek esan nahi du, hitz sinpleetan, edonork erabil dezakeela kodea, kopiatu, xehetasunez ikusi, aldatu eta mundura nahi dituen aldaketekin birbanatu (beste batzuek gauza bera egin dezaketenari eutsiz). Kultura askatzen denean hobea eta aberatsagoa dela uste dugulako.
 
-          Si eres programador, puedes ver el código y ayudarnos a mejorarlo en [aplicación CONSUL](https://github.com/consul/consul 'github consul').
+          Programatzailea bazara, kodigoa ikusi eta hobetzen lagundu gaitzakezu hemen [aplicación CONSUL](https://github.com/consul/consul 'github consul').
       titles:
-        how_to_use: Utilízalo en tu municipio
+        how_to_use: Erabili zure udalerrian
     privacy:
-      title: Política de privacidad
-      subtitle: "Página de información de protección de datos"
+      title: Pribatutasun politika
+      subtitle: "Datu-babesaren informazio-orria"
     accessibility:
-      title: Accesibilidad
+      title: Irisgarritasuna
       description: |-
-        La accesibilidad web se refiere a la posibilidad de acceso a la web y a sus contenidos por todas las personas, independientemente de las discapacidades (físicas, intelectuales o técnicas) que puedan presentar o de las que se deriven del contexto de uso (tecnológicas o ambientales).
+        Web irisgarritasuna pertsona guztiek web-ean eta haren edukietan sartzeko aukerari dagokio, edozein dela ere izan ditzaketen ezgaitasunak (fisikoak, intelektualak edo teknikoak) edo erabilera-testuingurutik eratortzen direnak (teknologikoak edo ingurumenekoak).
 
-        Cuando los sitios web están diseñados pensando en la accesibilidad, todos los usuarios pueden acceder en condiciones de igualdad a los contenidos, por ejemplo:
+        Web guneak irisgarritasunean pentsatuta diseinatuta daudenean, erabiltzaile guztiak berdintasunez sar daitezke edukietara, adibidez:
       examples:
-        - Proporcionando un texto alternativo a las imágenes, los usuarios invidentes o con problemas de visión pueden utilizar lectores especiales para acceder a la información.
-        - Cuando los vídeos disponen de subtítulos, los usuarios con dificultades auditivas pueden entenderlos plenamente.
-        - Si los contenidos están escritos en un lenguaje sencillo e ilustrados, los usuarios con problemas de aprendizaje están en mejores condiciones de entenderlos.
-        - Si el usuario tiene problemas de movilidad y le cuesta usar el ratón, las alternativas con el teclado le ayudan en la navegación.
+        - Irudiei ordezko testu bat emanez gero, erabiltzaile itsuek edo ikusmen-arazoak dituztenek irakurgailu bereziak erabil ditzakete informazioa eskuratzeko.
+        - Bideoek azpitituluak badituzte, entzuteko zailtasunak dituzten erabiltzaileek osorik uler ditzakete.
+        - Edukiak hizkuntza sinple eta ilustratuan idatzita badaude, ikasteko arazoak dituzten erabiltzaileek ulertzeko baldintza hobeak dituzte.
+        - Erabiltzaileak mugitzeko arazoak baditu eta sagua erabiltzea kostatzen bazaio, teklatuarekin egindako alternatibek nabigatzen laguntzen diote.
       keyboard_shortcuts:
-        title: '"Atajos" de teclado'
+        title: '"Teklatuko" lasterbideak'
         navigation_table:
-          description: Para poder navegar por este sitio web de forma accesible, se han programado un grupo de teclas de acceso rápido que recogen las principales secciones de interés general en los que está organizado el sitio.
-          caption: Atajos de teclado para el menú de navegación
-          key_header: Tecla
-          page_header: Página
+          description: Web gune honetan era irisgarrian nabigatu ahal izateko, sarbide bizkorreko tekla-multzo bat programatu da, gunea antolatuta dagoen interes orokorreko atal nagusiak biltzen dituena.
+          caption: Teklatuko lasterbideak nabigazio-menurako
+          key_header: Tekla
+          page_header: Orria
           rows:
             - 
               key_column: 0
-              page_column: Inicio
+              page_column: Hasiera
             - 
               key_column: 1
-              page_column: Debates
+              page_column: Eztabaidak
             - 
               key_column: 2
-              page_column: Propuestas
+              page_column: Proposamenak
             - 
               key_column: 3
-              page_column: Votaciones
+              page_column: Bozketak
             - 
               key_column: 4
-              page_column: Presupuestos participativos
+              page_column: Aurrekontu partehartzaileak
             - 
               key_column: 5
-              page_column: Legislación colaborativa
+              page_column: Legegintza kolaboratiboa
         browser_table:
-          description: "Dependiendo del sistema operativo y del navegador que se utilice, la combinación de teclas será la siguiente:"
-          caption: Combinación de teclas dependiendo del sistema operativo y navegador
-          browser_header: Navegador
-          key_header: Combinación de teclas
+          description: "Erabiltzen den sistema eragilearen eta nabigatzailearen arabera, tekla-konbinazioa honako hau izango da:"
+          caption: Tekla-konbinazioa sistema eragilearen eta nabigatzailearen arabera
+          browser_header: Nabigatzailea
+          key_header: Tekla-konbinazioa
           rows:
             - 
               browser_column: Explorer
-              key_column: ALT + atajo y luego ENTER
+              key_column: ALT + lasterbidea eta gero ENTER
             - 
               browser_column: Firefox
-              key_column: ALT + MAYÚSCULAS + atajo
+              key_column: ALT + MAIUSKULAK + lasterbidea
             - 
               browser_column: Chrome
-              key_column: ALT + atajo (si es un MAC, CTRL + ALT + atajo)
+              key_column: ALT + lasterbidea (MAC bat bada, CTRL + ALT + lasterbidea)
             - 
               browser_column: Safari
-              key_column: ALT + atajo (si es un MAC, CMD + atajo)
+              key_column: ALT + lasterbidea (MAC bat bada, CMD + lasterbidea)
             - 
               browser_column: Opera
-              key_column: MAYÚSCULAS + ESC + atajo
+              key_column: MAIUSKULAK + ESC + lasterbidea
       textsize:
-        title: Tamaño del texto
+        title: Testuaren tamaina
         browser_settings_table:
-          description: El diseño accesible de este sitio web permite que el usuario pueda elegir el tamaño del texto que le convenga. Esta acción puede llevarse a cabo de diferentes maneras según el navegador que se utilice.
-          browser_header: Navegador
-          action_header: Acción a realizar
+          description: Webgune honen diseinu irisgarriari esker, erabiltzaileak testuaren tamaina aukera dezake. Ekintza hori hainbat modutan egin daiteke, erabiltzen den nabigatzailearen arabera.
+          browser_header: Nabigatzailea
+          action_header: Ekintza egiteke
           rows:
             - 
               browser_column: Explorer
-              action_column: Ver > Tamaño del texto
+              action_column: Ikusi > Testuaren tamaina
             - 
               browser_column: Firefox
-              action_column: Ver > Tamaño
+              action_column: Ikusi > Tamaina
             - 
               browser_column: Chrome
-              action_column: Ajustes (icono) > Opciones > Avanzada > Contenido web > Tamaño fuente
+              action_column: Ajusteak (ikonoa) > Aukerak > Aurreratua > Web edukia> Iturriaren tamaina
             - 
               browser_column: Safari
-              action_column: Visualización > ampliar/reducir
+              action_column: Bistaratzea > zabaldu/murriztu
             - 
               browser_column: Opera
-              action_column: Ver > escala
+              action_column: Ikusi > eskala
         browser_shortcuts_table:
-          description: "Otra forma de modificar el tamaño de texto es utilizar los atajos de teclado definidos en los navegadores, en particular la combinación de teclas:"
+          description: "Testuaren tamaina aldatzeko beste modu bat da nabigatzaileetan definitutako teklatuko lasterbideak erabiltzea, bereziki teklen konbinazioa:"
           rows:
             - 
-              shortcut_column: CTRL y + (CMD y + en MAC)
-              description_column: para aumentar el tamaño del texto
+              shortcut_column: CTRL eta + (CMD eta + MACen)
+              description_column: Testuaren tamaina zabaltzeko
             - 
-              shortcut_column: CTRL y - (CMD y - en MAC)
-              description_column: para reducir el tamaño del texto
+              shortcut_column: CTRL eta - (CMD eta - MACen)
+              description_column: Testuaren tamaina murrizteko
       compatibility:
-        title: Compatibilidad con estándares y diseño visual
-        description_html: 'Todas las páginas de este sitio web cumplen con las <strong>Pautas de Accesibilidad</strong> o Principios Generales de Diseño Accesible establecidas por el Grupo de Trabajo <abbr title="Web Accessibility Initiative" lang="en">WAI</abbr> perteneciente al W3C.'
+        title: Estandarrekiko bateragarritasuna eta ikusizko diseinua
+        description_html: 'Webgune honetako orri guztiek <strong>Irisgarritasun-jarraibideak</strong> edo W3Cko lantaldeak ezarritako diseinu irisgarriaren printzipio orokorrak <abbr title="Web Accessibility Initiative" lang="en">WAI</abbr> betetzen dituzte.'
     titles:
-      help: "¿Qué es %{org}? - Participación ciudadana"
+      help: "¿Zer da %{org}? - Herritar partehartzea"
     verify:
-      code: Código que has recibido en tu carta
-      email: Email
-      info: "Para verificar tu cuenta introduce los datos con los que te registraste:"
-      info_code: "Ahora introduce el código que has recibido en tu carta:"
-      password: Contraseña
-      submit: Verificar mi cuenta
-      title: Verifica tu cuenta
+      code: Zure gutunean jaso duzun kodea
+      email: E-posta
+      info: "Zure kontua egiaztatzeko, sartu erregistratzeko erabili zenituen datuak:"
+      info_code: "Orain, sartu zure gutunean jaso duzun kodea:"
+      password: Pasahitza
+      submit: Nire kontua egiaztatu
+      title: Zure kontua egiaztatu.

@@ -1,108 +1,108 @@
-eu:
+es:
   verification:
     alert:
-      lock: Has llegado al máximo número de intentos. Por favor intentalo de nuevo más tarde.
-    back: Volver a mi cuenta
+      lock: Ahal ziren saiakera guztiak egin dituzu. Mesedez, saiatu berriro geroago.
+    back: Nire kontura itzuli
     email:
       create:
         alert:
-          failure: Hubo un problema enviándote un email a tu cuenta
+          failure: Arazo bat izan da zure kontura mezu elektroniko bat bidaltzerakoan
         flash:
-          success: "Te hemos enviado un email de confirmación a tu cuenta: %{email}"
+          success: "Baieztatzeko mezu elektroniko bat bidali dizugu zure kontura: %{email}"
       show:
         alert:
-          failure: Código de verificación incorrecto
+          failure: Egiaztatze-kodea ez da zuzena
         flash:
-          success: Eres un usuario verificado
+          success: Erabiltzaile egiaztatu bat zara
     letter:
       alert:
-        unconfirmed_code: Todavía no has introducido el código de confirmación
+        unconfirmed_code: Oraindik ez duzu berrespen-kodea sartu
       create:
         flash:
-          success_html: Antes de las votaciones recibirás una carta con las instrucciones para verificar tu cuenta.<br> Recuerda que puedes ahorrar el envío verificándote presencialmente en cualquiera de las Oficinas de Atención al Ciudadano.
+          success_html: Bozketen aurretik, gutun bat jasoko duzu zure kontua egiaztatzeko jarraibideekin.<br> Gogoratu bidalketa ekidin dezakezula Herritarrarentzako Arreta Bulegoan bertan egiaztatuta.
       edit:
-        see_all: Ver propuestas
-        title: Carta solicitada
+        see_all: Ikusi proposamena
+        title: Gutuna eskatua
       errors:
-        incorrect_code: Código de verificación incorrecto
+        incorrect_code: Egiaztatze-kodea ez da zuzena
       new:
-        explanation: "Para participar en las votaciones finales puedes:"
-        go_to_index: Ver propuestas
-        office: Verificarte presencialmente en cualquier Oficina de Atención al Ciudadano
-        send_letter: Solicitar una carta por correo postal
-        title: '¡Felicidades!'
-        user_permission_info: Con tu cuenta ya puedes...
+        explanation: "Azken bozketetan parte hartzeko:"
+        go_to_index: Ikusi proposamena
+        office: Herritarrentzako Arreta Bulegoan aurrez aurre egiaztatzea
+        send_letter: Posta bidezko gutuna eskatu
+        title: 'Zorionak!'
+        user_permission_info: Zure kontuarekin dagoeneko...
       update:
         flash:
-          success: Código correcto. Tu cuenta ya está verificada
+          success: Kodea egokia da. Zure kontua egiaztatu da.
     redirect_notices:
-      already_verified: Tu cuenta ya está verificada
-      email_already_sent: Ya te enviamos un email con un enlace de confirmación, si no lo encuentras puedes solicitar aquí que te lo reenviemos
+      already_verified: Zure kontua dagoeneko egiaztatua dago.
+      email_already_sent: Dagoeneko bidali genizun mezu elektroniko bat baieztapen-esteka batekin. Aurkitzen ez baduzu, birbidaltzeko eska dezakezu hemen
     residence:
       alert:
-        unconfirmed_residency: Aún no has verificado tu residencia
+        unconfirmed_residency: Oraindik ez duzu zure bizitokia egiaztatu
       create:
         flash:
-          success: Residencia verificada
+          success: bizitokia egiaztatu da
       new:
-        accept_terms_text: Acepto %{terms_url} al Padrón
-        accept_terms_text_title: Acepto los términos de acceso al Padrón
-        date_of_birth: Fecha de nacimiento
-        document_number: Número de documento
-        document_number_help_title: Ayuda
-        document_number_help_text_html: "<strong>DNI</strong>: 12345678A<br> <strong>Pasaporte</strong>: AAA000001<br> <strong>Tarjeta de residencia</strong>: X1234567P"
+        accept_terms_text: Erroldara %{terms_url} onartzen ditut
+        accept_terms_text_title: Erroldan sartzeko baldintzak onartzen ditut
+        date_of_birth: Jaiotze data
+        document_number: Dokumentu zenbakia
+        document_number_help_title: Laguntza
+        document_number_help_text_html: "<strong>NAN</strong>: 12345678A<br> <strong>Pasaportea</strong>: AAA000001<br> <strong>Egoitza-txartela</strong>: X1234567P"
         document_type:
-          passport: Pasaporte
-          residence_card: Tarjeta de residencia
-          spanish_id: DNI
-        document_type_label: Tipo de documento
-        error_not_allowed_age: No tienes la edad mínima para participar
-        error_not_allowed_postal_code: Para verificarte debes estar empadronado.
-        error_verifying_census: El Padrón no pudo verificar tu información. Por favor, confirma que tus datos de empadronamiento sean correctos llamando al Ayuntamiento o visitando una Oficina de Atención al Ciudadano.
-        form_errors: evitaron verificar tu residencia
-        postal_code: Código postal
-        postal_code_note: Para verificar tus datos debes estar empadronado
-        terms: los términos de acceso
-        title: Verificar residencia
-        verify_residence: Verificar residencia
+          passport: Pasaportea
+          residence_card: Egoitza-txartela
+          spanish_id: NANa
+        document_type_label: Dokumentu mota
+        error_not_allowed_age: Ez daukazu parte-hartzeko gutxieneko adina
+        error_not_allowed_postal_code: Egiaztatzeko, erroldatuta egon behar duzu.
+        error_verifying_census: Erroldak ezin izan zu zure informazioa egiaztatu. Mesedez, egiaztatu zure erroldatze-datuak zuzenak direla Udalera deituz edo Herritarrarentzako Arreta Bulegoa bisitatuz.
+        form_errors: Egoitza egiaztatzea ekidin dute
+        postal_code: Posta kodea
+        postal_code_note: Zure datuak egiaztatzeko erroldatua egon behar duzu
+        terms: sarbide-terminoak
+        title: Egoitza egiaztatu
+        verify_residence: Egoitza egiaztatu
     sms:
       create:
         flash:
-          success: Introduce el código de confirmación que te hemos enviado por mensaje de texto
+          success: Sartu testu-mezu bidez bidali dizugun baieztapen-kodea
       edit:
-        confirmation_code: Introduce el código que has recibido en tu móvil
-        resend_sms_link: Solicitar un nuevo código
-        resend_sms_text: '¿No has recibido un mensaje de texto con tu código de confirmación?'
-        submit_button: Enviar
-        title: SMS de confirmación
+        confirmation_code: Sartu mugikorrean jaso duzun kodea
+        resend_sms_link: Eskatu kode berri bat
+        resend_sms_text: 'Ez duzu jaso zure berrespen-kodea duen testu-mezurik?'
+        submit_button: Bidali
+        title: Berrespen SMSa
       new:
-        phone: Introduce tu teléfono móvil para recibir el código
-        phone_format_html: "<strong><em>(Ejemplo: 612345678 ó +34612345678)</em></strong>"
-        phone_note: Sólo usaremos tu teléfono para enviarte un código, nunca te contactaremos.
-        phone_placeholder: "Ejemplo: 612345678 ó +34612345678"
-        submit_button: Enviar
-        title: SMS de confirmación
+        phone: Sartu zure mugikor zenbakia kodea jasotzeko
+        phone_format_html: "<strong><em>(Adibidea: 612345678 ó +34612345678)</em></strong>"
+        phone_note: Zure telefonoa kode bat bidaltzeko baino ez dugu erabiliko; inoiz ez gara zurekin harremanetan jarriko.
+        phone_placeholder: "Adibidea: 612345678 ó +34612345678"
+        submit_button: Bidali
+        title: Berrespen SMSa
       update:
-        error: Código de confirmación incorrecto
+        error: Baieztapen-kodea ez da zuzena
         flash:
           level_three:
-            success: Código correcto. Tu cuenta ya está verificada
+            success: Kode zuzena. Zure kontua egiaztatuta dago
           level_two:
-            success: Código correcto
-    step_1: Residencia
-    step_2: SMS de confirmación
-    step_3: Verificación final
-    user_permission_debates: Participar en debates
-    user_permission_info: Al verificar tus datos podrás...
-    user_permission_proposal: Crear nuevas propuestas
-    user_permission_support_proposal: Apoyar propuestas
-    user_permission_votes: Participar en las votaciones finales*
+            success: Kode zuzena.
+    step_1: Egoitza
+    step_2: Egiaztatze SMSa
+    step_3: Azken berrespena
+    user_permission_debates: Eztabaidetan parte-hartu
+    user_permission_info: Zure datuak egiaztatzean...
+    user_permission_proposal: Proposamen berriak sortu
+    user_permission_support_proposal: Proposamenak sostengatu
+    user_permission_votes: Parte-hartu azken bozketetan*
     verified_user:
       form:
-        submit_button: Enviar código
+        submit_button: Kodea bidali
       show:
-        email_title: Emails
-        explanation: Actualmente disponemos de los siguientes datos en el Padrón, selecciona donde quieres que enviemos el código de confirmación.
-        phone_title: Teléfonos
-        title: Información disponible
-        use_another_phone: Utilizar otro teléfono
+        email_title: E-postak
+        explanation: Gaur egun, datu hauek dauzkagu Erroldan, aukeratu non bidali baieztapen kodea.
+        phone_title: Telefonoak
+        title: Informazioa eskuragarri
+        use_another_phone: Beste telefono bat erabili

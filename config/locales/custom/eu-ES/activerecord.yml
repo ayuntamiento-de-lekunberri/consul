@@ -1,466 +1,440 @@
-eu:
+﻿es:
   attributes:
-    results_enabled: "Mostrar resultados"
-    stats_enabled: "Mostrar estadísticas"
-    advanced_stats_enabled: "Mostrar estadísticas avanzadas"
+    results_enabled: "Emaitzak erakutsi"
+    stats_enabled: "Estadistikak erakutsi"
+    advanced_stats_enabled: "Estadistika aurreratuak erakutsi"
   activerecord:
     models:
       activity:
-        one: "actividad"
-        other: "actividades"
+        one: "jarduera"
+        other: "jarduerak"
       budget:
-        one: "Presupuesto participativo"
-        other: "Presupuestos participativos"
+        one: "Aurrekontu parte-hartzailea"
+        other: "Aurrekontu parte-hartzaileak"
       budget/investment:
-        one: "Proyecto de gasto"
-        other: "Proyectos de gasto"
+        one: "Gastu-proiektua"
+        other: "Gastu-proiektuak"
       milestone:
-        one: "hito"
-        other: "hitos"
+        one: "mugarria"
+        other: "mugarriak"
       milestone/status:
-        one: "Estado de seguimiento"
-        other: "Estados de seguimiento"
+        one: "Jarraipen-egoera"
+        other: "Jarraipen-egoerak"
       progress_bar:
-        one: "Barra de progreso"
-        other: "Barras de progreso"
+        one: "Aurrerapen-barra"
+        other: "Aurrerapen-barrak"
       comment:
-        one: "Comentario"
-        other: "Comentarios"
+        one: "Iruzkina"
+        other: "Iruzkinak"
       debate:
-        one: "Debate"
-        other: "Debates"
+        one: "Eztabaida"
+        other: "Eztabaidak"
       tag:
-        one: "Etiqueta"
-        other: "Etiquetas"
+        one: "Etiketa"
+        other: "Etiketak"
       user:
-        one: "Usuario"
-        other: "Usuarios"
+        one: "Erabiltzailea"
+        other: "Erabiltzaileak"
       moderator:
-        one: "Moderador"
-        other: "Moderadores"
+        one: "Moderatzailea"
+        other: "Moderatzaileak"
       administrator:
-        one: "Administrador"
-        other: "Administradores"
+        one: "Administratzailea"
+        other: "Administratzaileak"
       valuator:
-        one: "Evaluador"
-        other: "Evaluadores"
+        one: "Ebaluatzailea"
+        other: "Ebaluatzaileak"
       valuator_group:
-        one: "Grupo de evaluadores"
-        other: "Grupos de evaluadores"
+        one: "Ebaluatzaileen taldea"
+        other: "Ebaluatzaileen taldeak"
       manager:
-        one: "Gestor"
-        other: "Gestores"
+        one: "Kudeatzailea"
+        other: "Kudeatzaileak"
       newsletter:
-        one: "Newsletter"
-        other: "Newsletters"
+        one: "Buletina"
+        other: "Buletinak"
       vote:
-        one: "Voto"
-        other: "Votos"
+        one: "Boto"
+        other: "Botoak"
       organization:
-        one: "Organización"
-        other: "Organizaciones"
+        one: "Erakundea"
+        other: "Erakundeak"
       poll/booth:
-        one: "urna"
-        other: "urnas"
+        one: "Hautesontzia"
+        other: "Hautesontziak"
       poll/officer:
-        one: "presidente de mesa"
-        other: "presidentes de mesa"
+        one: "Mahaiko presidentea"
+        other: "Mahaiko presidenteak"
       poll/ballot_sheet:
-        one: Papeleta de votación
-        other: Papeletas de votación
+        one: Boto-papera
+        other: Boto-papera
+k
       proposal:
-        one: "Propuesta ciudadana"
-        other: "Propuestas ciudadanas"
+        one: "Herritarren proposamena"
+        other: "Herritarren proposamenak"
       site_customization/page:
-        one: Página
-        other: Páginas
+        one: Orrialdea        other: Orrialdeak
       site_customization/image:
-        one: Imagen
-        other: Imágenes
+        one: Irudia
+        other: Irudiak
       site_customization/content_block:
-        one: Bloque
-        other: Bloques
+        one: Blokea
+        other: Blokeak
       document:
-        one: Documento
-        other: Documentos
+        one: Dokumentua        other: Dokumentuak
       legislation/process:
-        one: "Proceso"
-        other: "Procesos"
+        one: "Prozesua"
+        other: "Prozesuak
       legislation/proposal:
-        one: "Propuesta"
-        other: "Propuestas"
+        one: "Proposamena"
+        other: "Proposamenak"
       legislation/draft_versions:
-        one: "Versión del borrador"
-        other: "Versiones del borrador"
+        one: "Zirriborroaren bertsioa"
+        other: "Zirriborroaren bertsioak"
       legislation/questions:
-        one: "Pregunta"
-        other: "Preguntas"
+        one: "Galdera"
+        other: "Galderak"
       legislation/question_options:
-        one: "Opción de respuesta cerrada"
-        other: "Opciones de respuesta cerrada"
+        one: "Erantzuteko aukera itxia"
+        other: "Erantzuteko aukera itxiak"
       legislation/answers:
-        one: "Respuesta"
-        other: "Respuestas"
+        one: "Erantzuna"
+        other: "Erantzunak"
       documents:
-        one: "Documento"
-        other: "Documentos"
+        one: "Dokumentua"
+        other: "Dokumentuak"
       images:
-        one: "Imagen"
-        other: "Imágenes"
+        one: "Irudia"
+        other: "Irudiak"
       topic:
-        one: "Tema"
-        other: "Temas"
+        one: "Gaia"
+        other: "Gaiak"
       poll:
-        one: "Votación"
-        other: "Votaciones"
+        one: "Bozketa"
+        other: "Bozketak"
       proposal_notification:
-        one: "Notificación de propuesta"
-        other: "Notificaciones de propuestas"
+        one: "Proposamenaren jakinarazpena"
+        other: "Proposamenen jakinarazpenak"
       dashboard/action:
-        one: Acción del panel de control de propuestas
-        other: Acciones del panel de control de propuestas
+        one: Proposamenak kontrolatzeko panelaren ekintza        other: Proposamenak kontrolatzeko panelaren ekintzak
       dashboard/administrator_task:
-        one: Tarea
-        other: Tareas
+        one: Zeregina
+        other: Zereginak
       link:
-        one: Enlace
-        other: Enlaces
+        one: Esteka
+        other: Estekak
       local_census_record:
-        one: Registro del censo local
-        other: Registros del censo local
-    attributes:
+        one: Tokiko erroldaren erregistroa
+        other: Tokiko erroldaren erregistroak    attributes:
       administrator:
-        description: Descripción
+        description: Deskribapena
       budget:
-        name: "Nombre"
-        description_accepting: "Descripción durante la fase de presentación de proyectos"
-        description_reviewing: "Descripción durante la fase de revisión interna"
-        description_selecting: "Descripción durante la fase de apoyos"
-        description_valuating: "Descripción durante la fase de evaluación"
-        description_balloting: "Descripción durante la fase de votación"
-        description_reviewing_ballots: "Descripción durante la fase de revisión de votos"
-        description_finished: "Descripción cuando el presupuesto ha finalizado / Resultados"
-        phase: "Fase"
-        currency_symbol: "Divisa"
-        budget_milestone_tags: "Etiquetas de seguimiento"
-        budget_valuation_tags: "Etiquetas de evaluación"
-        help_link: "Enlace de ayuda"
+        name: "Izena"
+        description_accepting: "Deskribapena proiektuak aurkezteko fasean"
+        description_reviewing: "Deskribapena barne-berrikuspen fasean"
+        description_selecting: "Deskribapena sostengu-fasean"
+        description_valuating: "Deskribapena ebaluazio-fasean"
+        description_balloting: "Deskribapena bozketa-fasean"
+        description_reviewing_ballots: "Deskribapena botoak berrikusteko fasean"
+        description_finished: "Deskribapena aurrekontua amaitu denean/Emaitzak"
+        phase: "Fasea"
+        currency_symbol: "Dibisa"
+        budget_milestone_tags: "Jarraipen-etiketak"
+        budget_valuation_tags: "Ebaluazio-etiketak"
+        help_link: "Laguntza-esteka"
       budget/investment:
-        heading_id: "Partida presupuestaria"
-        title: "Título"
-        description: "Descripción"
-        external_url: "Enlace a documentación adicional"
-        administrator_id: "Administrador"
-        location: "Ubicación (opcional)"
-        organization_name: "Si estás proponiendo en nombre de una organización o colectivo, o en nombre de más gente, escribe su nombre"
-        image: "Imagen descriptiva del proyecto de gasto"
-        image_title: "Título de la imagen"
+        heading_id: "Aurrekontu-partida"
+        title: "Izenburua"
+        description: "Deskribapena"
+        external_url: "Dokumentazio osagarrirako esteka"
+        administrator_id: "Administratzailea"
+        location: "Kokapena (aukerakoa)"
+        organization_name: "Erakunde edo kolektibo baten izenean proposatzen ari bazara, edo jende gehiagoren izenean, idatzi bere izena"
+        image: "Gastu-proiektuaren irudi deskribatzailea"
+        image_title: "Irudiaren izenburua"
       budget/investment/translation:
-        title: "Título"
-        description: "Descripción"
+        title: "Izenburua"
+        description: "Deskribapena"
       geozone:
-        name: Nombre
-        external_code: "Código externo (opcional)"
-        census_code: "Código del censo (opcional)"
-        html_map_coordinates: "Coordenadas HTML <map> (opcional)"
+        name: Izena        external_code: "Kanpoko kodea (aukerakoa)"
+        census_code: "Erroldaren kodea (aukerakoa)"
+        html_map_coordinates: "HTML < map> koordenatuak (aukerakoa)"
       milestone:
-        status_id: "Estado actual (opcional)"
-        title: "Título"
-        description: "Descripción (opcional si hay un estado asignado)"
-        publication_date: "Fecha de publicación"
+        status_id: "Egungo egoera (aukerakoa)"
+        title: "Izenburua"
+        description: "Deskribapena (aukerakoa, egoera bat esleituta badago)"
+        publication_date: "Argitalpen-data"
       milestone/status:
-        name: "Nombre"
-        description: "Descripción (opcional)"
+        name: "Izena"
+        description: "Deskribapena (aukerakoa)"
       progress_bar:
-        kind: "Tipo"
-        title: "Título"
-        percentage: "Progreso"
+        kind: "Mota"
+        title: "Izenburu"
+        percentage: "Aurrerapena"
       progress_bar/kind:
-        primary: "Principal"
-        secondary: "Secundaria"
+        primary: "Nagusia"
+        secondary: "Bigarren mailakoa"
       budget/heading:
-        name: "Nombre de la partida"
-        price: "Coste"
-        population: "Población"
+        name: "Partidaren izena"
+        price: "Kostua"
+        population: "Biztanleria"
       comment:
-        body: "Comentario"
-        user: "Usuario"
+        body: "Iruzkina"
+        user: "Erabiltzailea"
       debate:
-        author: "Autor"
-        description: "Opinión"
-        terms_of_service: "Términos de servicio"
-        title: "Título del debate"
+        author: "Egilea"
+        description: "Iritzia"
+        terms_of_service: "Zerbitzuaren baldintzak"
+        title: "Eztabaidaren izenburua"
       debate/translation:
-        title: "Título del debate"
-        description: "Texto inicial del debate"
+        title: "Eztabaidaren izenburua"
+        description: "Eztabaidaren hasierako testua"
       proposal:
-        author: "Autor"
-        title: "Título"
-        question: "Pregunta"
-        description: "Descripción"
-        selected: "Marcar como seleccionada"
-        terms_of_service: "Términos de servicio"
+        author: "Egilea"
+        title: "Izenburua"
+        question: "Galdera"
+        description: "Deskribapena"
+        selected: "Hautatu gisa markatu"
+        terms_of_service: "Zerbitzuaren baldintzak"
       proposal/translation:
-        title: "Título de la propuesta"
-        description: "Texto desarrollado de la propuesta"
-        summary: "Resumen de la propuesta"
-        retired_explanation: "Explicación"
+        title: "Proposamenaren izenburua"
+        description: "Proposamenaren testu garatua"
+        summary: "Proposamenaren laburpena"
+        retired_explanation: "Azalpena"
       user:
-        login: "Email o nombre de usuario"
-        email: "Email"
-        username: "Nombre de usuario"
-        password_confirmation: "Confirmación de contraseña"
-        password: "Contraseña"
-        current_password: "Contraseña actual"
-        phone_number: "Teléfono"
-        official_position: "Cargo público"
-        official_level: "Nivel del cargo"
-        redeemable_code: "Código de verificación por carta (opcional)"
+        login: "E-posta edo erabiltzaile izena"
+        email: "E-posta"
+        username: "Erabiltzaile izena"
+        password_confirmation: "Pasahitza berrestea"
+        password: "Pasahitza"
+        current_password: "Egungo pasahitza"
+        phone_number: "Telefonoa"
+        official_position: "Kargu publikoa"
+        official_level: "Kargu maila"
+        redeemable_code: "Gutun bidezko egiaztapen-kodea (aukerakoa)"
       organization:
-        name: "Nombre de la organización"
-        responsible_name: "Persona responsable del colectivo"
+        name: "Erakundearen izena"
+        responsible_name: "Kolektiboaren arduraduna"
       poll:
-        name: "Nombre"
-        starts_at: "Fecha de apertura"
-        ends_at: "Fecha de cierre"
-        geozone_restricted: "Restringida por zonas"
-        summary: "Resumen"
-        description: "Descripción"
+        name: "Izena"
+        starts_at: "Irekiera data"
+        ends_at: "Itxiera data"
+        geozone_restricted: "Zonaka mugatuta"
+        summary: "Laburpena"
+        description: "Deskribapena"
       poll/translation:
-        name: "Nombre"
-        summary: "Resumen"
-        description: "Descripción"
+        name: "Izena"
+        summary: "Laburpena"
+        description: "Deskribapena"
       poll/question:
-        title: "Pregunta"
-        summary: "Resumen"
-        description: "Descripción"
-        external_url: "Enlace a documentación adicional"
+        title: "Galdera"
+        summary: "Laburpena"
+        description: "Deskribapena"
+        external_url: "Dokumentazio osagarrirako esteka"
       poll/question/translation:
-        title: "Pregunta"
+        title: "Galdera"
       poll/ballot_sheet:
-        data: Datos de CSV
-        poll_id: Votación
-        officer_assignment_id: Turno
-      signature_sheet:
-        signable_type: "Tipo de hoja de firmas"
-        signable_id: "ID Propuesta ciudadana/Proyecto de gasto"
-        document_numbers: "Números de documentos"
+        data: CSV datuak
+        poll_id: Bozketa
+        officer_assignment_id: Txanda      signature_sheet:
+        signable_type: "Sinadura-orri mota"
+        signable_id: "Id Herritarren proposamena/Gastu-proiektua"
+        document_numbers: "Dokumentuen zenbakiak"
       site_customization/page:
-        content: Contenido
-        created_at: Creada
-        subtitle: Subtítulo
-        slug: Slug
-        status: Estado
-        title: Título
-        updated_at: Última actualización
-        more_info_flag: Mostrar en la página de ayuda
-        print_content_flag: Botón de imprimir contenido
-        locale: Idioma
-      site_customization/page/translation:
-        title: Título
-        subtitle: Subtítulo
-        content: Contenido
-      site_customization/image:
-        name: Nombre
-        image: Imagen
+        content: Edukia
+        created_at: Sortua
+        subtitle: Azpititulua        slug: Slug
+        status: Egoera
+        title: Izenburua
+        updated_at: Azken eguneratzea
+        more_info_flag: Erakutsi laguntza-orrian
+        print_content_flag: Edukia inprimatzeko botoia
+        locale: Hizkuntza      site_customization/page/translation:
+        title: Izenburua        subtitle: Azpititulua
+        content: Edukia      site_customization/image:
+        name: Izena
+        image: Irudia
       site_customization/content_block:
-        name: Nombre
-        locale: Idioma
-        body: Contenido
+        name: Izena
+        locale: Hizkuntza
+        body: Edukia
       banner:
-        background_color: Color del fondo
-        font_color: Color del texto
+        background_color: Hondoaren kolorea
+        font_color: Testuaren kolorea
       legislation/process:
-        title: Título del proceso
-        summary: Resumen
-        description: En qué consiste
-        additional_info: Información adicional
-        start_date: Inicio
-        end_date: Fin
-        debate_start_date: Inicio
-        debate_end_date: Fin
-        draft_start_date: Inicio
-        draft_end_date: Fin
-        draft_publication_date: Fecha de publicación del borrador
-        allegations_start_date: Inicio
-        allegations_end_date: Fin
-        proposals_phase_start_date: Inicio
-        proposals_phase_end_date: Fin
-        result_publication_date: Fecha de publicación del resultado final
-        background_color: Color del fondo
-        font_color: Color del texto
+        title: Prozesuaren izenburua
+        summary: Laburpena
+        description: Zertan datza
+        additional_info: Informazio gehigarria
+        start_date: Hasiera        end_date: Amaiera
+        debate_start_date: Hasiera
+        debate_end_date: Amaiera
+        draft_start_date: Hasiera
+        draft_end_date: Amaiera        draft_publication_date: Zirriborroaren argitaratze eguna        allegations_start_date: Hasiera
+        allegations_end_date: Amaiera
+        proposals_phase_start_date: Hasiera
+        proposals_phase_end_date: Amaiera
+        result_publication_date: Azken emaitzaren argitaratze eguna        background_color: Hondoaren kolorea
+        font_color: Testuaren kolorea
       legislation/process/translation:
-        title: Título del proceso
-        summary: Resumen
-        description: En qué consiste
-        additional_info: Información adicional
-        milestones_summary: Seguimiento del proceso
+        title: Prozesuaren izenburua
+        summary: Laburpena        description: Zertan datza
+        additional_info: Informazio gehigarria        milestones_summary: Prozesuaren jarraipena
       legislation/draft_version:
-        title: Título de la versión
-        body: Texto
-        changelog: Cambios
-        status: Estado
-        final_version: Versión final
+        title: Bertsioaren izenburua
+        body: Testoua        changelog: Aldaketak
+        status: Egoera
+        final_version: Azken bertsioa
       legislation/draft_version/translation:
-        title: Título de la versión
-        body: Texto
-        changelog: Cambios
-      legislation/question:
-        title: Título
-        question_options: Respuestas
-      legislation/question_option:
-        value: Valor
+        title: Bertsioaren izenburua
+        body: Testua
+        changelog: Aldaketak      legislation/question:
+        title: Izenburua
+        question_options: Erantzunak      legislation/question_option:
+        value: Balioa
       legislation/annotation:
-        text: Comentario
+        text: Iruzkina
       document:
-        title: Título
-        attachment: Archivo adjunto
+        title: Izenburua
+        attachment: Erantsitako artxiboa
       image:
-        title: Título
-        attachment: Archivo adjunto
+        title: Izenburua
+        attachment: Erantsitako artxiboa
       poll/question/answer:
-        title: Respuesta
-        description: Descripción
+        title: Erantzuna
+        description: Deskribapena
       poll/question/answer/translation:
-        title: Respuesta
-        description: Descripción
-      poll/question/answer/video:
-        title: Título
-        url: Vídeo externo
+        title: Erantzuna
+        description: Deskribapena      poll/question/answer/video:
+        title: Izenburua
+        url: Kanpoko bideoa
       newsletter:
         segment_recipient: Destinatarios
-        subject: Asunto
-        from: Enviado por
-        body: Contenido del email
+        subject: Gaia
+        from: Nork bidalia
+        body: E-postaren edukia
       admin_notification:
-        segment_recipient: Destinatarios
-        title: Título
-        link: Enlace
-        body: Texto
+        segment_recipient: Hartzaileak
+        title: Izenburua        link: Esteka
+        body: Testua
       admin_notification/translation:
-        title: Título
-        body: Texto
+        title: Izenburua
+        body: Testua
       widget/card:
-        label: Etiqueta (opcional)
-        title: Título
-        description: Descripción
-        link_text: Texto del enlace
-        link_url: URL del enlace
-        columns: Número de columnas
+        label: Etiketa (aukerazkoa)
+        title: Izenburua
+        description: Deskribapena        link_text: Estekaren testua
+        link_url: Loturaren URLa
+        columns: Zutabe kopurua
       widget/card/translation:
-        label: Etiqueta (opcional)
-        title: Título
-        description: Descripción
-        link_text: Texto del enlace
+        label: Etiketa (aukerazkoa)
+        title: Izenburua
+        description: Deskribapena
+        link_text: Estekaren testua
       widget/feed:
-        limit: Número de elementos
+        limit: Elementu kopurua
       dashboard/action:
-        title: Título
-        short_description: Descripción corta
-        description: Descripción
-        link: Enlace externo
-        request_to_administrators: Incluir en el recurso un botón para solicitar el recurso a los administradores
-        day_offset: '¿En cuántos días tras la creación de la propuesta quieres que se active?'
-        required_supports: '¿Cuántos apoyos tiene que conseguir la propuesta para que se active?'
-        order: Puedes introducir la posición en la que se mostrará al usuario esta acción en la lista de acciones
-        active: Activa
-        action_type: Tipo
+        title: Izenburua
+        short_description: Deskribapen laburra        description: Deskribapena
+        link: Kanpoko lotura
+        request_to_administrators: Errekurtsoan administratzaileei errekurtsoa eskatzeko botoi bat sartzea
+        day_offset: 'Proposamena sortu eta zenbat egunetara nahi duzu aktibatzea?'
+        required_supports: 'Zenbat babes lortu behar ditu proposamenak aktibatzeko?'
+        order: Erabiltzaileari, ekintzen zerrendan, ekintza hori agertuko zaion posizioa sar dezakezu        active: Aktibo
+        action_type: Mota
       dashboard/administrator_task:
-        source: Fuente
-        user: Ejecutado por
+        source: Iturria
+        user: Nork gauzatua
       link:
-        label: Título
-        url: Enlace
+        label: Izenburua
+        url: Esteka
       valuator:
-        description: Descripción
-        valuator_group_id: Grupo de evaluación
-        can_comment: Puede comentar
-        can_edit_dossier: Puede editar informes
+        description: Deskribapena
+        valuator_group_id: Ebaluazio-taldea
+        can_comment: Iruzkindu dezake
+        can_edit_dossier: Txostenak edita ditzake
       local_census_record:
-        document_type: Tipo de documento
-        document_number: Número de documento
-        date_of_birth: Fecha de nacimiento
-        postal_code: Código postal
+        document_type: Dokumentu mota
+        document_number: Dokumentu-zenbakia        date_of_birth: Jaiotze data
+        postal_code: Posta kodea
     errors:
       models:
         user:
           attributes:
             email:
-              password_already_set: "Este usuario ya tiene una clave asociada"
+              password_already_set: "Erabiltzaile honek dagoeneko badu lotutako klabe bat"
         debate:
           attributes:
             tag_list:
-              less_than_or_equal_to: "los temas deben ser menor o igual que %{count}"
+              less_than_or_equal_to: "Gaiak %{count} baino txikiagoak edo berdinak izan behar dute"
         direct_message:
           attributes:
             max_per_day:
-              invalid: "Has llegado al número máximo de mensajes privados por día"
+              invalid: "Eguneko mezu pribatuen gehieneko kopurura iritsi zara"
         image:
           attributes:
             attachment:
-              min_image_width: "La imagen debe tener al menos %{required_min_width}px de largo"
-              min_image_height: "La imagen debe tener al menos %{required_min_height}px de alto"
+              min_image_width: "Irudiak, gutxienez, luzeran %{ required_min_width} px izan behar ditu"
+              min_image_height: "Irudiak, gutxienez, altueran %{ required_min_width} px izan behar ditu"
         newsletter:
           attributes:
             segment_recipient:
-              invalid: "El usuario del destinatario es inválido"
+              invalid: "Hartzailearen erabiltzailea baliogabea da"
         admin_notification:
           attributes:
             segment_recipient:
-              invalid: "El usuario del destinatario es inválido"
+              invalid: "Hartzailearen erabiltzailea baliogabea da"
         map_location:
           attributes:
             map:
-              invalid: El mapa no puede estar en blanco. Añade un punto al mapa o marca la casilla si no hace falta un mapa.
+              invalid: Mapa ezin da zuri egon. Gehitu puntu bat mapari edo markatu laukitxoa mapa bat behar ez bada.
         poll/voter:
           attributes:
             document_number:
-              not_in_census: "Este documento no aparece en el censo"
-              has_voted: "Este usuario ya ha votado"
+              not_in_census: "Dokumentu hau ez da erroldan agertzen"
+              has_voted: "Erabiltzaile honek botoa eman du dagoeneko"
         legislation/process:
           attributes:
             end_date:
-              invalid_date_range: tiene que ser igual o posterior a la fecha de inicio
+              invalid_date_range: Hasiera-dataren berdina edo geroagokoa izan behar du
             debate_end_date:
-              invalid_date_range: tiene que ser igual o posterior a la fecha de inicio del debate
-            draft_end_date:
-              invalid_date_range: tiene que ser igual o posterior a la fecha de inicio del borrador
-            allegations_end_date:
-              invalid_date_range: tiene que ser igual o posterior a la fecha de inicio de los comentarios
+              invalid_date_range: Eztabaidaren hasiera-dataren berdina edo geroagokoa izan behar du            draft_end_date:
+              invalid_date_range: Zirriborroaren hasiera-dataren berdina edo geroagokoa izan behar du            allegations_end_date:
+              invalid_date_range: Iruzkinen hasiera-dataren berdina edo geroagokoa izan behar du
         proposal:
           attributes:
             tag_list:
-              less_than_or_equal_to: "los temas deben ser menor o igual que %{count}"
+              less_than_or_equal_to: "Gaiak %{count} baino txikiagoak edo berdinak izan behar dira"
         budget/investment:
           attributes:
             tag_list:
-              less_than_or_equal_to: "los temas deben ser menor o igual que %{count}"
+              less_than_or_equal_to: "Gaiak %{count} baino txikiagoak edo berdinak izan behar dira"
         proposal_notification:
           attributes:
             minimum_interval:
-              invalid: "Debes esperar un mínimo de %{interval} días entre notificaciones"
+              invalid: "Gutxienez %{interval} egun itxaron behar dituzu jakinarazpenen artean"
         signature:
           attributes:
             document_number:
-              not_in_census: "No verificado por Padrón"
-              already_voted: "Ya ha votado esta propuesta"
+              not_in_census: "Errolda bidez egiaztatu gabea"
+              already_voted: "Dagoeneko bozkatu du proposamen hori"
         site_customization/page:
           attributes:
             slug:
-              slug_format: "deber ser letras, números, _ y -"
+              slug_format: "Letrak, zenbakiak, _ eta - izan behar dira"
         site_customization/image:
           attributes:
             image:
-              image_width: "Debe tener %{required_width}px de ancho"
-              image_height: "Debe tener %{required_height}px de alto"
+              image_width: "%{required_width}px izan behar ditu zabaleran"
+              image_height: "%{required_height}px izan behar ditu altueran"
         comment:
           attributes:
             valuation:
-              cannot_comment_valuation: "No puedes comentar una evaluación"
+              cannot_comment_valuation: "Ezin duzu ebaluazio bat iruzkindu"
       messages:
-        translations_too_short: El obligatorio proporcionar una traducción como mínimo
-        record_invalid: "Error de validación: %{errors}"
-        another_poll_active: Hay otra encuesta activa para este periodo.
+        translations_too_short: Nahitaezkoa da gutxienez itzulpen bat ematea
+        record_invalid: "Balioztatze-akatsa: %{errors}"
+        another_poll_active: Aldi honetarako beste inkesta aktibo bat dago.
         restrict_dependent_destroy:
-          has_one: "No se puede eliminar el registro porque existe una %{record} dependiente"
-          has_many: "No se puede eliminar el registro porque existe %{record} dependientes"
+          has_one: "Ezin da erregistroa ezabatu, mendeko %{record} bat dagoelako"
+          has_many: "Ezin da erregistroa ezabatu mendeko %{record} daudelako"
