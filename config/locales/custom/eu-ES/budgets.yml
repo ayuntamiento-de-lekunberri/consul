@@ -2,7 +2,8 @@
   budgets:
     ballots:
       show:
-        title: Nire botoak        amount_spent: Kostua guztira
+        title: Nire botoak        
+        amount_spent: Kostua guztira
         remaining: "<span>%{amount}</span> geratzen zaizkizu invertitzeko"
         no_balloted_group_yet: "Oraindik ez duzu talde honen proiekturik bozkatu, eman botoa!"
         remove: Botoa kendu        voted_html:
