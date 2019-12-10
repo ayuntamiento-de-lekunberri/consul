@@ -14,7 +14,7 @@ es:
         publish_comment: Iruzkina argitaratu
       form:
         phase_not_open: Prozesuaren fase hau ez dago irekia
-        login_to_comment: %{signin} edo %{signup} behar duzu iruzkindu ahal izateko.
+        login_to_comment: _ %{signin} edo %{signup} behar duzu iruzkindu ahal izateko.
         signin: Saioa hasi
         signup: Izena eman
       index:
@@ -40,7 +40,7 @@ es:
         seeing_version: Berrikusketa ikusten ari zara
         select_draft_version: Zirriborroa hautatu
         select_version_submit: ikusi
-        updated_at: %{date} an eguneratua
+        updated_at: _ %{date} an eguneratua
         see_changes: Ikusi aldaketen laburpena
         see_comments: Ikusi iruzkin guztiak
         text_toc: Aurkibidea
