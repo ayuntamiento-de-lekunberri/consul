@@ -176,7 +176,7 @@
       user_not_found: Erabiltzailea ez da aurkitu.
       invalid_date_range: "Data-tarteak ez du balio"
   form:
-    accept_terms: %{policy} eta %{conditions} onartzen ditut
+    accept_terms: "%{policy} eta %{conditions} onartzen ditut"
     accept_terms_title: Pribatutasun-politika eta erabilera-baldintzak onartzen ditut    
     conditions: Erabilera baldintzak
     debate: Eztabaida
