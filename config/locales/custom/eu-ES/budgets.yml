@@ -111,7 +111,8 @@
         message: "%{title} proeiktua aurkeztu dut %{handle} -en. Aurkeztu zuk ere proiektu bat!"
       show:
         author_deleted: Erabiltzailea ezabatua
-        price_explanation: Kostu-txostena        unfeasibility_explanation: Bideragarritasun-txostena        
+        price_explanation: Kostu-txostena        
+        unfeasibility_explanation: Bideragarritasun-txostena        
         code_html: "Gastu-proiektuaren kodea: <strong>%{code}</strong>"
         location_html: "Kokapena: <strong>%{location}</strong>"
         organization_name_html: "Nork proposatua: <strong>%{name}</strong>"
