@@ -117,8 +117,10 @@
         location_html: "Kokapena: <strong>%{location}</strong>"
         organization_name_html: "Nork proposatua: <strong>%{name}</strong>"
         share: Partekatu
-        title: Gastu proiektua        supports: Sostenguak
-        votes: Botosak        price: Kostua
+        title: Gastu proiektua        
+        supports: Sostenguak
+        votes: Botosak        
+        price: Kostua
         comments_tab: Iruzkinak
         milestones_tab: Jarraipena
         author: Egilea
