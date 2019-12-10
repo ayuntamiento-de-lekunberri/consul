@@ -117,13 +117,13 @@ es:
         organizations: Elkarteek ezin dute parte-hartu eztabaidetan
         signin: Saioa hasi
         signup: Izena eman
-        unauthenticated: %{signin} edo %{signup} behar duzu eztabaidan parte-hartzeko.
+        unauthenticated: _ %{signin} edo %{signup} behar duzu eztabaidan parte-hartzeko.
         verified_only: Soilik egiaztatutako erabiltzaileek parte-hartu dezakete eztabaidan, %{verify_account}.
         verify_account: Egiaztatu zure kontua
         debate_phase_not_open: Aurretiko eztabaidaren fasea amaitu da dagoeneko eta une honetan ez dira erantzunak onartzen.
     shared:
       share: Partekatu
-      share_comment: %{process_name} prozesuaren zirriborroaren %{version_name} buruzko iruzkina
+      share_comment: _ %{process_name} prozesuaren zirriborroaren %{version_name} buruzko iruzkina
     proposals:
       form:
         tags_label: "Kategoriak"
