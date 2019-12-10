@@ -61,7 +61,8 @@
         zero: Erantzunik gabe
       user_deleted: Ezabatutako erabiltzailea
       votes:
-        zero: Botorik gabe        one: Boto 1
+        zero: Botorik gabe        
+        one: Boto 1
         other: "%{count} boto"
     form:
       comment_as_admin: Administratzaile bezala iruzkindu
