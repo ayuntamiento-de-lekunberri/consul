@@ -52,7 +52,7 @@ es:
     distance_in_words:
       about_x_hours:
         one: Ordubete inguru
-        other: %{count} ordu inguru
+        other: _ %{count} ordu inguru
       about_x_months:
         one: Hilabete inguru
         other: %{count} hilabete inguru
