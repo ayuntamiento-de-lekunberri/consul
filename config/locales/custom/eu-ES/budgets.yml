@@ -16,20 +16,24 @@
         organization: Erakundeek ezin dute bozkatu.
         not_selected: Ezin dira proiektu bideraezinak bozkatu.
         not_enough_money_html: "Dagoeneko esleitu duzu erabilgarri dagoen aurrekontua.<br><small>Gogoratu edozein unetan %{change_ballot} egin dezakezula</small>"
-        no_ballots_allowed: Bozkatzeko epea itxita dago.        different_heading_assigned_html: "Beste partida bateko proiektuak bozkatu dituzu dagoeneko: %{heading_link}"
-        change_ballot: Zure botoak aldatu        casted_offline: Aurrez aurre parte hartu duzu dagoeneko
+        no_ballots_allowed: Bozkatzeko epea itxita dago.        
+        different_heading_assigned_html: "Beste partida bateko proiektuak bozkatu dituzu dagoeneko %{heading_link}"
+        change_ballot: Zure botoak aldatu        
+        casted_offline: Aurrez aurre parte hartu duzu dagoeneko
     groups:
       show:
         title: Hautatu aukera bat
         unfeasible_title: Gastu-proiektu bideraezinak
         unfeasible: Proiektu bideraezinak ikusi
         unselected_title: Azken bozketarako aukeratu gabeko proiektuak
-        unselected: Azken bozketarako aukeratu gabeko proiektuak ikusi    phase:
+        unselected: Azken bozketarako aukeratu gabeko proiektuak ikusi    
+      phase:
       drafting: Zirriborroa (ikusleek ezingo dute ikusi)
       informing: Informazioa
       accepting: Proiektuen aurkezpena
       reviewing: Proiektuen barne-berrikuspena
-      selecting: Sostegu-fasea      valuating: Proiektuen ebaluazioa
+      selecting: Sostegu-fasea      
+      valuating: Proiektuen ebaluazioa
       publishing_prices: Prezioen argitaratzea
       balloting: Azken bozketa
       reviewing_ballots: Bozketa amaitua
@@ -38,14 +42,15 @@
       title: Aurrekontu partehartzaileak
       empty_budgets: Ez dago aurrekontu partehartzailerik.
       section_header:
-        icon_alt: Aurrekontu partehartzaileen ikonoa        title: Aurrekontu partehartzaileak
+        icon_alt: Aurrekontu partehartzaileen ikonoa        
+        title: Aurrekontu partehartzaileak
         help: Aurrekontu partehartzaileen gaineko laguntza
         all_phases: Fase guztiak ikusi
       all_phases: Aurrekontu partehartzaileen faseak
       map: Geografikoki koka daitezkeen proiektuak
       investment_proyects: Gastu-proiektuen zerrenda osoa
- ikusi      unfeasible_investment_proyects: Gastu-proiektu bideraezinen zerrenda
- ikusi      not_selected_investment_proyects:  Azken bozketarako hautatu ez diren gastu-proiektuen zerrenda ikusi
+      unfeasible_investment_proyects: Gastu-proiektu bideraezinen zerrenda
+      not_selected_investment_proyects:  Azken bozketarako hautatu ez diren gastu-proiektuen zerrenda ikusi
       finished_budgets: Aurrekontu partehartzaile amaituak
       see_results: Ver resultados
       section_footer:
@@ -69,7 +74,8 @@
         unfeasible_text: "Aurkeztutako proiektuek zenbait irizpide bete behar dituzte (legezkotasuna, zehaztapena, aurrekontuaren muga ez gainditzea) bideragarritzat jotzeko eta azken bozketa-fasera iristeko. Irizpide horiek betetzen ez dituzten proiektu guztiak bideraezintzat jotzen dira, eta hurrengo zerrendan argitaratzen dira, beren bideraezintasun-txostenarekin batera."
         by_heading: "Eremua duten gastu proiektuak: %{heading}"
         search_form:
-          button: Bilatu          placeholder: Gastu proiektuak bilatu...
+          button: Bilatu          
+          placeholder: Gastu proiektuak bilatu...
           title: Bilatu
         search_results_html:
           one: "<strong>'%{search_term}'</strong> duena"
@@ -92,15 +98,18 @@
           sign_in: "Saioa hasi"
           sign_up: "Izena eman"
           by_feasibility: Bideragarritasunagatik
-          feasible: Proiektu bideragarriak ikusi          unfeasible: Proiektu bideraezinak ikusi
+          feasible: Proiektu bideragarriak ikusi          
+          unfeasible: Proiektu bideraezinak ikusi
         orders:
           random: Ausazkoak
-          confidence_score: Hoberen baloratuak          price: Kostuaren arabera
+          confidence_score: Hoberen baloratuak          
+          price: Kostuaren arabera
       share:
         message: "%{title} proeiktua aurkeztu dut %{handle} -en. Aurkeztu zuk ere proiektu bat!"
       show:
         author_deleted: Erabiltzailea ezabatua
-        price_explanation: Kostu-txostena        unfeasibility_explanation: Bideragarritasun-txostena        code_html: "Gastu-proiektuaren kodea: <strong>%{code}</strong>"
+        price_explanation: Kostu-txostena        unfeasibility_explanation: Bideragarritasun-txostena        
+        code_html: "Gastu-proiektuaren kodea: <strong>%{code}</strong>"
         location_html: "Kokapena: <strong>%{location}</strong>"
         organization_name_html: "Nork proposatua: <strong>%{name}</strong>"
         share: Partekatu
@@ -113,7 +122,8 @@
         project_selected_html: "< strong>gastu-proiektu hau </strong> hautatu izan da bozketa-faserako."
         project_winner: "Gastu-proiektu irabazlea"
         project_not_selected_html: "Gastu-proiektu hau < strong>ez da hautatu </strong> bozketa-faserako."
-        see_price_explanation: Ikusi kostu-txostena      wrong_price_format: Zenbakizko karaktereak bakarrik izan ditzake
+        see_price_explanation: Ikusi kostu-txostena      
+        wrong_price_format: Zenbakizko karaktereak bakarrik izan ditzake
       investment:
         add: Bozkatu        already_added: Gastu-proiektu hau gehitu duzu dagoeneko
         already_supported: Dagoeneko babestu duzu gastu-proiektu hau. Partekatu zazu!
@@ -136,7 +146,8 @@
       assigned: "Esleitu duzu: "
       available: "Aurrekontu erabilgarria: "
     show:
-      group: Talde      phase: Egungo fasea
+      group: Talde      
+      phase: Egungo fasea
       unfeasible_title: Gastu-proiektu bideraezinak
       unfeasible: Proiektu bideraezinak ikusi
       unselected_title: Azken bozketarako aukeratu gabeko proiektuak
@@ -157,7 +168,8 @@
       incompatibles: Bateraezinak
       investment_title: Gastu-proiektuaren izenburua
       investment_proyects: Ikusi gastu-proiektuen zerrenda osoa
-      unfeasible_investment_proyects: Ikusi gastu-proiektu bideraezinen zerrenda      not_selected_investment_proyects: Ikusi azken bozketarako hautatu ez diren gastu-proiektuen zerrenda
+      unfeasible_investment_proyects: Ikusi gastu-proiektu bideraezinen zerrenda      
+      not_selected_investment_proyects: Ikusi azken bozketarako hautatu ez diren gastu-proiektuen zerrenda
     executions:
       link: "Jarraipena"
       page_title: "%{budget} - Proiektuen jarraipena"
