@@ -57,4 +57,4 @@ eu:
         recommendation_three: Gozatu espazio honetaz, betetzen duten ahotsez, zurea ere bada
   topics:
     show:
-      login_to_comment: %{signin} edo %{signup} behar duzu iruzkintzeko.
+      login_to_comment: _ %{signin} edo %{signup} behar duzu iruzkintzeko.
