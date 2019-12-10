@@ -5,8 +5,8 @@
         residence: "Bizilekua"
         sms: "SMS"
       local_census_records/import:
-        one:Tokiko erroldako erregistroen inportazioa
-        other: Tokiko erroldako erregistroen inportazioak
+        one: Tokiko erroldako erregistroen inportazioa
+        other: "Tokiko erroldako erregistroen inportazioak"
     attributes:
       verification:
         residence:
