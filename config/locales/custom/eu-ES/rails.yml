@@ -55,7 +55,7 @@ es:
         other: _ %{count} ordu inguru
       about_x_months:
         one: Hilabete inguru
-        other: %{count} hilabete inguru
+        other: _ %{count} hilabete inguru
       about_x_years:
         one: Urtebete inguru
         other: %{count} urte inguru
