@@ -58,20 +58,20 @@ es:
         other: _ %{count} hilabete inguru
       about_x_years:
         one: Urtebete inguru
-        other: %{count} urte inguru
+        other: _ %{count} urte inguru
       almost_x_years:
         one: ia urtebete
         other: ia %{count} urte
       half_a_minute: minutu erdi
       less_than_x_minutes:
         one: minutu 1 baino gutxiago
-        other: %{count} minutu baino gutxiago
+        other: _ %{count} minutu baino gutxiago
       less_than_x_seconds:
         one: Segundu 1 baino gutxiago
-        other: %{count} segundu baino gutxiago
+        other: _ %{count} segundu baino gutxiago
       over_x_years:
         one: Urtebete baino gehiago
-        other: %{count} urte baino gehiago
+        other: _ %{count} urte baino gehiago
       x_days:
         one: Egun 1
         other: "%{count} egun"
@@ -102,15 +102,15 @@ es:
       present: txuri egon behar da
       confirmation: ez dator bat
       empty: ezin da hutsik egon
-      equal_to: %{count}en berdina izan behar da
+      equal_to: _ %{count}en berdina izan behar da
       even: Bikoitia behar du izan
       exclusion: erreserbatua dago
-      greater_than: %{count} baino handiagoa izan behar da
-      greater_than_or_equal_to: %{count} baino handiagoa edo berdina izan behar da
+      greater_than: _ %{count} baino handiagoa izan behar da
+      greater_than_or_equal_to: _ %{count} baino handiagoa edo berdina izan behar da
       inclusion: ez dago zerrendan
       invalid: ez da baliozkoa
-      less_than: %{count} baino txikiagoa izan behar da
-      less_than_or_equal_to: %{count} baino txikiagoa edo berdina izan behar da
+      less_than: _ %{count} baino txikiagoa izan behar da
+      less_than_or_equal_to:  "%{count} baino txikiagoa edo berdina izan behar da"
       model_invalid: "Baliozkotze akatsa: %{errors}"
       not_a_number: Ez da zenbaki bat
       not_an_integer: Osoa izan behar da
