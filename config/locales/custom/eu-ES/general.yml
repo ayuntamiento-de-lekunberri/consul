@@ -3,24 +3,33 @@
     show:
       change_credentials_link: Aldatu nire sarbide-datuak
       email_on_comment_label: E-posta bat jasotzea norbaitek nire proposamenei edo eztabaidei buruz hitz egiten duenean
-      email_on_comment_reply_label: E-posta bat jasotzea norbaitek nire iruzkinei erantzuten dienean      erase_account_link: Baja ematea
+      email_on_comment_reply_label: E-posta bat jasotzea norbaitek nire iruzkinei erantzuten dienean      
+      erase_account_link: Baja ematea
       finish_verification: Amaitu egiaztapena
       notifications: Jakinarazpenak
-      organization_name_label: Erakundearen izena      organization_responsible_name_placeholder: Elkartearen/kolektiboaren ordezkaria
+      organization_name_label: Erakundearen izena      
+      organization_responsible_name_placeholder: Elkartearen/kolektiboaren ordezkaria
       personal: Datu pertsonalak
       phone_number_label: Telefono
       public_activity_label: Erakutsi publikoki nire jarduera-zerrenda
       public_interests_label: Erakutsi publikoki jarraitzen ditudan elementuen etiketak
       public_interests_my_title_list: Jarraitzen dituzun elementuen etiketak
-      public_interests_user_title_list: Erabiltzaile honek jarraitzen dituen elementuen etiketak      save_changes_submit: Aldaketak gorde      subscription_to_website_newsletter_label: Webguneari buruzko informazio interesgarria duten e-postak jaso      email_on_direct_message_label: Mezu pribatuak dituzten e-postak jaso      email_digest_label: Proposamenei buruzko jakinarazpenen laburpena jasotzea
-      official_position_badge_label: Erakutsi erabiltzaile motaren etiketa      recommendations: Recomendaciones
+      public_interests_user_title_list: Erabiltzaile honek jarraitzen dituen elementuen etiketak      
+      save_changes_submit: Aldaketak gorde      
+      subscription_to_website_newsletter_label: Webguneari buruzko informazio interesgarria duten e-postak jaso      
+      email_on_direct_message_label: Mezu pribatuak dituzten e-postak jaso      
+      email_digest_label: Proposamenei buruzko jakinarazpenen laburpena jasotzea
+      official_position_badge_label: Erakutsi erabiltzaile motaren etiketa      
+      recommendations: Recomendaciones
       show_debates_recommendations: Mostrar recomendaciones en el listado de debates
       show_proposals_recommendations: Proposamenen zerrendan gomendioak erakustea
       title: Nire kontua
-      user_permission_debates: Eztabaidetan parte-hartu      user_permission_info: Zure kontuarekin dagoeneko egin dezakezu...
+      user_permission_debates: Eztabaidetan parte-hartu      
+      user_permission_info: Zure kontuarekin dagoeneko egin dezakezu...
       user_permission_proposal: Proposamen berriak sortu
       user_permission_support_proposal: proposamena sostengatu
-      user_permission_title: Parte-hartzea      user_permission_verify: Ekintza guztiak egin ahal izateko, egiaztatu zure kontua.      user_permission_verify_info: "* Erroldatutako erabiltzaileak bakarrik."
+      user_permission_title: Parte-hartzea      user_permission_verify: Ekintza guztiak egin ahal izateko, egiaztatu zure kontua.      
+      user_permission_verify_info: "* Erroldatutako erabiltzaileak bakarrik."
       user_permission_votes: Azken bozketetan parte hartzea*
       username_label: Erabiltzaile-izena
       verified_account: Kontu egiaztatua
@@ -34,7 +43,8 @@
     verify_account: Egiaztatu zure kontua
     comment:
       admin: Administratzailea
-      author: Egilea      deleted: Iruzkin hau ezabatua izan da
+      author: Egilea      
+      deleted: Iruzkin hau ezabatua izan da
       moderator: Moderatzailea
       responses:
         zero: Erantzunik gabe
@@ -61,7 +71,8 @@
       newest: Berrienak lehenengo
       oldest: Zaharrenak lehenengo
       most_commented: Iruzkinduenak
-    select_order: Ordenatu honen arabera:    show:
+    select_order: Ordenatu honen arabera    
+    show:
       return_to_commentable: "Itzuli honetara "
   comments_helper:
     comment_button: Argitaratu iruzkina
@@ -80,7 +91,8 @@
         other: "%{count} iruzkin"
       votes:
         zero: Botorik gabe
-        one: Boto 1        other: "%{count} boto"
+        one: Boto 1        
+        other: "%{count} boto"
     edit:
       editing: Eztabaida editatu
       form:
@@ -89,7 +101,8 @@
     form:
       debate_title: Eztabaidaren izenburua
       tags_instructions: Eztabaida hau etiketatu.
-      tags_label: Gaiak      tags_placeholder: "Idatzi nahi dituzun etiketak koma batez bereizita (',')"
+      tags_label: Gaiak      
+      tags_placeholder: "Idatzi nahi dituzun etiketak koma batez bereizita (',')"
     index:
       featured_debates: Nabarmendu
       filter_topic:
@@ -100,7 +113,9 @@
         created_at: Berriak
         hot_score: Aktiboenak
         most_commented: Iruzkinduenak
-        relevance: Garrantzitsuenak        recommendations: Gomendioak      recommendations:
+        relevance: Garrantzitsuenak        
+        recommendations: Gomendioak      
+        recommendations:
         without_results: Ez dago zure interesekin lotutako eztabaidarik
         without_interests: Jarraitu gomendioak proposamenak eman ahal izateko
         disable: "Eztabaidetarako gomendioak ezkutatzen badituzu, ez dira berriro erakutsiko. Berriro aktiba ditzakezu 'Nire kontua' atalean"
@@ -108,15 +123,18 @@
           success: "Eztabaida gomendioak desaktibatu egin dira"
           error: "Akats bat gertatu da. Mesedez, jo 'Nire kontua' atalera gomendioak eskuz desaktibatzeko"
       search_form:
-        button: Bilatu        placeholder: Eztabaidak bilatu...
+        button: Bilatu        
+        placeholder: Eztabaidak bilatu...
         title: Bilatu
       search_results_html:
         one: " <strong>'%{search_term}'</strong> duena"
         other: " <strong>'%{search_term}'</strong> dituztenak"
       select_order: Ordenatu honen arabera
       start_debate: Hasi eztabaida bat
-      title: Eztabaidak      section_header:
-        icon_alt: Eztabaida ikonoa        title: Eztabaidak
+      title: Eztabaidak      
+      section_header:
+        icon_alt: Eztabaida ikonoa        
+        title: Eztabaidak
         help: Laguntza eztabaiden inguruan
       section_footer:
         title: Laguntza eztabaiden inguruan
@@ -127,13 +145,16 @@
     new:
       form:
         submit_button: Hasi eztabaida bat
-      info: Proposamen bat egin nahi baduzu, hau atal okerra da, sartu hemen: %{info_link}.
-      info_link: Proposamen berria sortu      more_info: Informazio gehiago
+      info: "Proposamen bat egin nahi baduzu, hau atal okerra da, sartu hemen: %{info_link}."
+      info_link: Proposamen berria sortu      
+      more_info: Informazio gehiago
       recommendation_four: Gozatu espazio honetaz, betetzen duten ahotsez, zurea ere bada.
       recommendation_one: Ez idatzi eztabaidaren izenburua edo esaldi osoak letra larriz. Interneten hori garrasi egitea da. Eta inori ez zaio gustatzen garrasiak jasotzea.
-      recommendation_three: Kritika gupidagabeak oso ongi etorriak dira. Pentsamendu gune bat da hau. Baina dotorezia eta adimena gordetzea gomendatzen dizugu. Mundua hobea da beraiekin.      recommendation_two: Legez kanpoko ekintza bat dakarren edozein eztabaida edo iruzkin ezabatu egingo da, eztabaidaguneak saboteatzeko asmoa dutenak ere bai, gainerako guztia baimenduta dago.
+      recommendation_three: Kritika gupidagabeak oso ongi etorriak dira. Pentsamendu gune bat da hau. Baina dotorezia eta adimena gordetzea gomendatzen dizugu. Mundua hobea da beraiekin.      
+      recommendation_two: Legez kanpoko ekintza bat dakarren edozein eztabaida edo iruzkin ezabatu egingo da, eztabaidaguneak saboteatzeko asmoa dutenak ere bai, gainerako guztia baimenduta dago.
       recommendations_title: Eztabaida bat sortzeko gomendioak
-      start_new: Eztabaida bat hasi    show:
+      start_new: Eztabaida bat hasi    
+      show:
       author_deleted: Ezabatutako erabiltzailea
       comments:
         zero: Iruzkinik gabe
@@ -154,35 +175,43 @@
       invalid_date_range: "Data-tarteak ez du balio"
   form:
     accept_terms: %{policy} eta %{conditions} onartzen ditut
-    accept_terms_title: Pribatutasun-politika eta erabilera-baldintzak
- onartzen ditut    conditions: Erabilera baldintzak
+    accept_terms_title: Pribatutasun-politika eta erabilera-baldintzak onartzen ditut    
+    conditions: Erabilera baldintzak
     debate: Eztabaida
     direct_message: Mezu pribatua
     error: Akatsa
-    errors: Akatsak    not_saved_html: " %{resource} gordetzea eragotzi dute. <br>Mesedez, berrikusi markatutako eremuak, nola zuzendu jakiteko:"
+    errors: Akatsak    
+    not_saved_html: " %{resource} gordetzea eragotzi dute. <br>Mesedez, berrikusi markatutako eremuak, nola zuzendu jakiteko:"
     policy: Pribatutasun politika
     proposal: Proposamena
     proposal_notification: "Jakinarazpena"
     budget/investment: Gastu-proiektua
-    budget/group: Aurrekontu-partiden multzoa    budget/heading: Aurrekontu-partida
+    budget/group: Aurrekontu-partiden multzoa    
+    budget/heading: Aurrekontu-partida
     poll/shift: Txanda
     poll/question/answer: Erantzuna
     user: Kontua
     verification/sms: Telefonoa
-    signature_sheet: sinadura-orria    document: Dokumentua    topic: Gaia
+    signature_sheet: sinadura-orria    
+    document: Dokumentua    
+    topic: Gaia
     image: Irudia
     local_census_record: Tokiko erroldaren erregistroa
-    local_census_records/import: Tokiko erroldako erregistroen inportazioa  geozones:
+    local_census_records/import: Tokiko erroldako erregistroen inportazioa  
+    geozones:
     none: Hiri osoa
   layouts:
     application:
       chrome: Google Chrome
       firefox: Firefox
       ie: Hemos detectado que estás navegando desde Internet Explorer. Esperientzia hobea izateko, %{firefox} edo %{chrome} erabiltzea gomendatzen dizugu..
-      ie_title: Webgune hau ez dago optimizatuta zure nabigatzailerako    dashboard:
+      ie_title: Webgune hau ez dago optimizatuta zure nabigatzailerako    
+      dashboard:
       proposal_header:
-        published: Argitaratua        draft: Zirriborroa
-        retired: Kentzea      proposal_totals:
+        published: Argitaratua        
+        draft: Zirriborroa
+        retired: Kentzea      
+        proposal_totals:
         active_resources: Baliabide aktiboak
         community: Parte-hartzaileak zure komunitatean
         show_proposal: Ikusi proposamena
@@ -190,7 +219,8 @@
         current_goal: Egungo helburua
         supports:
           zero: Sostengurik gabe
-          one: Sostengu 1          other: "Sostenguak"
+          one: Sostengu 1          
+          other: "Sostenguak"
     footer:
       accessibility: Irisgarritasuna
       conditions: Erabilera baldintzak
@@ -202,22 +232,28 @@
       open_source: Kode irekiko softwarea
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
       participation_text: Lekunberrik nolakoa izan behar den erabaki zazu.
-      participation_title: Parte-hartzea      privacy: Pribatutasun politika
+      participation_title: Parte-hartzea      
+      privacy: Pribatutasun politika
     header:
       administration_menu: Menua
       administration: Administrazioa
       available_locales: Eskuragarri dauden hizkuntzak
-      collaborative_legislation: Lankidetzazko legegintza      debates: Eztabaidak
+      collaborative_legislation: Lankidetzazko legegintza      
+      debates: Eztabaidak
       locale: "Hizkuntzak:"
       logo: CONSUL
 en logoa      management: Kudeaketa
       moderation: Moderatu
-      valuation: Ebaluaketa      officing: Mahaiko lehendakaria
-      help: Laguntza      my_account_link: Nire kontua
+      valuation: Ebaluaketa      
+      officing: Mahaiko lehendakaria
+      help: Laguntza      
+      my_account_link: Nire kontua
       my_activity_link: Nire edukia
-      open: Irekia      open_gov: Gobernua %{open}
+      open: Irekia      
+      open_gov: Gobernua %{open}
       proposals: Proposamenak
-      poll_questions: Bozketak      budgets: Aurrekontu partehartzaileak
+      poll_questions: Bozketak      
+      budgets: Aurrekontu partehartzaileak
       notification_item:
         new_notifications:
           one: Jakinarazpen berri bat daukazu
@@ -237,14 +273,16 @@ en logoa      management: Kudeaketa
       action:
         comments_on:
           one: Iruzkin berri bat dago hemen:
-          other: %{count} iruzkin berri daude hemen:        proposal_notification:
+          other: %{count} iruzkin berri daude hemen:        
+          proposal_notification:
           one: Jakinarazpen berri bat dago hemen:
           other: %{count} Jakinarazpen berri daude hemen:
         replies_to:
           one: Erantzun berri bat dago zure iruzkinari hemen:
           other: %{count} erantzun berri daude zure iruzkinari hemen:
       mark_as_read: Markatu irakurria bezala
-      mark_as_unread: Markatu irakurri gabea bezala      notifiable_hidden: Elementu hori jada ez dago eskuragarri.  map:
+      mark_as_unread: Markatu irakurri gabea bezala      
+      notifiable_hidden: Elementu hori jada ez dago eskuragarri.  map:
     title: "Barrutiak"
     proposal_for_district: "Sortu proposamen bat zure barrutirako"
     select_district: Jarduera-eremua
@@ -258,7 +296,8 @@ en logoa      management: Kudeaketa
       title: "Zure kontuaren xehetasun gehigarriak"
       username_warning: "Sare sozialekin konektatzeko modua aldatu dugunez, litekeena da zure erabiltzaile-izena 'jada erabiltzen' bezala agertzea, baita lehenago harekin sartzeko aukera bazenuen ere. Zure kasuan, aukeratu, mesedez, beste erabiltzaile-izen bat."
     google_oauth2:
-      sign_in: Sartu Googlerekin      sign_up: Eman izena Googlerekin
+      sign_in: Sartu Googlerekin      
+      sign_up: Eman izena Googlerekin
       name: Google
     twitter:
       sign_in: Sartu Twitterrekin
@@ -279,7 +318,9 @@ en logoa      management: Kudeaketa
       dashboard: Bai, laguntza nahi dut eta geroago argitaratuko dut.
       preview_title: Horrela geratuko da zure proposamena argitaratzen duzunean
     share:
-      improve_it: Hobetu zure kanpaina eta lortu laguntza gehiago.      dashboard: Ikusi informazio gehiago      message: "%{title}  proposamenaren alde egin dut %{handle}en. Interesatzen bazaizu, babestu zuk ere!"
+      improve_it: Hobetu zure kanpaina eta lortu laguntza gehiago.      
+      dashboard: Ikusi informazio gehiago      
+      message: "%{title}  proposamenaren alde egin dut %{handle}en. Interesatzen bazaizu, babestu zuk ere!"
     edit:
       editing: Editatu proposamena
       form:
@@ -287,7 +328,8 @@ en logoa      management: Kudeaketa
       show_link: Ikusi proposamena    retire_form:
       title: Erretiratu proposamena
       warning: "Aurrera jarraitzen baduzu, zure proposamenak laguntzak jasotzen jarraitzen ahal izango ditu, baina zerrenda nagusian zerrendatzeari utziko dio, eta mezu bat agertuko da erabiltzaile guztientzat, ohartaraziz egileak uste duela proposamen horrek ez dituela babesak biltzen jarraitu behar."
-      retired_reason_label: Proposamena erretiratzeko arrazoia      retired_reason_blank: Hautatu aukera bat
+      retired_reason_label: Proposamena erretiratzeko arrazoia      
+      retired_reason_blank: Hautatu aukera bat
       retired_explanation_placeholder: Azaldu labur-labur zure ustez proposamen honek zergatik ez duen sostengu gehiago jaso behar
       submit_button: Erretiratu proposamena
     retire_options:
@@ -618,7 +660,7 @@ en logoa      management: Kudeaketa
       back: Itzuli bozketetara
       cant_answer_not_logged_in: "%{signin} edo %{signup} behar duzu parte hartzeko"
       comments_tab: Iruzkinak
-      login_to_comment: %{signin} edo %{signup} behar duzu iruzkinak egiteko.
+      login_to_comment: "%{signin} edo %{signup} behar duzu iruzkinak egiteko."
       signin: saioa hasi
       signup: izena eman
       cant_answer_verify_html: "Mesedez, %{verify_link} erantzun ahal izateko."
