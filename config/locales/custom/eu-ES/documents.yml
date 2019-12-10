@@ -21,5 +21,5 @@ es:
       destroy_document: Dokumentua ezabatu
     errors:
       messages:
-        in_between: %{min} eta %{max} tartean egon behar da
+        in_between: _ %{min} eta %{max} tartean egon behar da
         wrong_content_type: Fitxategiaren %{content_type} eduki-mota ez dator bat onartutako eduki-mota bakar batekin ere: %{accepted_content_types}
