@@ -1,76 +1,76 @@
 ﻿eu:
   attributes:
-    results_enabled: "Emaitzak erakutsi"
-    stats_enabled: "Estadistikak erakutsi"
-    advanced_stats_enabled: "Estadistika aurreratuak erakutsi"
+    results_enabled: Emaitzak erakutsi
+    stats_enabled: Estadistikak erakutsi
+    advanced_stats_enabled: Estadistika aurreratuak erakutsi
   activerecord:
     models:
       activity:
-        one: "jarduera"
-        other: "jarduerak"
+        one: jarduera
+        other: jarduerak
       budget:
-        one: "Aurrekontu parte-hartzailea"
-        other: "Aurrekontu parte-hartzaileak"
+        one: Aurrekontu parte-hartzailea
+        other: Aurrekontu parte-hartzaileak
       budget/investment:
-        one: "Gastu-proiektua"
-        other: "Gastu-proiektuak"
+        one: Gastu-proiektua
+        other: Gastu-proiektuak
       milestone:
-        one: "mugarria"
-        other: "mugarriak"
+        one: mugarria
+        other: mugarriak
       milestone/status:
-        one: "Jarraipen-egoera"
-        other: "Jarraipen-egoerak"
+        one: Jarraipen-egoera
+        other: Jarraipen-egoerak
       progress_bar:
-        one: "Aurrerapen-barra"
-        other: "Aurrerapen-barrak"
+        one: Aurrerapen-barra
+        other: Aurrerapen-barrak
       comment:
-        one: "Iruzkina"
-        other: "Iruzkinak"
+        one: Iruzkina
+        other: Iruzkinak
       debate:
-        one: "Eztabaida"
-        other: "Eztabaidak"
+        one: Eztabaida
+        other: Eztabaidak
       tag:
-        one: "Etiketa"
-        other: "Etiketak"
+        one: Etiketa
+        other: Etiketak
       user:
-        one: "Erabiltzailea"
-        other: "Erabiltzaileak"
+        one: Erabiltzailea
+        other: Erabiltzaileak
       moderator:
-        one: "Moderatzailea"
-        other: "Moderatzaileak"
+        one: Moderatzailea
+        other: Moderatzaileak
       administrator:
-        one: "Administratzailea"
-        other: "Administratzaileak"
+        one: Administratzailea
+        other: Administratzaileak
       valuator:
-        one: "Ebaluatzailea"
-        other: "Ebaluatzaileak"
+        one: Ebaluatzailea
+        other: Ebaluatzaileak
       valuator_group:
-        one: "Ebaluatzaileen taldea"
-        other: "Ebaluatzaileen taldeak"
+        one: Ebaluatzaileen taldea
+        other: Ebaluatzaileen taldeak
       manager:
-        one: "Kudeatzailea"
-        other: "Kudeatzaileak"
+        one: Kudeatzailea
+        other: Kudeatzaileak
       newsletter:
-        one: "Buletina"
-        other: "Buletinak"
+        one: Buletina
+        other: Buletinak
       vote:
-        one: "Boto"
-        other: "Botoak"
+        one: Boto
+        other: Botoak
       organization:
-        one: "Erakundea"
-        other: "Erakundeak"
+        one: Erakundea
+        other: Erakundeak
       poll/booth:
-        one: "Hautesontzia"
-        other: "Hautesontziak"
+        one: Hautesontzia
+        other: Hautesontziak
       poll/officer:
-        one: "Mahaiko presidentea"
-        other: "Mahaiko presidenteak"
+        one: Mahaiko presidentea
+        other: Mahaiko presidenteak
       poll/ballot_sheet:
         one: Boto-papera
         other: Boto-papera
       proposal:
-        one: "Herritarren proposamena"
-        other: "Herritarren proposamenak"
+        one: Herritarren proposamena
+        other: Herritarren proposamenak
       site_customization/page:
         one: Orrialdea        
         other: Orrialdeak
@@ -84,38 +84,38 @@
         one: Dokumentua        
         other: Dokumentuak
       legislation/process:
-        one: "Prozesua"
-        other: "Prozesuak
+        one: Prozesua
+        other: Prozesuak
       legislation/proposal:
-        one: "Proposamena"
-        other: "Proposamenak"
+        one: Proposamena
+        other: Proposamenak
       legislation/draft_versions:
-        one: "Zirriborroaren bertsioa"
-        other: "Zirriborroaren bertsioak"
+        one: Zirriborroaren bertsioa
+        other: Zirriborroaren bertsioak
       legislation/questions:
-        one: "Galdera"
-        other: "Galderak"
+        one: Galdera
+        other: Galderak
       legislation/question_options:
-        one: "Erantzuteko aukera itxia"
-        other: "Erantzuteko aukera itxiak"
+        one: Erantzuteko aukera itxia
+        other: Erantzuteko aukera itxiak
       legislation/answers:
-        one: "Erantzuna"
-        other: "Erantzunak"
+        one: Erantzuna
+        other: Erantzunak
       documents:
-        one: "Dokumentua"
-        other: "Dokumentuak"
+        one: Dokumentua
+        other: Dokumentuak
       images:
-        one: "Irudia"
-        other: "Irudiak"
+        one: Irudia
+        other: Irudiak
       topic:
-        one: "Gaia"
-        other: "Gaiak"
+        one: Gaia
+        other: Gaiak
       poll:
-        one: "Bozketa"
-        other: "Bozketak"
+        one: Bozketa
+        other: Bozketak
       proposal_notification:
-        one: "Proposamenaren jakinarazpena"
-        other: "Proposamenen jakinarazpenak"
+        one: Proposamenaren jakinarazpena
+        other: Proposamenen jakinarazpenak
       dashboard/action:
         one: Proposamenak kontrolatzeko panelaren ekintza        
         other: Proposamenak kontrolatzeko panelaren ekintzak
@@ -132,118 +132,118 @@
       administrator:
         description: Deskribapena
       budget:
-        name: "Izena"
-        description_accepting: "Deskribapena proiektuak aurkezteko fasean"
-        description_reviewing: "Deskribapena barne-berrikuspen fasean"
-        description_selecting: "Deskribapena sostengu-fasean"
-        description_valuating: "Deskribapena ebaluazio-fasean"
-        description_balloting: "Deskribapena bozketa-fasean"
-        description_reviewing_ballots: "Deskribapena botoak berrikusteko fasean"
-        description_finished: "Deskribapena aurrekontua amaitu denean/Emaitzak"
-        phase: "Fasea"
-        currency_symbol: "Dibisa"
-        budget_milestone_tags: "Jarraipen-etiketak"
-        budget_valuation_tags: "Ebaluazio-etiketak"
-        help_link: "Laguntza-esteka"
+        name: Izena
+        description_accepting: Deskribapena proiektuak aurkezteko fasean
+        description_reviewing: Deskribapena barne-berrikuspen fasean
+        description_selecting: Deskribapena sostengu-fasean
+        description_valuating: Deskribapena ebaluazio-fasean
+        description_balloting: Deskribapena bozketa-fasean
+        description_reviewing_ballots: Deskribapena botoak berrikusteko fasean
+        description_finished: Deskribapena aurrekontua amaitu denean/Emaitzak
+        phase: Fasea
+        currency_symbol: Dibisa
+        budget_milestone_tags: Jarraipen-etiketak
+        budget_valuation_tags: Ebaluazio-etiketak
+        help_link: Laguntza-esteka
       budget/investment:
-        heading_id: "Aurrekontu-partida"
-        title: "Izenburua"
-        description: "Deskribapena"
-        external_url: "Dokumentazio osagarrirako esteka"
-        administrator_id: "Administratzailea"
-        location: "Kokapena (aukerakoa)"
-        organization_name: "Erakunde edo kolektibo baten izenean proposatzen ari bazara, edo jende gehiagoren izenean, idatzi bere izena"
-        image: "Gastu-proiektuaren irudi deskribatzailea"
-        image_title: "Irudiaren izenburua"
+        heading_id: Aurrekontu-partida
+        title: Izenburua
+        description: Deskribapena
+        external_url: Dokumentazio osagarrirako esteka
+        administrator_id: Administratzailea
+        location: Kokapena (aukerakoa)
+        organization_name: Erakunde edo kolektibo baten izenean proposatzen ari bazara, edo jende gehiagoren izenean, idatzi bere izena
+        image: Gastu-proiektuaren irudi deskribatzailea
+        image_title: Irudiaren izenburua
       budget/investment/translation:
-        title: "Izenburua"
-        description: "Deskribapena"
+        title: Izenburua
+        description: Deskribapena
       geozone:
-        name: Izena        external_code: "Kanpoko kodea (aukerakoa)"
-        census_code: "Erroldaren kodea (aukerakoa)"
-        html_map_coordinates: "HTML < map> koordenatuak (aukerakoa)"
+        name: Izena        external_code: Kanpoko kodea (aukerakoa)
+        census_code: Erroldaren kodea (aukerakoa)
+        html_map_coordinates: HTML < map> koordenatuak (aukerakoa)
       milestone:
-        status_id: "Egungo egoera (aukerakoa)"
-        title: "Izenburua"
-        description: "Deskribapena (aukerakoa, egoera bat esleituta badago)"
-        publication_date: "Argitalpen-data"
+        status_id: Egungo egoera (aukerakoa)
+        title: Izenburua
+        description: Deskribapena (aukerakoa, egoera bat esleituta badago)
+        publication_date: Argitalpen-data
       milestone/status:
-        name: "Izena"
-        description: "Deskribapena (aukerakoa)"
+        name: Izena
+        description: Deskribapena (aukerakoa)
       progress_bar:
-        kind: "Mota"
-        title: "Izenburu"
-        percentage: "Aurrerapena"
+        kind: Mota
+        title: Izenburu
+        percentage: Aurrerapena
       progress_bar/kind:
-        primary: "Nagusia"
-        secondary: "Bigarren mailakoa"
+        primary: Nagusia
+        secondary: Bigarren mailakoa
       budget/heading:
-        name: "Partidaren izena"
-        price: "Kostua"
-        population: "Biztanleria"
+        name: Partidaren izena
+        price: Kostua
+        population: Biztanleria
       comment:
-        body: "Iruzkina"
-        user: "Erabiltzailea"
+        body: Iruzkina
+        user: Erabiltzailea
       debate:
-        author: "Egilea"
-        description: "Iritzia"
-        terms_of_service: "Zerbitzuaren baldintzak"
-        title: "Eztabaidaren izenburua"
+        author: Egilea
+        description: Iritzia
+        terms_of_service: Zerbitzuaren baldintzak
+        title: Eztabaidaren izenburua
       debate/translation:
-        title: "Eztabaidaren izenburua"
-        description: "Eztabaidaren hasierako testua"
+        title: Eztabaidaren izenburua
+        description: Eztabaidaren hasierako testua
       proposal:
-        author: "Egilea"
-        title: "Izenburua"
-        question: "Galdera"
-        description: "Deskribapena"
-        selected: "Hautatu gisa markatu"
-        terms_of_service: "Zerbitzuaren baldintzak"
+        author: Egilea
+        title: Izenburua
+        question: Galdera
+        description: Deskribapena
+        selected: Hautatu gisa markatu
+        terms_of_service: Zerbitzuaren baldintzak
       proposal/translation:
-        title: "Proposamenaren izenburua"
-        description: "Proposamenaren testu garatua"
-        summary: "Proposamenaren laburpena"
-        retired_explanation: "Azalpena"
+        title: Proposamenaren izenburua
+        description: Proposamenaren testu garatua
+        summary: Proposamenaren laburpena
+        retired_explanation: Azalpena
       user:
-        login: "E-posta edo erabiltzaile izena"
-        email: "E-posta"
-        username: "Erabiltzaile izena"
-        password_confirmation: "Pasahitza berrestea"
-        password: "Pasahitza"
-        current_password: "Egungo pasahitza"
-        phone_number: "Telefonoa"
-        official_position: "Kargu publikoa"
-        official_level: "Kargu maila"
-        redeemable_code: "Gutun bidezko egiaztapen-kodea (aukerakoa)"
+        login: E-posta edo erabiltzaile izena
+        email: E-posta
+        username: Erabiltzaile izena
+        password_confirmation: Pasahitza berrestea
+        password: Pasahitza
+        current_password: Egungo pasahitza
+        phone_number: Telefonoa
+        official_position: Kargu publikoa
+        official_level: Kargu maila
+        redeemable_code: Gutun bidezko egiaztapen-kodea (aukerakoa)
       organization:
-        name: "Erakundearen izena"
-        responsible_name: "Kolektiboaren arduraduna"
+        name: Erakundearen izena
+        responsible_name: Kolektiboaren arduraduna
       poll:
-        name: "Izena"
-        starts_at: "Irekiera data"
-        ends_at: "Itxiera data"
-        geozone_restricted: "Zonaka mugatuta"
-        summary: "Laburpena"
-        description: "Deskribapena"
+        name: Izena
+        starts_at: Irekiera data
+        ends_at: Itxiera data
+        geozone_restricted: Zonaka mugatuta
+        summary: Laburpena
+        description: Deskribapena
       poll/translation:
-        name: "Izena"
-        summary: "Laburpena"
-        description: "Deskribapena"
+        name: Izena
+        summary: Laburpena
+        description: Deskribapena
       poll/question:
-        title: "Galdera"
-        summary: "Laburpena"
-        description: "Deskribapena"
-        external_url: "Dokumentazio osagarrirako esteka"
+        title: Galdera
+        summary: Laburpena
+        description: Deskribapena
+        external_url: Dokumentazio osagarrirako esteka
       poll/question/translation:
-        title: "Galdera"
+        title: Galdera
       poll/ballot_sheet:
         data: CSV datuak
         poll_id: Bozketa
         officer_assignment_id: Txanda      
     signature_sheet:
-        signable_type: "Sinadura-orri mota"
-        signable_id: "Id Herritarren proposamena/Gastu-proiektua"
-        document_numbers: "Dokumentuen zenbakiak"
+        signable_type: Sinadura-orri mota
+        signable_id: Id Herritarren proposamena/Gastu-proiektua
+        document_numbers: Dokumentuen zenbakiak
       site_customization/page:
         content: Edukia
         created_at: Sortua
@@ -385,28 +385,28 @@
         user:
           attributes:
             email:
-              password_already_set: "Erabiltzaile honek dagoeneko badu lotutako klabe bat"
+              password_already_set: Erabiltzaile honek dagoeneko badu lotutako klabe bat
         debate:
           attributes:
             tag_list:
-              less_than_or_equal_to: "Gaiak %{count} baino txikiagoak edo berdinak izan behar dute"
+              less_than_or_equal_to: Gaiak %{count} baino txikiagoak edo berdinak izan behar dute
         direct_message:
           attributes:
             max_per_day:
-              invalid: "Eguneko mezu pribatuen gehieneko kopurura iritsi zara"
+              invalid: Eguneko mezu pribatuen gehieneko kopurura iritsi zara
         image:
           attributes:
             attachment:
-              min_image_width: "Irudiak, gutxienez, luzeran %{ required_min_width} px izan behar ditu"
-              min_image_height: "Irudiak, gutxienez, altueran %{ required_min_width} px izan behar ditu"
+              min_image_width: Irudiak, gutxienez, luzeran %{ required_min_width} px izan behar ditu
+              min_image_height: Irudiak, gutxienez, altueran %{ required_min_width} px izan behar ditu
         newsletter:
           attributes:
             segment_recipient:
-              invalid: "Hartzailearen erabiltzailea baliogabea da"
+              invalid: Hartzailearen erabiltzailea baliogabea da
         admin_notification:
           attributes:
             segment_recipient:
-              invalid: "Hartzailearen erabiltzailea baliogabea da"
+              invalid: Hartzailearen erabiltzailea baliogabea da
         map_location:
           attributes:
             map:
@@ -414,8 +414,8 @@
         poll/voter:
           attributes:
             document_number:
-              not_in_census: "Dokumentu hau ez da erroldan agertzen"
-              has_voted: "Erabiltzaile honek botoa eman du dagoeneko"
+              not_in_census: Dokumentu hau ez da erroldan agertzen
+              has_voted: Erabiltzaile honek botoa eman du dagoeneko
         legislation/process:
           attributes:
             end_date:
@@ -429,37 +429,37 @@
         proposal:
           attributes:
             tag_list:
-              less_than_or_equal_to: "Gaiak %{count} baino txikiagoak edo berdinak izan behar dira"
+              less_than_or_equal_to: Gaiak %{count} baino txikiagoak edo berdinak izan behar dira
         budget/investment:
           attributes:
             tag_list:
-              less_than_or_equal_to: "Gaiak %{count} baino txikiagoak edo berdinak izan behar dira"
+              less_than_or_equal_to: Gaiak %{count} baino txikiagoak edo berdinak izan behar dira
         proposal_notification:
           attributes:
             minimum_interval:
-              invalid: "Gutxienez %{interval} egun itxaron behar dituzu jakinarazpenen artean"
+              invalid: Gutxienez %{interval} egun itxaron behar dituzu jakinarazpenen artean
         signature:
           attributes:
             document_number:
-              not_in_census: "Errolda bidez egiaztatu gabea"
-              already_voted: "Dagoeneko bozkatu du proposamen hori"
+              not_in_census: Errolda bidez egiaztatu gabea
+              already_voted: Dagoeneko bozkatu du proposamen hori
         site_customization/page:
           attributes:
             slug:
-              slug_format: "Letrak, zenbakiak, _ eta - izan behar dira"
+              slug_format: Letrak, zenbakiak, _ eta - izan behar dira
         site_customization/image:
           attributes:
             image:
-              image_width: "%{required_width}px izan behar ditu zabaleran"
-              image_height: "%{required_height}px izan behar ditu altueran"
+              image_width: %{required_width}px izan behar ditu zabaleran
+              image_height: %{required_height}px izan behar ditu altueran
         comment:
           attributes:
             valuation:
-              cannot_comment_valuation: "Ezin duzu ebaluazio bat iruzkindu"
+              cannot_comment_valuation: Ezin duzu ebaluazio bat iruzkindu
       messages:
         translations_too_short: Nahitaezkoa da gutxienez itzulpen bat ematea
-        record_invalid: "Balioztatze-akatsa: %{errors}"
+        record_invalid: Balioztatze-akatsa: %{errors}
         another_poll_active: Aldi honetarako beste inkesta aktibo bat dago.
         restrict_dependent_destroy:
-          has_one: "Ezin da erregistroa ezabatu, mendeko %{record} bat dagoelako"
-          has_many: "Ezin da erregistroa ezabatu mendeko %{record} daudelako"
+          has_one: Ezin da erregistroa ezabatu, mendeko %{record} bat dagoelako
+          has_many: Ezin da erregistroa ezabatu mendeko %{record} daudelako
