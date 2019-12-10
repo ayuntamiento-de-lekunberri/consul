@@ -159,7 +159,8 @@
         title: Izenburua
         description: Deskribapena
       geozone:
-        name: Izena        external_code: Kanpoko kodea (aukerakoa)
+        name: Izena        
+        external_code: Kanpoko kodea (aukerakoa)
         census_code: Erroldaren kodea (aukerakoa)
         html_map_coordinates: HTML < map> koordenatuak (aukerakoa)
       milestone:
