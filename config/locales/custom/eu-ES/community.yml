@@ -1,4 +1,4 @@
-es:
+eu:
   community:
     sidebar:
       title: Komunitatea
@@ -32,7 +32,7 @@ es:
           one: Iruzkin 1
           other: "%{count} Iruzkin"
       author: Autor
-      back: %{community} %{proposal}ra itzuli
+      back: _ %{community} %{proposal}ra itzuli
     topic:
       create: Gai bat sortu
       edit: Gaia editatu
