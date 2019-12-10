@@ -28,7 +28,8 @@
       user_permission_info: Zure kontuarekin dagoeneko egin dezakezu...
       user_permission_proposal: Proposamen berriak sortu
       user_permission_support_proposal: proposamena sostengatu
-      user_permission_title: Parte-hartzea      user_permission_verify: Ekintza guztiak egin ahal izateko, egiaztatu zure kontua.      
+      user_permission_title: Parte-hartzea      
+      user_permission_verify: Ekintza guztiak egin ahal izateko, egiaztatu zure kontua.      
       user_permission_verify_info: "* Erroldatutako erabiltzaileak bakarrik."
       user_permission_votes: Azken bozketetan parte hartzea*
       username_label: Erabiltzaile-izena
