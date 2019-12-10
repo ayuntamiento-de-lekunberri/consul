@@ -105,8 +105,8 @@ es:
       equal_to: _ %{count}en berdina izan behar da
       even: Bikoitia behar du izan
       exclusion: erreserbatua dago
-      greater_than: _ %{count} baino handiagoa izan behar da
-      greater_than_or_equal_to: _ %{count} baino handiagoa edo berdina izan behar da
+      greater_than: "%{count} baino handiagoa izan behar da"
+      greater_than_or_equal_to: "%{count} baino handiagoa edo berdina izan behar da"
       inclusion: ez dago zerrendan
       invalid: ez da baliozkoa
       less_than: _ %{count} baino txikiagoa izan behar da
@@ -126,7 +126,7 @@ es:
       wrong_length:
         one: Luzera baliogabea (%{count} karaktere behar ditu izan)
         other: Luzera baliogabea (%{count} karaktere behar ditu izan)
-      other_than: %{count}en ezberdina izan behar da
+      other_than: "%{count}en ezberdina izan behar da"
     template:
       body: "Eremu hauekin arazoak topatu dira:"
       header:
