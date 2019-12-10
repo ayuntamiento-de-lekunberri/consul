@@ -68,7 +68,6 @@
       poll/ballot_sheet:
         one: Boto-papera
         other: Boto-papera
-k
       proposal:
         one: "Herritarren proposamena"
         other: "Herritarren proposamenak"
