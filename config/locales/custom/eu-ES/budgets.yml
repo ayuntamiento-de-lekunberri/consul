@@ -131,7 +131,8 @@
         see_price_explanation: Ikusi kostu-txostena      
         wrong_price_format: Zenbakizko karaktereak bakarrik izan ditzake
       investment:
-        add: Bozkatu        already_added: Gastu-proiektu hau gehitu duzu dagoeneko
+        add: Bozkatu        
+        already_added: Gastu-proiektu hau gehitu duzu dagoeneko
         already_supported: Dagoeneko babestu duzu gastu-proiektu hau. Partekatu zazu!
         support_title: Proiektu hau sostengatu
         confirm_group:
