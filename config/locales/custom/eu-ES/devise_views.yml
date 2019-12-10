@@ -1,4 +1,4 @@
-es:
+eu:
   devise_views:
     confirmations:
       new:
@@ -78,7 +78,7 @@ es:
         new_confirmation: 'Ez duzu jarraibiderik jaso zure kontua baieztatzeko?'
         new_password: 'Pasahitza ahaztu duzu?'
         new_unlock: 'Ez duzu jarraibiderik jaso zure kontua desblokeatzeko?'
-        signin_with_provider: Sartu honekin: %{provider}
+        signin_with_provider: Sartu honekin %{provider}
         signup: 'Ez duzu konturik? %{signup_link}'
         signup_link: Izena eman
     unlocks:
