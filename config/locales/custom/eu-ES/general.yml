@@ -329,7 +329,8 @@
       editing: Editatu proposamena
       form:
         submit_button: Aldaketak gorde
-      show_link: Ikusi proposamena    retire_form:
+      show_link: Ikusi proposamena    
+      retire_form:
       title: Erretiratu proposamena
       warning: "Aurrera jarraitzen baduzu, zure proposamenak laguntzak jasotzen jarraitzen ahal izango ditu, baina zerrenda nagusian zerrendatzeari utziko dio, eta mezu bat agertuko da erabiltzaile guztientzat, ohartaraziz egileak uste duela proposamen horrek ez dituela babesak biltzen jarraitu behar."
       retired_reason_label: Proposamena erretiratzeko arrazoia      
