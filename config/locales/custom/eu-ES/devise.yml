@@ -37,7 +37,7 @@ eu:
       updated: "Zure pasahitza behar bezala aldatu da. Behar bezala identifikatua izan zara."
       updated_not_active: "Zure pasahitza behar bezala aldatu da"
     registrations:
-      destroyed: "Agur! Zure kontua bertan behera utzi da. Espero dugu laister berriz ikustea.
+      destroyed: "Agur! Zure kontua bertan behera utzi da. Espero dugu laister berriz ikustea."
       signed_up: "Ongi etorri! Identifikatu zara."
       signed_up_but_inactive: "Behar bezala erregistratu zara, baina ezin izan duzu saioa hasi zure kontua ez delako aktibatu."
       signed_up_but_locked: "Behar bezala erregistratu zara, baina ezin izan duzu saioa hasi zure kontua blokeatuta dagoelako."
