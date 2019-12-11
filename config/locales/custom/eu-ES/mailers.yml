@@ -72,9 +72,9 @@ eu:
       sincerely: "Adeitasunez"
     evaluation_comment:
       subject: "Ebaluaketa iruzkin berria"
-      title: Ebaluaketa iruzkin berria honetarako: %{investment}
+      title: "Ebaluaketa iruzkin berria honetarako: %{investment}"
       hi: Kaixo
-      new_comment_by_html: Honen <strong>%{commenter}</strong> ebaluaketa iruzkin berri bat dago aurrekontu partehartzailean %{investment}
+      new_comment_by_html: "Honen <strong>%{commenter}</strong> ebaluaketa iruzkin berri bat dago aurrekontu partehartzailean %{investment}"
       commenter_info: "%{commenter}, %{time}"
     new_actions_notification_rake_created:
       subject: "Zure herritar proposamenaren nobedade gehiago"
