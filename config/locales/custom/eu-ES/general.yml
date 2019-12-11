@@ -608,7 +608,7 @@
       new:
         title: Partekatzeko posta elektronikoaren eredua
       mailing_options:
-        send: Bidali hona: %{address}
+        send: "Bidali hona: %{address}"
         preview: Aurreikusi
       create:
         sent: E- posta bidali da
@@ -616,9 +616,9 @@
       forward:
         subtitle_html: "Sostengatzen banauzu, <br>lortuko dugu."
         support_button: Proposamen hau sostengatu
-        share_in: Partekatu hemen:
+        share_in: "Partekatu hemen:"
         hi: "Kaixo!"
-        introduction: Idatzi honen bidez jakinarazten dizut %{org} en parte hartzen ari naizela, zein hiri nahi dugun erabaki ahal izateko plataforman. Eta horretarako, nire proposamena sortu dut, eta orain, zure laguntza beharko dut! Baina ez kezkatu, oso erraza baita.
+        introduction: "Idatzi honen bidez jakinarazten dizut %{org} en parte hartzen ari naizela, zein hiri nahi dugun erabaki ahal izateko plataforman. Eta horretarako, nire proposamena sortu dut, eta orain, zure laguntza beharko dut! Baina ez kezkatu, oso erraza baita."
         support: "'Proposamen hau sostengatu' botoian klik egin besterik ez duzu egin behar, eta zuzenean hari buruzko informazioa izango duzu bultzatu aurretik. Sostengu handiena lortzen duten proposamenak bakarrik egingo ditu Udalak, eta pentsatu dut zuk lagunduko didazula hori lortzen!"
         share: "Eta, gainera, nire proposamena zure lagun, senide eta kontaktuekin partekatzen baduzu, primerakoa litzateke!"
   polls:
