@@ -449,7 +449,7 @@
         other: "%{count} boto"
       supports_necessary: "Hauek dira beharrezko sostenguak: %{number}"
       reason_for_supports_necessary: ""
-      total_percent: %100
+      total_percent: "%100"
       archived: "Proposamen hau artxibatu egin dute, eta jada ezin du sostengurik jaso."
       successful: "Proposamen honek beharrezko sostenguak lortu ditu."
       selected: "Aukeratutako proposamena"
@@ -463,7 +463,7 @@
       comments_tab: Iruzkinak
       dashboard_proposal_link: Kontrol-panela
       flag:  Hainbat erabiltzailek proposamen hau desegokitzat jo dute.
-      login_to_comment: % {signin} edo% {signup} behar duzu iruzkinak egiteko.
+      login_to_comment: "% {signin} edo% {signup} behar duzu iruzkinak egiteko."
       notifications_tab: Jakinarazpenak
       milestones_tab: Jarraipena
       retired_warning: "Proposamen honen egileak uste du jada ez duela sostenguak biltzen jarraitu behar."
@@ -536,8 +536,8 @@
       hide_course: Ezkutatu bidea
     goal:
       target_supports:
-        one: Lortu zure proposamenerako %{count} sostengu
-        other: Lortu zure proposamenerako %{count} sostengu
+        one: "Lortu zure proposamenerako %{count} sostengu"
+        other: "Lortu zure proposamenerako %{count} sostengu"
       days:
         one: "%{count} egun"
         other: "%{count} egun"
@@ -559,8 +559,8 @@
         create: Inkesta sortu
         succesfull: Erantzuna ondo gehitu da.
         count:
-          one: %{count} inkesta sortu duzu.
-          other: %{count} inkesta sortu dituzu.
+          one: "%{count} inkesta sortu duzu."
+          other: "%{count} inkesta sortu dituzu."
         links: Estekak
         additiontal_information: Informazio gehigarria
       new:
