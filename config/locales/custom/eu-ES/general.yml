@@ -1021,7 +1021,7 @@
     subnav:
       surveys: Inkestak
     poll:
-      take_part: %{from}tik %{to}ra parte-hartu
+      take_part: "%{from}tik %{to}ra parte-hartu"
   question:
     max_votes: Gehienezko boto kopurua
     max_group_answers: Multzoari gehienezko erantzun-kopurua
