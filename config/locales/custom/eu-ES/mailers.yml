@@ -7,7 +7,7 @@ eu:
       subject: Norbaitek iruzkin bat egin du zure %{commentable}
       title: Iruzkin berria
     config:
-      manage_email_subscriptions: Mezu hauek jasotzeari utz diezaiokezu zure konfigurazioa aldatuz:
+      manage_email_subscriptions: "Mezu hauek jasotzeari utz diezaiokezu zure konfigurazioa aldatuz:"
     email_verification:
       click_here_to_verify: Esteka honetan
       instructions_2_html: "E-posta hau zure kontua egiaztatzeko da honekin <b>%{document_type} %{document_number}</b>. Datu horiek ez badira zureak, mesedez, ez sakatu aurreko esteka eta ez onartu mezu hau."
