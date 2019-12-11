@@ -21,10 +21,11 @@ eu:
       subject: Norbatitek zure iruzkina erantzun du
       title: Erantzun berri bat zure iruzkinari
     proposal_notification_digest:
+      info: "Hona hemen sostengatzen ari zaren proposamenen egileek argitaratu dituzten jakinarazpen berriak: %{org_name} ."
       title: "Proposamenen jakinarazpenak %{org_name}"
       share: Proposamena partekatu
       comment: Proposamena iruzkindu
-      unsubscribe: "Ez baduzu proposamenen jakinarazpenik jaso nahi, sartu hemen %{account} eta 'Proposamenei buruzko jakinarazpenen laburpena jaso' aukera desautatu.
+      unsubscribe: "Ez baduzu proposamenen jakinarazpenik jaso nahi, sartu hemen %{account} eta 'Proposamenei buruzko jakinarazpenen laburpena jaso' aukera desautatu."
       unsubscribe_account: Nire kontua
     direct_message_for_receiver:
       subject: "Mezu pribatu berro bat jaso duzu"
