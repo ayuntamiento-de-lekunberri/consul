@@ -228,8 +228,8 @@
       conditions: Erabilera baldintzak
       consul: Aplikazioa CONSUL
       consul_url: https://github.com/consul/consul
-      contact_us: Laguntza teknikorako, sartu hemen:
-      copyright: CONSUL, %{year}
+      contact_us: "Laguntza teknikorako, sartu hemen:"
+      copyright: Lekunberriko Udala, %{year}
       description: Atari honek %{consul} a erabiltzen du, €{open_source} a dena..
       open_source: Kode irekiko softwarea
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
