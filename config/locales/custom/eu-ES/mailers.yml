@@ -21,7 +21,6 @@ eu:
       subject: Norbatitek zure iruzkina erantzun du
       title: Erantzun berri bat zure iruzkinari
     proposal_notification_digest:
-      info: "Hona hemen sostengatzen ari zaren proposamenen egileek argitaratu dituzten jakinarazpen berriak: %{org_name} ."
       title: "Proposamenen jakinarazpenak %{org_name}"
       share: Proposamena partekatu
       comment: Proposamena iruzkindu
