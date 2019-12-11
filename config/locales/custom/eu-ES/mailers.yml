@@ -1,23 +1,23 @@
-es:
+eu:
   mailers:
     no_reply: "Mezu hau erantzunik onartzen ez duen helbide elektroniko batetik bidali da."
     comment:
       hi: Kaixo
-      new_comment_by_html: Iruzkin berri bat dago <strong>%{commenter}</strong> hemen
+      new_comment_by_html: "Iruzkin berri bat dago <strong>%{commenter}</strong> hemen"
       subject: Norbaitek iruzkin bat egin du zure %{commentable}
       title: Iruzkin berria
     config:
       manage_email_subscriptions: Mezu hauek jasotzeari utz diezaiokezu zure konfigurazioa aldatuz:
     email_verification:
       click_here_to_verify: Esteka honetan
-      instructions_2_html: E-posta hau zure kontua egiaztatzeko da honekin <b>%{document_type} %{document_number}</b>. Datu horiek ez badira zureak, mesedez, ez sakatu aurreko esteka eta ez onartu mezu hau.
-      instructions_html: Erabiltzaile-kontua egiaztatzen amaitzeko, sakatu %{verification_link}.
+      instructions_2_html: "E-posta hau zure kontua egiaztatzeko da honekin <b>%{document_type} %{document_number}</b>. Datu horiek ez badira zureak, mesedez, ez sakatu aurreko esteka eta ez onartu mezu hau."
+      instructions_html: "Erabiltzaile-kontua egiaztatzen amaitzeko, sakatu %{verification_link}."
       subject: Egiaztatu zure e-posta
       thanks: Eskerrik asko.
       title: Egiaztatut kontua hurrengo estekan.
     reply:
       hi: Kaixo
-      new_reply_by_html: Zure iruzkinari erantzun berri bat dago <strong>%{commenter}</strong> hemen
+      new_reply_by_html: "Zure iruzkinari erantzun berri bat dago <strong>%{commenter}</strong> hemen"
       subject: Norbatitek zure iruzkina erantzun du
       title: Erantzun berri bat zure iruzkinari
     proposal_notification_digest:
@@ -29,7 +29,7 @@ es:
       unsubscribe_account: Nire kontua
     direct_message_for_receiver:
       subject: "Mezu pribatu berro bat jaso duzu"
-      reply: Erantzun honi %{sender}
+      reply: "Erantzun honi %{sender}"
       unsubscribe: "Ez baduzu mezu pribaturik jaso nahi, sartu hemen %{account} eta 'Mezu pribatuak dituzten mezu elektronikoak jasotzea'aukera desautatu."
       unsubscribe_account: Nire kontua
     direct_message_for_sender:
