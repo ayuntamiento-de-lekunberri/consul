@@ -16,5 +16,5 @@ es:
         alert: Irudia ezin izan da ezabatua izan.
     errors:
       messages:
-        in_between: %{min} eta %{max} tartean egon behar da.
-        wrong_content_type: Irudiaren %{content_type} eduki-mota ez dator bat onartutako eduki-mota bakar batekin ere: %{accepted_content_types}
+        in_between: "%{min} eta %{max} tartean egon behar da."
+        wrong_content_type: "Irudiaren %{content_type} eduki-mota ez dator bat onartutako eduki-mota bakar batekin ere: %{accepted_content_types}"
