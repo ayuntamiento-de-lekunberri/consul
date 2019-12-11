@@ -243,8 +243,8 @@
       collaborative_legislation: Lankidetzazko legegintza      
       debates: Eztabaidak
       locale: "Hizkuntzak:"
-      logo: CONSUL
-en logoa      management: Kudeaketa
+      logo: CONSUL en logoa      
+      management: Kudeaketa
       moderation: Moderatu
       valuation: Ebaluaketa      
       officing: Mahaiko lehendakaria
@@ -271,20 +271,22 @@ en logoa      management: Kudeaketa
       mark_all_as_read: Marcar todas como leídas
       read: Irakurriak
       title: Jakinarazpenak
-      unread: Berriak    notification:
+      unread: Berriak    
+      notification:
       action:
         comments_on:
-          one: Iruzkin berri bat dago hemen:
-          other: %{count} iruzkin berri daude hemen:        
+          one: "Iruzkin berri bat dago hemen:"
+          other: "%{count} iruzkin berri daude hemen:"       
           proposal_notification:
-          one: Jakinarazpen berri bat dago hemen:
-          other: %{count} Jakinarazpen berri daude hemen:
+          one: "Jakinarazpen berri bat dago hemen:"
+          other: "%{count} Jakinarazpen berri daude hemen:"
         replies_to:
-          one: Erantzun berri bat dago zure iruzkinari hemen:
-          other: %{count} erantzun berri daude zure iruzkinari hemen:
+          one: "Erantzun berri bat dago zure iruzkinari hemen:"
+          other: "%{count} erantzun berri daude zure iruzkinari hemen:"
       mark_as_read: Markatu irakurria bezala
       mark_as_unread: Markatu irakurri gabea bezala      
-      notifiable_hidden: Elementu hori jada ez dago eskuragarri.  map:
+      notifiable_hidden: Elementu hori jada ez dago eskuragarri.  
+      map:
     title: "Barrutiak"
     proposal_for_district: "Sortu proposamen bat zure barrutirako"
     select_district: Jarduera-eremua
