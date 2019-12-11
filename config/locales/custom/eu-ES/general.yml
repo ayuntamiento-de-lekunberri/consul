@@ -862,15 +862,15 @@
         body_label: Mezua
         direct_messages_bloqued: "Erabiltzaile honek mezu pribaturik ez jasotzea erabaki du"
         submit_button: Mezua bidali
-        title: Mezu pribatua bidali honi: %{receiver}
+        title: "Mezu pribatua bidali honi: %{receiver}"
         title_label: Izenburua
-        verified_only: Mezu pribatua bidaltzeko: %{verify_account}
+        verified_only: "Mezu pribatua bidaltzeko: %{verify_account}"
         verify_account: Egiaztatu zure kontua
-        authenticate: %{signin} edo %{signup} behar duzu.
+        authenticate: "%{signin} edo %{signup} behar duzu."
         signin: saioa hasi
         signup: izena eman
       show:
-        receiver: Mezua bidalia honi: %{receiver}
+        receiver: "Mezua bidalia honi: %{receiver}"
     show:
       deleted: Ezabatua
       deleted_debate: Eztabaida hau ezabatua izan da
@@ -912,19 +912,19 @@
       retired_help_text: Erretiratutako proposamenentzat Dashboarda ez dago eskuragarri
   votes:
     agree: Ados nago
-    anonymous: Boto anonimo gehiegi, %{verify_account} bozkatu ahal izateko.
-    comment_unauthenticated: Bozkatu ahal izateko %{signin} edo %{signup} behar duzu.
+    anonymous: "Boto anonimo gehiegi, %{verify_account} bozkatu ahal izateko."
+    comment_unauthenticated: "Bozkatu ahal izateko %{signin} edo %{signup} behar duzu."
     disagree: Ez nago ados
     organizations: Elakrteek ezin dute bozkatu.
     signin: Saioa hasi
     signup: Izena eman
     supports: Sostenguak
-    unauthenticated: Jarraitzeko %{signin} edo %{signup} behar duzu.
-    verified_only: Erabiltzaile egiaztatuek bakarrik bozka ditzakete proposamenak, %{verify_account}.
+    unauthenticated: "Jarraitzeko %{signin} edo %{signup} behar duzu."
+    verified_only: "Erabiltzaile egiaztatuek bakarrik bozka ditzakete proposamenak, %{verify_account}."
     verify_account: Egiaztatu zure kontua
     budget_investments:
-      not_logged_in: Jarraitzeko %{signin} edo %{signup} behar duzu.
-      not_verified: Erabiltzaile egiaztatuek bakarrik sostengatu ditzakete gastu-proiektuak, %{verify_account}.
+      not_logged_in: "Jarraitzeko %{signin} edo %{signup} behar duzu."
+      not_verified: "Erabiltzaile egiaztatuek bakarrik sostengatu ditzakete gastu-proiektuak, %{verify_account}."
       organization: Elkarteeek ezin dute bozkatu.
       unfeasible: Ezin dira proposamen bideraezinak bozkatu.
       not_voting_allowed: Bozka emateko epea itxita dago.
