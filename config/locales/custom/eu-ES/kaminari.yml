@@ -1,4 +1,4 @@
-es:
+eu:
   helpers:
     page_entries_info:
       entry:
@@ -6,12 +6,12 @@ es:
         one: Sarrera
         other: Sarrerak
       more_pages:
-        display_entries: <strong>%{first}&nbsp;-&nbsp;%{last}</strong> erakusten hauetatik: <strong>%{total} %{entry_name}</strong>
+        display_entries: "<strong>%{first}&nbsp;-&nbsp;%{last}</strong> erakusten hauetatik: <strong>%{total} %{entry_name}</strong>"
       one_page:
         display_entries:
           zero: "Ez dira aurkitu %{entry_name}"
-          one:  <strong>1 %{entry_name}</strong> dago
-          other: <strong>%{count} %{entry_name}</strong> daude
+          one:  "<strong>1 %{entry_name}</strong> dago"
+          other: "<strong>%{count} %{entry_name}</strong> daude"
   views:
     pagination:
       current: Orrian zaude
