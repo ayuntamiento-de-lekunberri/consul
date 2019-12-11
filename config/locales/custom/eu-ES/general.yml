@@ -259,7 +259,7 @@
       notification_item:
         new_notifications:
           one: Jakinarazpen berri bat daukazu
-          other: %{count} jakinarazpen berri dituzu
+          other: "%{count} jakinarazpen berri dituzu"
         notifications: Jakinarazpenak
         no_notifications: "Ez duzu jakinarazpen berririk"
       tracking: "Jarraipena"
